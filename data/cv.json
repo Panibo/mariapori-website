@@ -85,6 +85,7 @@
     {
       "category": "Frontend",
       "children": [
+        { "name": "Next.js" },
         { "name": "React" },
         { "name": "React Native" },
         { "name": "HTML5" },

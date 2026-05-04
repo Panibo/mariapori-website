@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+    "role": "Full-stack / XR Developer",
+    "startDate": "1/2024",
+    "endDate": "3/2025",
+    "summary": "A healthcare technology project combining XR, web-based 3D tooling, GraphQL services, and neural-network-based motion analysis to support physiotherapy and rehabilitation.",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "GraphQL",
+      "Node.js",
+      "Three.js",
+      "Unity",
+      "XR",
+      "Machine Learning",
+      "Neural Networks"
+    ],
+    "description": [
+      "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system.",
+      "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services.",
+      "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design.",
+      "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js.",
+      "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance.",
+      "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."
+    ],
+    "links": [
+      {
+        "url": "https://helsinkixrcenter.com/projects/gamerat/",
+        "label": "Project page"
+      },
+      {
+        "url": "https://www.youtube.com/watch?v=ar5z2SLb7SI",
+        "label": "Project video"
+      },
+      {
+        "url": "https://gitlab.com/hxrc_public/hxrc_animationmaker",
+        "label": "Exercise editor [Code]"
+      }
+    ]
+  },
+  {
+    "name": "TKIO-Finder",
+    "role": "Full-stack",
+    "startDate": "1/2026",
+    "endDate": "5/2026",
+    "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences, featuring search, filtering, and matchmaking capabilities.",
+    "technologies": [
+      "TypeScript",
+      "React",
+      "Vite",
+      "Google OAuth2",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "description": [
+      "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
+      "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
+      "Added Google OAuth2 authentication for secure and user-friendly access",
+      "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+    ],
+    "links": [
+      {
+        "url": "https://tkio-finder.mariapori.dev/",
+        "label": "Project page"
+      }
+    ]
+  }
+]

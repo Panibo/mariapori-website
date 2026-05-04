@@ -62,47 +62,24 @@ const CV = () => {
         <span>{cv.core.join(", ")}</span>
       </section>
       <section>
-        <div className={styles.avoidBreak}>
-          <h2>Experience</h2>
+        <h2>Experience</h2>
 
-          {cv.workExperience[0] && (
-            <div
-              key={`${cv.workExperience[0].company}-${cv.workExperience[0].position}`}
-              className={styles.avoidBreak}
-            >
-              <h3>{cv.workExperience[0].position}</h3>
-              <p>
-                {cv.workExperience[0].company} •{" "}
-                {formatDate(cv.workExperience[0].startDate)}-
-                {cv.workExperience[0].endDate
-                  ? formatDate(cv.workExperience[0].endDate)
-                  : ""}
-              </p>
-              <ul>
-                {cv.workExperience[0].description.map((line, index) => (
-                  <li key={index}>{line}</li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-
-        {cv.workExperience.slice(1).map((job) => (
-          <div
+        {cv.workExperience.map((job) => (
+          <article
             key={`${job.company}-${job.position}`}
             className={styles.avoidBreak}
           >
             <h3>{job.position}</h3>
             <p>
-              {job.company} • {formatDate(job.startDate)}-
-              {job.endDate ? formatDate(job.endDate) : ""}
+              {job.company} • {formatDate(job.startDate)}
+              {job.endDate ? ` - ${formatDate(job.endDate)}` : " - Present"}
             </p>
             <ul>
               {job.description.map((line, index) => (
                 <li key={index}>{line}</li>
               ))}
             </ul>
-          </div>
+          </article>
         ))}
       </section>
       <section>
