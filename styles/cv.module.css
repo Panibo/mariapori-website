@@ -1,0 +1,31 @@
+.cv {
+  max-width: var(--page-max-width);
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.photo {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media print {
+  .avoidBreak {
+    break-inside: avoid;
+  }
+}
