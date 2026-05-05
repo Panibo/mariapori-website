@@ -123,11 +123,11 @@ a:hover {
 a:active {
   color: var(--color-link-active);
 }
-section {
-  margin-bottom: 0.5rem;
+section:not(:last-child) {
+  margin-bottom: var(--spacing-sm);
 }
-section:last-child {
-  margin-bottom: 0;
+article:not(:last-child) {
+  margin-bottom: var(--spacing-xl);
 }
 @media print {
   #root_header,

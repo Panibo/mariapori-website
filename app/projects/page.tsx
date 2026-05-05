@@ -61,6 +61,23 @@ const Projects = () => {
                 ))}
               </p>
             )}
+            {project.code && project.code.length > 0 && (
+              <p>
+                <strong>Code:</strong>{" "}
+                {project.code.map((code, index) => (
+                  <span key={code.url}>
+                    <a
+                      href={code.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {code.label}
+                    </a>
+                    {index < project.code.length - 1 ? " • " : ""}
+                  </span>
+                ))}
+              </p>
+            )}
           </article>
         ))}
       </section>

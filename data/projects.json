@@ -33,10 +33,20 @@
       {
         "url": "https://www.youtube.com/watch?v=ar5z2SLb7SI",
         "label": "Project video"
-      },
+      }
+    ],
+    "code": [
       {
         "url": "https://gitlab.com/hxrc_public/hxrc_animationmaker",
-        "label": "Exercise editor [Code]"
+        "label": "Exercise editor"
+      },
+      {
+        "url": "https://gitlab.com/hxrc_public/hxrc_data-api",
+        "label": "GraphQL backend"
+      },
+      {
+        "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
+        "label": "AI"
       }
     ]
   },
@@ -64,6 +74,31 @@
       {
         "url": "https://tkio-finder.mariapori.dev/",
         "label": "Project page"
+      }
+    ]
+  },
+  {
+    "name": "Personal Portfolio",
+    "role": "Full-stack",
+    "startDate": "6/2024",
+    "endDate": "7/2024",
+    "summary": "A personal portfolio website showcasing my projects, skills, and experience, built with Next.js and styled with Tailwind CSS.",
+    "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+    "description": [
+      "Designed and developed a personal portfolio website to showcase my projects, skills, and experience",
+      "Implemented a clean and responsive design using Tailwind CSS, ensuring optimal user experience across devices",
+      "Deployed the website on Vercel for fast and reliable hosting"
+    ],
+    "links": [
+      {
+        "url": "https://mariapori.dev/",
+        "label": "Project page"
+      }
+    ],
+    "code": [
+      {
+        "url": "https://github.com/Panibo/mariapori-website",
+        "label": "Source code"
       }
     ]
   }
