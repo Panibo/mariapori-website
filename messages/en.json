@@ -1,46 +1,38 @@
 {
   "HomePage": {
     "name": "Miro Mariapori",
-    "intro": "I'm a software engineer focused on building clean, practical and maintainable web applications. I enjoy turning ideas into usable products, learning quickly, and improving the way things are built.",
-
+    "intro": "I'm a software engineer focused on full-stack web applications, real-time interactive systems, and 3D/XR tools. I enjoy turning complex ideas into usable, maintainable products, especially in research, healthcare, simulation, and data-driven environments.",
     "whatIDo": {
       "title": "What I Do",
-      "description": "My main focus is full-stack web development. I build web applications that are easy to use, maintain and extend. While web development is where I feel most at home, I also have experience with mobile app development, game development and broader programming projects. I like working across the stack and understanding how the pieces fit together."
+      "description": "My main focus is full-stack development for interactive web applications. I build systems that are easy to use, maintain and extend, from backend APIs and data flows to frontend interfaces, real-time features and 3D visualizations. I also have experience with mobile app development, Unity/XR, game development, automation tools and broader software projects. I like working across the stack and understanding how the pieces fit together."
     },
-
     "howIWork": {
       "title": "How I Work",
-      "description": "I care about clean code, good structure and the small details that make software easier to maintain. At the same time, I understand that shipping matters, so I try to balance quality with speed and practical decision-making.<br></br>I use AI tools to work faster, explore ideas and reduce repetitive work, but I do not treat them as a replacement for understanding the code. I want to know what I am building, why it works and how to debug it when something goes wrong.<br></br>I work well independently, but I also enjoy being part of a team. I like sharing knowledge, helping others and learning from people around me."
+      "description": "I care about code that is understandable, maintainable and useful in practice. I like building with enough structure to support future changes, while still keeping momentum and shipping working software.<br></br>I use AI tools to work faster, explore ideas and reduce repetitive work, but I do not treat them as a replacement for understanding the code. I want to know what I am building, why it works and how to debug it when something goes wrong.<br></br>I work well independently, but I also enjoy being part of a team. I like sharing knowledge, helping others and learning from people around me."
     },
-
     "experience": {
       "title": "Experience",
-      "description": "I have 15 months of experience as a software engineer intern, along with several years of freelance development work on different web and software projects."
+      "description": "I have 15 months of professional software engineering experience at Helsinki XR Center, where I worked on full-stack, XR, healthcare and motion-analysis systems, along with several years of freelance development work."
     },
-
     "education": {
       "title": "Education",
       "description": "Bachelor of Engineering, Information and Communications Technology<br></br>Metropolia University of Applied Sciences | Expected graduation: August 2026"
     },
-
     "links": {
       "linkedin": "LinkedIn",
       "github": "GitHub"
     }
   },
-
   "AboutPage": {
     "title": "About Me",
-    "description": "I'm a software engineer who enjoys building useful, reliable and well-structured applications. My strongest area is full-stack web development, but I also like exploring other areas of software, from mobile apps to games and new technologies. I care about writing code that is understandable, maintainable and built with real users in mind."
+    "description": "I'm a software engineer who enjoys building useful, reliable and well-structured applications. My strongest area is full-stack web development, especially interactive systems with real-time features, 3D/XR interfaces and data-driven functionality. I care about writing code that is understandable, maintainable and built with real users in mind."
   },
-
   "ContactPage": {
     "title": "Contact Me",
     "description": "Have a project, opportunity or question? Feel free to reach out. I'm always open to discussing software development, collaboration and new ideas."
   },
   "CVPage": {
     "profilePhotoAlt": "{name}'s photo",
-
     "sections": {
       "summary": "Summary",
       "contact": "Contact",
@@ -50,7 +42,6 @@
       "projects": "Projects",
       "education": "Education"
     },
-
     "labels": {
       "email": "Email",
       "phone": "Phone",
@@ -58,19 +49,17 @@
       "github": "GitHub",
       "present": "Present"
     },
-
     "general": {
       "name": "Miro Mariapori",
-      "title": "Software Engineer | Full-stack",
+      "title": "Software Engineer | Full-stack, XR & Interactive Systems",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Software Engineer focused on real-time interactive systems across web, XR, and applied AI. Experienced in building full-stack applications with live feedback loops, 3D interfaces, and data-driven functionality, particularly in healthcare, research, and simulation environments.",
+      "summary": "Software engineer focused on full-stack web applications, real-time interactive systems, XR/3D tools, and applied AI. Experienced in building software with live feedback loops, 3D interfaces, and data-driven functionality for healthcare, research, and simulation environments.",
       "profilePicture": "/profile.jpeg"
     },
-
     "core": [
       "Real-time interactive systems",
       "Full-stack web architecture",
@@ -78,11 +67,10 @@
       "Applied AI and motion analysis",
       "Data-intensive healthcare and research platforms"
     ],
-
     "workExperience": [
       {
         "company": "Helsinki XR Center",
-        "position": "Software Engineer",
+        "position": "Software Engineer Intern",
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
@@ -133,65 +121,123 @@
         ]
       }
     ],
-
     "techStack": [
       {
         "category": "Languages",
         "children": [
-          { "name": "TypeScript" },
-          { "name": "JavaScript" },
-          { "name": "Python" },
-          { "name": "C#" },
-          { "name": "SQL" }
+          {
+            "name": "TypeScript"
+          },
+          {
+            "name": "JavaScript"
+          },
+          {
+            "name": "Python"
+          },
+          {
+            "name": "C#"
+          },
+          {
+            "name": "SQL"
+          }
         ]
       },
       {
         "category": "Frontend",
         "children": [
-          { "name": "Next.js" },
-          { "name": "React" },
-          { "name": "React Native" },
-          { "name": "HTML5" },
-          { "name": "CSS3" },
-          { "name": "Tailwind CSS" }
+          {
+            "name": "Next.js"
+          },
+          {
+            "name": "React"
+          },
+          {
+            "name": "React Native"
+          },
+          {
+            "name": "HTML5"
+          },
+          {
+            "name": "CSS3"
+          },
+          {
+            "name": "Tailwind CSS"
+          }
         ]
       },
       {
         "category": "Backend & APIs",
         "children": [
-          { "name": "Node.js" },
-          { "name": "Express.js" },
-          { "name": "GraphQL" },
-          { "name": "REST" },
-          { "name": "WebSockets" },
-          { "name": "OAuth2" },
-          { "name": "JWT" }
+          {
+            "name": "Node.js"
+          },
+          {
+            "name": "Express.js"
+          },
+          {
+            "name": "GraphQL"
+          },
+          {
+            "name": "REST"
+          },
+          {
+            "name": "WebSockets"
+          },
+          {
+            "name": "OAuth2"
+          },
+          {
+            "name": "JWT"
+          }
         ]
       },
       {
         "category": "Data & Infrastructure",
         "children": [
-          { "name": "PostgreSQL" },
-          { "name": "MongoDB" },
-          { "name": "Redis" },
-          { "name": "Docker" },
-          { "name": "Azure" },
-          { "name": "Nginx" },
-          { "name": "GitHub Actions" },
-          { "name": "Git" }
+          {
+            "name": "PostgreSQL"
+          },
+          {
+            "name": "MongoDB"
+          },
+          {
+            "name": "Redis"
+          },
+          {
+            "name": "Docker"
+          },
+          {
+            "name": "Azure"
+          },
+          {
+            "name": "Nginx"
+          },
+          {
+            "name": "GitHub Actions"
+          },
+          {
+            "name": "Git"
+          }
         ]
       },
       {
         "category": "3D, XR & AI",
         "children": [
-          { "name": "Unity" },
-          { "name": "Three.js" },
-          { "name": ".NET" },
-          { "name": "Motion Analysis" }
+          {
+            "name": "Unity"
+          },
+          {
+            "name": "Three.js"
+          },
+          {
+            "name": ".NET"
+          },
+          {
+            "name": "Motion Analysis"
+          }
         ]
       }
     ],
-
     "projects": [
       {
         "name": "Autonomous Vehicle Software (Thesis, ongoing)",
@@ -210,12 +256,11 @@
         ]
       }
     ],
-
     "education": [
       {
         "degree": "Bachelor of Engineering (BEng) in Information and Communication Technology",
         "institution": "Metropolia University of Applied Sciences",
-        "description": "Expected graduation: Summer 2026"
+        "description": "Expected graduation: August 2026"
       }
     ]
   }
