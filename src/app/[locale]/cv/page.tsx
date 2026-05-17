@@ -3,15 +3,52 @@ import { useTranslations } from "next-intl";
 import styles from "./cv.module.css";
 import { formatDate } from "../../../utils/DateFormatter";
 
+type General = {
+  profilePicture: string;
+  name: string;
+  title: string;
+  summary: string;
+  email: string;
+  phone: string;
+  linkedin: string;
+  github: string;
+};
+
+type Job = {
+  company: string;
+  position: string;
+  startDate: string;
+  endDate?: string;
+  description: string[];
+};
+
+type TechCategory = {
+  category: string;
+  children: {
+    name: string;
+  }[];
+};
+
+type Project = {
+  name: string;
+  description: string[];
+};
+
+type Education = {
+  institution: string;
+  degree: string;
+  description: string;
+};
+
 const CV = () => {
   const t = useTranslations("CVPage");
 
-  const general = t.raw("general");
-  const core = t.raw("core");
-  const workExperience = t.raw("workExperience");
-  const techStack = t.raw("techStack");
-  const projects = t.raw("projects");
-  const education = t.raw("education");
+  const general = t.raw("general") as General;
+  const core = t.raw("core") as string[];
+  const workExperience = t.raw("workExperience") as Job[];
+  const techStack = t.raw("techStack") as TechCategory[];
+  const projects = t.raw("projects") as Project[];
+  const education = t.raw("education") as Education[];
 
   return (
     <div className={styles.cv}>
@@ -23,6 +60,7 @@ const CV = () => {
           width={160}
           height={160}
         />
+
         <div>
           <h1>{general.name}</h1>
           <p>{general.title}</p>
@@ -36,14 +74,17 @@ const CV = () => {
 
       <section>
         <h2>{t("sections.contact")}</h2>
+
         <p>
           <strong>{t("labels.email")}:</strong>{" "}
           <a href={`mailto:${general.email}`}>{general.email}</a>
         </p>
+
         <p>
           <strong>{t("labels.phone")}:</strong>{" "}
           <a href={`tel:${general.phone}`}>{general.phone}</a>
         </p>
+
         <p>
           <strong>{t("labels.linkedin")}:</strong>{" "}
           <a
@@ -54,6 +95,7 @@ const CV = () => {
             {general.linkedin}
           </a>
         </p>
+
         <p>
           <strong>{t("labels.github")}:</strong>{" "}
           <a
@@ -80,15 +122,17 @@ const CV = () => {
             className={styles.avoidBreak}
           >
             <h3>{job.position}</h3>
+
             <p>
               {job.company} • {formatDate(job.startDate)}
               {job.endDate
                 ? ` - ${formatDate(job.endDate)}`
                 : ` - ${t("labels.present")}`}
             </p>
+
             <ul>
               {job.description.map((line, index) => (
-                <li key={index}>{line}</li>
+                <li key={`${job.company}-${index}`}>{line}</li>
               ))}
             </ul>
           </article>
@@ -97,6 +141,7 @@ const CV = () => {
 
       <section>
         <h2>{t("sections.keyTechnologies")}</h2>
+
         {techStack.map((category) => (
           <p key={category.category}>
             <strong>{category.category}:</strong>{" "}
@@ -107,12 +152,14 @@ const CV = () => {
 
       <section className={styles.avoidBreak}>
         <h2>{t("sections.projects")}</h2>
+
         {projects.map((project) => (
           <div key={project.name} className={styles.avoidBreak}>
             <h3>{project.name}</h3>
+
             <ul>
               {project.description.map((line, index) => (
-                <li key={index}>{line}</li>
+                <li key={`${project.name}-${index}`}>{line}</li>
               ))}
             </ul>
           </div>
@@ -121,6 +168,7 @@ const CV = () => {
 
       <section>
         <h2>{t("sections.education")}</h2>
+
         {education.map((edu) => (
           <div
             key={`${edu.institution}-${edu.degree}`}
