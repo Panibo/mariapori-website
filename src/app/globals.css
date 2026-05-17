@@ -167,3 +167,8 @@ article:not(:last-child) {
   font-style: normal;
   font-display: swap;
 }
+@media screen and (max-width: 600px) {
+  main {
+    margin: 1rem;
+  }
+}
