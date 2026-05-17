@@ -1,0 +1,222 @@
+{
+  "HomePage": {
+    "name": "Miro Mariapori",
+    "intro": "Olen ohjelmistoinsinööri, joka keskittyy siistien, käytännöllisten ja ylläpidettävien web-sovellusten rakentamiseen. Pidän ideoiden muuttamisesta toimiviksi tuotteiksi, nopeasta oppimisesta ja parempien toteutustapojen kehittämisestä.",
+
+    "whatIDo": {
+      "title": "Mitä teen",
+      "description": "Pääpainoni on full-stack web-kehityksessä. Rakennan web-sovelluksia, joita on helppo käyttää, ylläpitää ja jatkokehittää. Vaikka web-kehitys on alue, jossa tunnen olevani vahvimmillani, minulla on kokemusta myös mobiilisovellusten, pelien ja laajempien ohjelmointiprojektien parista. Pidän siitä, että voin työskennellä sovelluksen eri osien parissa ja ymmärtää, miten kokonaisuus toimii."
+    },
+
+    "howIWork": {
+      "title": "Miten työskentelen",
+      "description": "Välitän siististä koodista, hyvästä rakenteesta ja pienistä yksityiskohdista, jotka tekevät ohjelmistosta helpommin ylläpidettävän. Samalla ymmärrän, että valmiiksi saaminen on tärkeää, joten pyrin tasapainottamaan laadun, nopeuden ja käytännöllisen päätöksenteon.<br></br>Käytän tekoälytyökaluja nopeuttaakseni työskentelyäni, tutkiakseni ideoita ja vähentääkseni toistuvaa työtä, mutta en pidä niitä korvikkeena koodin ymmärtämiselle. Haluan tietää, mitä rakennan, miksi se toimii ja miten sitä korjataan, jos jokin menee pieleen.<br></br>Työskentelen hyvin itsenäisesti, mutta viihdyn myös osana tiimiä. Pidän tiedon jakamisesta, muiden auttamisesta ja ympärilläni olevilta ihmisiltä oppimisesta."
+    },
+
+    "experience": {
+      "title": "Kokemus",
+      "description": "Minulla on 15 kuukauden kokemus ohjelmistoinsinööriharjoittelijana sekä useamman vuoden kokemus freelance-kehittäjänä erilaisista web- ja ohjelmistoprojekteista."
+    },
+
+    "education": {
+      "title": "Koulutus",
+      "description": "Insinööri AMK, tieto- ja viestintätekniikka<br></br>Metropolia Ammattikorkeakoulu | Valmistuminen: elokuu 2026"
+    },
+
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+
+  "AboutPage": {
+    "title": "Tietoa minusta",
+    "description": "Olen ohjelmistoinsinööri, joka nauttii hyödyllisten, luotettavien ja hyvin rakennettujen sovellusten kehittämisestä. Vahvin osaamisalueeni on full-stack web-kehitys, mutta tutustun mielelläni myös muihin ohjelmistokehityksen alueisiin mobiilisovelluksista peleihin ja uusiin teknologioihin. Minulle on tärkeää kirjoittaa koodia, joka on ymmärrettävää, ylläpidettävää ja rakennettu oikeat käyttäjät mielessä."
+  },
+
+  "ContactPage": {
+    "title": "Ota yhteyttä",
+    "description": "Onko sinulla projekti, mahdollisuus tai kysymys? Ota rohkeasti yhteyttä. Olen aina avoin keskustelemaan ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista."
+  },
+  "CVPage": {
+    "profilePhotoAlt": "{name}n kuva",
+
+    "sections": {
+      "summary": "Yhteenveto",
+      "contact": "Yhteystiedot",
+      "coreStrengths": "Keskeiset vahvuudet",
+      "experience": "Työkokemus",
+      "keyTechnologies": "Keskeiset teknologiat",
+      "projects": "Projektit",
+      "education": "Koulutus"
+    },
+
+    "labels": {
+      "email": "Sähköposti",
+      "phone": "Puhelin",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "present": "Nykyhetki"
+    },
+
+    "general": {
+      "name": "Miro Mariapori",
+      "title": "Ohjelmistoinsinööri | Full-stack",
+      "email": "miro.mariapori@gmail.com",
+      "phone": "+358 40 5140 403",
+      "linkedin": "linkedin.com/in/miro-mariapori/",
+      "github": "github.com/panibo",
+      "website": "mariapori.dev",
+      "summary": "Ohjelmistoinsinööri, joka keskittyy reaaliaikaisiin interaktiivisiin järjestelmiin webin, XR:n ja sovelletun tekoälyn parissa. Kokemusta full-stack-sovellusten rakentamisesta, joissa hyödynnetään reaaliaikaisia palautesilmukoita, 3D-käyttöliittymiä ja datalähtöisiä toiminnallisuuksia erityisesti terveydenhuollon, tutkimuksen ja simulaatioympäristöjen tarpeisiin.",
+      "profilePicture": "/profile.jpeg"
+    },
+
+    "core": [
+      "Reaaliaikaiset interaktiiviset järjestelmät",
+      "Full-stack-web-arkkitehtuuri",
+      "XR- ja 3D-sovelluskehitys",
+      "Sovellettu tekoäly ja liikeanalyysi",
+      "Dataintensiiviset terveydenhuollon ja tutkimuksen alustat"
+    ],
+
+    "workExperience": [
+      {
+        "company": "Helsinki XR Center",
+        "position": "Ohjelmistoinsinööri",
+        "startDate": "2024-01-07",
+        "endDate": "2025-03-31",
+        "description": [
+          "Kehitin full-stack-terveydenhuoltoalustan fysioterapiaharjoitteiden suunnitteluun ja toteuttamiseen XR-pohjaisessa kuntoutusjärjestelmässä",
+          "Rakensin ja ylläpidin GraphQL-taustajärjestelmää, joka tuki reaaliaikaista viestintää XR-sovellusten ja taustapalveluiden välillä",
+          "Toteutin interaktiivisen web-pohjaisen 3D-harjoite-editorin, jossa käytettiin humanoidimallia yksilöllisten fysioterapialiikkeiden suunnitteluun",
+          "Osallistuin Unity-pohjaiseen XR-kehitykseen ja toteutin selainpohjaisia 3D-visualisointeja Three.js:llä",
+          "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja joka tarjosi selkeää palautetta harjoitusten suorituksesta",
+          "Toteutin autentikointi- ja tietosuojamekanismeja arkaluonteisen potilaisiin liittyvän tiedon käsittelyyn"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "position": "Ohjelmistoinsinööri",
+        "startDate": "2022-08-01",
+        "endDate": null,
+        "description": [
+          "Toimitin asiakaskohtaisia full-stack-sovelluksia, taustapalveluita ja automaatiotyökaluja erilaisiin työnkulku- ja datankäsittelytarpeisiin",
+          "Kehitin Python-pohjaisen Telegram-botin automatisoituihin tiedonkeruu- ja käsittelytyönkulkuihin",
+          "Rakensin ja ylläpidin WordPress-pohjaisia järjestelmiä, mukaan lukien räätälöityä lisäosakehitystä ja alustan mukautuksia"
+        ]
+      },
+      {
+        "company": "TELUS International",
+        "position": "Personalized Internet Ads Assessor",
+        "startDate": "2023-05-01",
+        "endDate": "2023-09-30",
+        "description": [
+          "Arvioin verkkomainosten osuvuutta ja laatua suhteessa käyttäjien hakuihin kansainvälisessä laadunvarmistusympäristössä"
+        ]
+      },
+      {
+        "company": "DHL Express",
+        "position": "Lentorahdin operatiivinen työntekijä",
+        "startDate": "2018-06-01",
+        "endDate": "2020-08-31",
+        "description": [
+          "Työskentelin aikakriittisissä lentorahtioperaatioissa, kuten rahdin käsittelyssä, tullaukseen liittyvissä työnkuluissa ja lähetysten lajittelussa"
+        ]
+      },
+      {
+        "company": "Hexagon Manufacturing Intelligence",
+        "position": "Harjoittelija",
+        "startDate": "2015-09-01",
+        "endDate": "2016-05-31",
+        "description": [
+          "Ohjelmoin koordinaattimittauskoneita, suoritin tuotemittauksia sekä tuen asiakasviestintää ja myyntiin liittyviä tehtäviä"
+        ]
+      }
+    ],
+
+    "techStack": [
+      {
+        "category": "Ohjelmointikielet",
+        "children": [
+          { "name": "TypeScript" },
+          { "name": "JavaScript" },
+          { "name": "Python" },
+          { "name": "C#" },
+          { "name": "SQL" }
+        ]
+      },
+      {
+        "category": "Frontend",
+        "children": [
+          { "name": "Next.js" },
+          { "name": "React" },
+          { "name": "React Native" },
+          { "name": "HTML5" },
+          { "name": "CSS3" },
+          { "name": "Tailwind CSS" }
+        ]
+      },
+      {
+        "category": "Backend ja APIt",
+        "children": [
+          { "name": "Node.js" },
+          { "name": "Express.js" },
+          { "name": "GraphQL" },
+          { "name": "REST" },
+          { "name": "WebSockets" },
+          { "name": "OAuth2" },
+          { "name": "JWT" }
+        ]
+      },
+      {
+        "category": "Data ja infrastruktuuri",
+        "children": [
+          { "name": "PostgreSQL" },
+          { "name": "MongoDB" },
+          { "name": "Redis" },
+          { "name": "Docker" },
+          { "name": "Azure" },
+          { "name": "Nginx" },
+          { "name": "GitHub Actions" },
+          { "name": "Git" }
+        ]
+      },
+      {
+        "category": "3D, XR ja tekoäly",
+        "children": [
+          { "name": "Unity" },
+          { "name": "Three.js" },
+          { "name": ".NET" },
+          { "name": "Liikeanalyysi" }
+        ]
+      }
+    ],
+
+    "projects": [
+      {
+        "name": "Autonomisen ajoneuvon ohjelmisto (opinnäytetyö, käynnissä)",
+        "description": [
+          "Kehitän autonomisen ajoneuvojärjestelmän ohjelmistoa yhteistyössä Puolustusvoimien kanssa",
+          "Keskityn autonomiseen toimintaan liittyvään reaaliaikaiseen ja ohjaukseen liittyvään ohjelmistoon, jonka toteutustiedot ovat rajattuja projektin luottamuksellisuuden vuoksi"
+        ]
+      },
+      {
+        "name": "TKIO-Finder",
+        "description": [
+          "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä",
+          "Toteutin haku-, suodatus- ja matchmaking-ominaisuuksia Reactilla, Node.js:llä ja PostgreSQL:llä",
+          "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten",
+          "Julkaisin ja ylläpidin taustapalveluita itse hallinnoidussa ympäristössä, mukaan lukien palvelinpuolen infrastruktuurin hallinta"
+        ]
+      }
+    ],
+
+    "education": [
+      {
+        "degree": "Insinööri AMK, tieto- ja viestintätekniikka",
+        "institution": "Metropolia Ammattikorkeakoulu",
+        "description": "Arvioitu valmistuminen: kesä 2026"
+      }
+    ]
+  }
+}

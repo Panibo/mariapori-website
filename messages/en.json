@@ -1,0 +1,222 @@
+{
+  "HomePage": {
+    "name": "Miro Mariapori",
+    "intro": "I'm a software engineer focused on building clean, practical and maintainable web applications. I enjoy turning ideas into usable products, learning quickly, and improving the way things are built.",
+
+    "whatIDo": {
+      "title": "What I Do",
+      "description": "My main focus is full-stack web development. I build web applications that are easy to use, maintain and extend. While web development is where I feel most at home, I also have experience with mobile app development, game development and broader programming projects. I like working across the stack and understanding how the pieces fit together."
+    },
+
+    "howIWork": {
+      "title": "How I Work",
+      "description": "I care about clean code, good structure and the small details that make software easier to maintain. At the same time, I understand that shipping matters, so I try to balance quality with speed and practical decision-making.<br></br>I use AI tools to work faster, explore ideas and reduce repetitive work, but I do not treat them as a replacement for understanding the code. I want to know what I am building, why it works and how to debug it when something goes wrong.<br></br>I work well independently, but I also enjoy being part of a team. I like sharing knowledge, helping others and learning from people around me."
+    },
+
+    "experience": {
+      "title": "Experience",
+      "description": "I have 15 months of experience as a software engineer intern, along with several years of freelance development work on different web and software projects."
+    },
+
+    "education": {
+      "title": "Education",
+      "description": "Bachelor of Engineering, Information and Communications Technology<br></br>Metropolia University of Applied Sciences | Expected graduation: August 2026"
+    },
+
+    "links": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
+
+  "AboutPage": {
+    "title": "About Me",
+    "description": "I'm a software engineer who enjoys building useful, reliable and well-structured applications. My strongest area is full-stack web development, but I also like exploring other areas of software, from mobile apps to games and new technologies. I care about writing code that is understandable, maintainable and built with real users in mind."
+  },
+
+  "ContactPage": {
+    "title": "Contact Me",
+    "description": "Have a project, opportunity or question? Feel free to reach out. I'm always open to discussing software development, collaboration and new ideas."
+  },
+  "CVPage": {
+    "profilePhotoAlt": "{name}'s photo",
+
+    "sections": {
+      "summary": "Summary",
+      "contact": "Contact",
+      "coreStrengths": "Core Strengths",
+      "experience": "Experience",
+      "keyTechnologies": "Key Technologies",
+      "projects": "Projects",
+      "education": "Education"
+    },
+
+    "labels": {
+      "email": "Email",
+      "phone": "Phone",
+      "linkedin": "LinkedIn",
+      "github": "GitHub",
+      "present": "Present"
+    },
+
+    "general": {
+      "name": "Miro Mariapori",
+      "title": "Software Engineer | Full-stack",
+      "email": "miro.mariapori@gmail.com",
+      "phone": "+358 40 5140 403",
+      "linkedin": "linkedin.com/in/miro-mariapori/",
+      "github": "github.com/panibo",
+      "website": "mariapori.dev",
+      "summary": "Software Engineer focused on real-time interactive systems across web, XR, and applied AI. Experienced in building full-stack applications with live feedback loops, 3D interfaces, and data-driven functionality, particularly in healthcare, research, and simulation environments.",
+      "profilePicture": "/profile.jpeg"
+    },
+
+    "core": [
+      "Real-time interactive systems",
+      "Full-stack web architecture",
+      "XR and 3D application development",
+      "Applied AI and motion analysis",
+      "Data-intensive healthcare and research platforms"
+    ],
+
+    "workExperience": [
+      {
+        "company": "Helsinki XR Center",
+        "position": "Software Engineer",
+        "startDate": "2024-01-07",
+        "endDate": "2025-03-31",
+        "description": [
+          "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system",
+          "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services",
+          "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design",
+          "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js",
+          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance",
+          "Implemented authentication and data protection mechanisms for handling sensitive patient-related information"
+        ]
+      },
+      {
+        "company": "Freelance",
+        "position": "Software Engineer",
+        "startDate": "2022-08-01",
+        "endDate": null,
+        "description": [
+          "Delivered custom full-stack applications, backend services, and automation tools for client-specific workflows and data processing needs",
+          "Developed a Python-based Telegram bot for automated data collection and processing workflows",
+          "Built and maintained WordPress-based systems, including custom plugin development and platform customization"
+        ]
+      },
+      {
+        "company": "TELUS International",
+        "position": "Personalized Internet Ads Assessor",
+        "startDate": "2023-05-01",
+        "endDate": "2023-09-30",
+        "description": [
+          "Evaluated the relevance and quality of online advertisements against user queries while working in an international quality-assurance environment"
+        ]
+      },
+      {
+        "company": "DHL Express",
+        "position": "Air Freight Operations Worker",
+        "startDate": "2018-06-01",
+        "endDate": "2020-08-31",
+        "description": [
+          "Worked in time-sensitive air freight operations, including cargo handling, customs-related workflows, and shipment sorting"
+        ]
+      },
+      {
+        "company": "Hexagon Manufacturing Intelligence",
+        "position": "Trainee",
+        "startDate": "2015-09-01",
+        "endDate": "2016-05-31",
+        "description": [
+          "Programmed coordinate measuring machines, performed product measurements, and supported client communication and sales-related tasks"
+        ]
+      }
+    ],
+
+    "techStack": [
+      {
+        "category": "Languages",
+        "children": [
+          { "name": "TypeScript" },
+          { "name": "JavaScript" },
+          { "name": "Python" },
+          { "name": "C#" },
+          { "name": "SQL" }
+        ]
+      },
+      {
+        "category": "Frontend",
+        "children": [
+          { "name": "Next.js" },
+          { "name": "React" },
+          { "name": "React Native" },
+          { "name": "HTML5" },
+          { "name": "CSS3" },
+          { "name": "Tailwind CSS" }
+        ]
+      },
+      {
+        "category": "Backend & APIs",
+        "children": [
+          { "name": "Node.js" },
+          { "name": "Express.js" },
+          { "name": "GraphQL" },
+          { "name": "REST" },
+          { "name": "WebSockets" },
+          { "name": "OAuth2" },
+          { "name": "JWT" }
+        ]
+      },
+      {
+        "category": "Data & Infrastructure",
+        "children": [
+          { "name": "PostgreSQL" },
+          { "name": "MongoDB" },
+          { "name": "Redis" },
+          { "name": "Docker" },
+          { "name": "Azure" },
+          { "name": "Nginx" },
+          { "name": "GitHub Actions" },
+          { "name": "Git" }
+        ]
+      },
+      {
+        "category": "3D, XR & AI",
+        "children": [
+          { "name": "Unity" },
+          { "name": "Three.js" },
+          { "name": ".NET" },
+          { "name": "Motion Analysis" }
+        ]
+      }
+    ],
+
+    "projects": [
+      {
+        "name": "Autonomous Vehicle Software (Thesis, ongoing)",
+        "description": [
+          "Developing software for an autonomous vehicle system in collaboration with the Finnish Defence Forces",
+          "Focusing on real-time and control-related software for autonomous operation, with implementation details limited due to project confidentiality"
+        ]
+      },
+      {
+        "name": "TKIO-Finder",
+        "description": [
+          "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
+          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
+          "Added Google OAuth2 authentication for secure and user-friendly access",
+          "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+        ]
+      }
+    ],
+
+    "education": [
+      {
+        "degree": "Bachelor of Engineering (BEng) in Information and Communication Technology",
+        "institution": "Metropolia University of Applied Sciences",
+        "description": "Expected graduation: Summer 2026"
+      }
+    ]
+  }
+}

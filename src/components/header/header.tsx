@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { Link, usePathname } from "@/src/i18n/routing";
+import { useLocale } from "next-intl";
 import { useState, useEffect } from "react";
 import styles from "./header.module.css";
 
@@ -13,6 +14,8 @@ const links = [
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const locale = useLocale();
+  const pathname = usePathname();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +29,28 @@ const Header = () => {
     };
   }, []);
 
+  const languageLinks = (
+    <div className={styles.languageLinks}>
+      <Link
+        href={pathname}
+        locale="en"
+        aria-current={locale === "en" ? "page" : undefined}
+      >
+        EN
+      </Link>
+
+      <span aria-hidden="true">/</span>
+
+      <Link
+        href={pathname}
+        locale="fi"
+        aria-current={locale === "fi" ? "page" : undefined}
+      >
+        FI
+      </Link>
+    </div>
+  );
+
   return (
     <header className={styles.header}>
       <nav className={styles.desktopNav}>
@@ -34,6 +59,8 @@ const Header = () => {
             {link.label}
           </Link>
         ))}
+
+        {languageLinks}
       </nav>
 
       <button
@@ -57,6 +84,28 @@ const Header = () => {
               {link.label}
             </Link>
           ))}
+
+          <div className={styles.languageLinks}>
+            <Link
+              href={pathname}
+              locale="en"
+              onClick={() => setIsOpen(false)}
+              aria-current={locale === "en" ? "page" : undefined}
+            >
+              EN
+            </Link>
+
+            <span aria-hidden="true">/</span>
+
+            <Link
+              href={pathname}
+              locale="fi"
+              onClick={() => setIsOpen(false)}
+              aria-current={locale === "fi" ? "page" : undefined}
+            >
+              FI
+            </Link>
+          </div>
         </nav>
       )}
     </header>

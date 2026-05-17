@@ -1,70 +1,80 @@
 import Image from "next/image";
-import cv from "../../data/cv.json";
-import styles from "../../styles/cv.module.css";
-import { formatDate } from "../../utils/DateFormatter";
+import { useTranslations } from "next-intl";
+import styles from "./cv.module.css";
+import { formatDate } from "../../../utils/DateFormatter";
 
 const CV = () => {
+  const t = useTranslations("CVPage");
+
+  const general = t.raw("general");
+  const core = t.raw("core");
+  const workExperience = t.raw("workExperience");
+  const techStack = t.raw("techStack");
+  const projects = t.raw("projects");
+  const education = t.raw("education");
+
   return (
     <div className={styles.cv}>
       <header className={styles.header}>
         <Image
           className={styles.photo}
-          src={cv.general.profilePicture}
-          alt={`${cv.general.name}'s photo`}
+          src={general.profilePicture}
+          alt={t("profilePhotoAlt", { name: general.name })}
           width={160}
           height={160}
         />
         <div>
-          <h1>{cv.general.name}</h1>
-          <p>{cv.general.title}</p>
+          <h1>{general.name}</h1>
+          <p>{general.title}</p>
         </div>
       </header>
 
       <section>
-        <h2>Summary</h2>
-        <p>{cv.general.summary}</p>
+        <h2>{t("sections.summary")}</h2>
+        <p>{general.summary}</p>
       </section>
 
       <section>
-        <h2>Contact</h2>
+        <h2>{t("sections.contact")}</h2>
         <p>
-          <strong>Email:</strong>{" "}
-          <a href={`mailto:${cv.general.email}`}>{cv.general.email}</a>
+          <strong>{t("labels.email")}:</strong>{" "}
+          <a href={`mailto:${general.email}`}>{general.email}</a>
         </p>
         <p>
-          <strong>Phone:</strong>{" "}
-          <a href={`tel:${cv.general.phone}`}>{cv.general.phone}</a>
+          <strong>{t("labels.phone")}:</strong>{" "}
+          <a href={`tel:${general.phone}`}>{general.phone}</a>
         </p>
         <p>
-          <strong>LinkedIn:</strong>{" "}
+          <strong>{t("labels.linkedin")}:</strong>{" "}
           <a
-            href={"https://www." + cv.general.linkedin}
+            href={`https://www.${general.linkedin}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {cv.general.linkedin}
+            {general.linkedin}
           </a>
         </p>
         <p>
-          <strong>GitHub:</strong>{" "}
+          <strong>{t("labels.github")}:</strong>{" "}
           <a
-            href={"https://www." + cv.general.github}
+            href={`https://www.${general.github}`}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {cv.general.github}
+            {general.github}
           </a>
         </p>
       </section>
 
       <section>
-        <h2>Core Strengths</h2>
-        <span>{cv.core.join(", ")}</span>
+        <h2>{t("sections.coreStrengths")}</h2>
+        <span>{core.join(", ")}</span>
       </section>
-      <section>
-        <h2>Experience</h2>
 
-        {cv.workExperience.map((job) => (
+      <section>
+        <h2>{t("sections.experience")}</h2>
+
+        {workExperience.map((job) => (
           <article
             key={`${job.company}-${job.position}`}
             className={styles.avoidBreak}
@@ -72,7 +82,9 @@ const CV = () => {
             <h3>{job.position}</h3>
             <p>
               {job.company} • {formatDate(job.startDate)}
-              {job.endDate ? ` - ${formatDate(job.endDate)}` : " - Present"}
+              {job.endDate
+                ? ` - ${formatDate(job.endDate)}`
+                : ` - ${t("labels.present")}`}
             </p>
             <ul>
               {job.description.map((line, index) => (
@@ -82,9 +94,10 @@ const CV = () => {
           </article>
         ))}
       </section>
+
       <section>
-        <h2>Key Technologies</h2>
-        {cv.techStack.map((category) => (
+        <h2>{t("sections.keyTechnologies")}</h2>
+        {techStack.map((category) => (
           <p key={category.category}>
             <strong>{category.category}:</strong>{" "}
             {category.children.map((tech) => tech.name).join(", ")}
@@ -93,8 +106,8 @@ const CV = () => {
       </section>
 
       <section className={styles.avoidBreak}>
-        <h2>Projects</h2>
-        {cv.projects.map((project) => (
+        <h2>{t("sections.projects")}</h2>
+        {projects.map((project) => (
           <div key={project.name} className={styles.avoidBreak}>
             <h3>{project.name}</h3>
             <ul>
@@ -107,8 +120,8 @@ const CV = () => {
       </section>
 
       <section>
-        <h2>Education</h2>
-        {cv.education.map((edu) => (
+        <h2>{t("sections.education")}</h2>
+        {education.map((edu) => (
           <div
             key={`${edu.institution}-${edu.degree}`}
             className={styles.avoidBreak}

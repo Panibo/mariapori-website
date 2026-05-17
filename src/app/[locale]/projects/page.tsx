@@ -1,7 +1,5 @@
-import Image from "next/image";
-import cv from "../../data/cv.json";
-import styles from "../../styles/cv.module.css";
-import projects from "../../data/projects.json";
+import styles from "./cv.module.css";
+import projects from "../../../data/projects.json";
 const Projects = () => {
   return (
     <div className={styles.cv}>
@@ -16,12 +14,6 @@ const Projects = () => {
         {projects.map((project) => (
           <article key={project.name} className={styles.avoidBreak}>
             <h3>{project.name}</h3>
-
-            {project.role && (
-              <p>
-                <strong>Role:</strong> {project.role}
-              </p>
-            )}
 
             {(project.startDate || project.endDate) && (
               <p>

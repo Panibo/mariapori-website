@@ -82,8 +82,14 @@ body {
       transparent 50%
     );
 }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 main {
   margin: 2rem;
+  max-width: 900px;
 }
 h1,
 h2,
