@@ -88,7 +88,7 @@ body {
   align-items: center;
 }
 main {
-  margin: 2rem;
+  margin: 1rem;
   max-width: 900px;
 }
 h1,
@@ -166,9 +166,4 @@ article:not(:last-child) {
   font-weight: 300 700;
   font-style: normal;
   font-display: swap;
-}
-@media screen and (max-width: 600px) {
-  main {
-    margin: 1rem;
-  }
 }

@@ -1,22 +1,41 @@
 {
   "HomePage": {
-    "name": "Miro Mariapori",
-    "intro": "I'm a software engineer focused on full-stack web applications, real-time interactive systems, and 3D/XR tools. I enjoy turning complex ideas into usable, maintainable products, especially in research, healthcare, simulation, and data-driven environments.",
+    "hero": {
+      "name": "Miro Mariapori",
+      "intro": [
+        "I am an information and communications technology engineering student who is about to graduate. My strongest area of expertise is modern web development, but I also have broad skills in other areas of software engineering, such as applying artificial intelligence, automation, and designing software systems.",
+        "I am currently working on my engineering thesis on autonomous vehicle software in collaboration with the Finnish National Defence University. I have already gained several years of experience through internships and freelance projects."
+      ]
+    },
     "whatIDo": {
-      "title": "What I Do",
-      "description": "My main focus is full-stack development for interactive web applications. I build systems that are easy to use, maintain and extend, from backend APIs and data flows to frontend interfaces, real-time features and 3D visualizations. I also have experience with mobile app development, Unity/XR, game development, automation tools and broader software projects. I like working across the stack and understanding how the pieces fit together."
+      "title": "What I do",
+      "description": [
+        "I design and implement software solutions from start to finish. I am proficient in both backend and frontend development, and my toolkit includes modern frameworks and technologies. This website, too, was built with Next.js.",
+        "I enjoy being involved in every stage of implementation, from planning to deployment. This helps me understand the bigger picture better, so the work does not remain just the implementation of individual features or lines of code. I am especially motivated by technical solutions that serve a real user need and also work well from the user's perspective."
+      ]
     },
     "howIWork": {
-      "title": "How I Work",
-      "description": "I care about code that is understandable, maintainable and useful in practice. I like building with enough structure to support future changes, while still keeping momentum and shipping working software.<br></br>I use AI tools to work faster, explore ideas and reduce repetitive work, but I do not treat them as a replacement for understanding the code. I want to know what I am building, why it works and how to debug it when something goes wrong.<br></br>I work well independently, but I also enjoy being part of a team. I like sharing knowledge, helping others and learning from people around me."
+      "title": "How I work",
+      "description": [
+        "I value clean code, sensible structure, and solutions that remain maintainable beyond the first version. In my work, I balance quality, speed, and practicality: it is important to build well, but also to get things done.",
+        "I use AI tools to support ideation, speed up work, review code, and reduce repetitive tasks. However, I do not see them as a substitute for understanding. I want to know what I am building, why it works, and how to fix problems if something goes wrong.",
+        "I work well independently, but I also enjoy working in a team. I like sharing knowledge, helping others, and continuously learning from the people around me."
+      ]
     },
     "experience": {
       "title": "Experience",
-      "description": "I have 15 months of professional software engineering experience at Helsinki XR Center, where I worked on full-stack, XR, healthcare and motion-analysis systems, along with several years of freelance development work."
+      "description": [
+        "During my internship, I had the opportunity to develop a web application for healthcare needs from the ground up. Through the project, I learned a lot about designing a complete application, understanding customer needs, building user interfaces, considering information security, and developing software for practical needs rather than just as a technical implementation.",
+        "In addition, I have worked for several years as a freelance programmer, implementing various automation solutions, websites, and plugins for clients. Through these projects, I have learned to listen to clients, quickly identify the core problem, and build a practical solution for it. Freelance work has especially developed my initiative, time management, and ability to bring projects to completion independently."
+      ]
     },
     "education": {
       "title": "Education",
-      "description": "Bachelor of Engineering, Information and Communications Technology<br></br>Metropolia University of Applied Sciences | Expected graduation: August 2026"
+      "description": [
+        "Bachelor of Engineering, Information and Communications Technology",
+        "Major: Software Engineering",
+        "Metropolia University of Applied Sciences | Expected graduation: summer 2026"
+      ]
     },
     "links": {
       "linkedin": "LinkedIn",
@@ -24,21 +43,21 @@
     }
   },
   "AboutPage": {
-    "title": "About Me",
-    "description": "I'm a software engineer who enjoys building useful, reliable and well-structured applications. My strongest area is full-stack web development, especially interactive systems with real-time features, 3D/XR interfaces and data-driven functionality. I care about writing code that is understandable, maintainable and built with real users in mind."
+    "title": "About me",
+    "description": "I am an information and communications technology engineering student majoring in software engineering. I am especially motivated by building useful, reliable, and well-implemented applications. My strongest area of expertise is full-stack web development, and I want to further develop my skills particularly in the practical application of artificial intelligence, data-driven features, and automation. It is important to me to write code that is easy to understand, maintain, and develop further."
   },
   "ContactPage": {
-    "title": "Contact Me",
-    "description": "Have a project, opportunity or question? Feel free to reach out. I'm always open to discussing software development, collaboration and new ideas."
+    "title": "Contact",
+    "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas."
   },
   "CVPage": {
     "profilePhotoAlt": "{name}'s photo",
     "sections": {
       "summary": "Summary",
-      "contact": "Contact",
-      "coreStrengths": "Core Strengths",
-      "experience": "Experience",
-      "keyTechnologies": "Key Technologies",
+      "contact": "Contact information",
+      "coreStrengths": "Core strengths",
+      "experience": "Work experience",
+      "keyTechnologies": "Technologies",
       "projects": "Projects",
       "education": "Education"
     },
@@ -51,46 +70,47 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Software Engineer | Full-stack, XR & Interactive Systems",
+      "title": "Full-stack Developer | Applied AI and Data-driven Solutions",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Software engineer focused on full-stack web applications, real-time interactive systems, XR/3D tools, and applied AI. Experienced in building software with live feedback loops, 3D interfaces, and data-driven functionality for healthcare, research, and simulation environments.",
+      "summary": "Full-stack developer and information and communications technology engineering student with experience in web applications, backend services, interactive user interfaces, and AI- and data-driven features. I have worked especially on healthcare, research, and customer-specific software solutions where usability, reliability, data protection, and clear technical implementation are emphasized.",
       "profilePicture": "/profile.jpeg"
     },
     "core": [
-      "Real-time interactive systems",
-      "Full-stack web architecture",
-      "XR and 3D application development",
+      "Full-stack web development",
       "Applied AI and motion analysis",
-      "Data-intensive healthcare and research platforms"
+      "Backend services and APIs",
+      "Data-intensive applications",
+      "Interactive web user interfaces"
     ],
     "workExperience": [
       {
         "company": "Helsinki XR Center",
-        "position": "Software Engineer Intern",
+        "position": "Software Developer",
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system",
-          "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services",
-          "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design",
-          "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js",
-          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance",
-          "Implemented authentication and data protection mechanisms for handling sensitive patient-related information"
+          "Developed a full-stack healthcare platform for planning, performing, and analyzing physiotherapy exercises in a rehabilitation system",
+          "Built and maintained a GraphQL backend that enabled real-time communication between applications and backend services",
+          "Designed and optimized data pipelines for high-frequency motion data to support responsive feedback and analytics",
+          "Designed and implemented a neural network-based motion analysis system that was trained with over 1,000 physiotherapy exercises and provided users with feedback on exercise performance",
+          "Implemented a web-based 3D exercise editor where physiotherapy movements could be designed using a humanoid model",
+          "Contributed to application development with Unity and implemented browser-based 3D visualizations with Three.js",
+          "Implemented authentication and data protection solutions for handling sensitive patient data"
         ]
       },
       {
         "company": "Freelance",
-        "position": "Software Engineer",
+        "position": "Full-stack Developer",
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Delivered custom full-stack applications, backend services, and automation tools for client-specific workflows and data processing needs",
-          "Developed a Python-based Telegram bot for automated data collection and processing workflows",
-          "Built and maintained WordPress-based systems, including custom plugin development and platform customization"
+          "Implemented custom full-stack applications, backend services, and automation tools for various workflow and data processing needs",
+          "Developed a Python-based Telegram bot for automated data collection and data processing",
+          "Built and maintained WordPress-based solutions, such as custom plugins and platform-specific customizations"
         ]
       },
       {
@@ -99,31 +119,31 @@
         "startDate": "2023-05-01",
         "endDate": "2023-09-30",
         "description": [
-          "Evaluated the relevance and quality of online advertisements against user queries while working in an international quality-assurance environment"
+          "Evaluated the relevance and quality of online advertisements in relation to users' searches in an international quality assurance environment"
         ]
       },
       {
         "company": "DHL Express",
-        "position": "Air Freight Operations Worker",
+        "position": "Air Freight Operations Employee",
         "startDate": "2018-06-01",
         "endDate": "2020-08-31",
         "description": [
-          "Worked in time-sensitive air freight operations, including cargo handling, customs-related workflows, and shipment sorting"
+          "Worked in time-critical air freight tasks, including cargo handling, customs-related processes, and shipment sorting"
         ]
       },
       {
         "company": "Hexagon Manufacturing Intelligence",
-        "position": "Trainee",
+        "position": "Intern",
         "startDate": "2015-09-01",
         "endDate": "2016-05-31",
         "description": [
-          "Programmed coordinate measuring machines, performed product measurements, and supported client communication and sales-related tasks"
+          "Programmed coordinate measuring machines, performed product measurements, and assisted with customer communication and sales-related tasks"
         ]
       }
     ],
     "techStack": [
       {
-        "category": "Languages",
+        "category": "Programming languages",
         "children": [
           {
             "name": "TypeScript"
@@ -166,7 +186,7 @@
         ]
       },
       {
-        "category": "Backend & APIs",
+        "category": "Backend and APIs",
         "children": [
           {
             "name": "Node.js"
@@ -192,7 +212,7 @@
         ]
       },
       {
-        "category": "Data & Infrastructure",
+        "category": "Data and infrastructure",
         "children": [
           {
             "name": "PostgreSQL"
@@ -221,46 +241,52 @@
         ]
       },
       {
-        "category": "3D, XR & AI",
+        "category": "AI, data, and 3D",
         "children": [
           {
-            "name": "Unity"
+            "name": "Neural networks"
+          },
+          {
+            "name": "Motion analysis"
+          },
+          {
+            "name": "Data pipelines"
           },
           {
             "name": "Three.js"
           },
           {
-            "name": ".NET"
+            "name": "Unity"
           },
           {
-            "name": "Motion Analysis"
+            "name": ".NET"
           }
         ]
       }
     ],
     "projects": [
       {
-        "name": "Autonomous Vehicle Software (Thesis, ongoing)",
+        "name": "Autonomous vehicle software, engineering thesis, ongoing",
         "description": [
-          "Developing software for an autonomous vehicle system in collaboration with the Finnish Defence Forces",
-          "Focusing on real-time and control-related software for autonomous operation, with implementation details limited due to project confidentiality"
+          "I am developing software for an autonomous vehicle system in collaboration with the Finnish Defence Forces",
+          "The work focuses on software related to autonomous operation, real-time performance, and control. More detailed implementation information is restricted due to the confidential nature of the project"
         ]
       },
       {
         "name": "TKIO-Finder",
         "description": [
-          "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
-          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
-          "Added Google OAuth2 authentication for secure and user-friendly access",
-          "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+          "Built a full-stack platform that improves the discoverability of research and innovation projects at Metropolia University of Applied Sciences",
+          "Implemented search, filtering, and matchmaking features with React, Node.js, and PostgreSQL",
+          "Added Google OAuth2 authentication for secure and user-friendly login",
+          "Deployed and maintained backend services in a self-managed environment, including server-side infrastructure management"
         ]
       }
     ],
     "education": [
       {
-        "degree": "Bachelor of Engineering (BEng) in Information and Communication Technology",
+        "degree": "Bachelor of Engineering, Information and Communications Technology",
         "institution": "Metropolia University of Applied Sciences",
-        "description": "Expected graduation: August 2026"
+        "description": "Major: Software Engineering. Expected graduation: summer 2026"
       }
     ]
   }

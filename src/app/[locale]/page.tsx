@@ -5,44 +5,64 @@ import Image from "next/image";
 const Home = () => {
   const t = useTranslations("HomePage");
 
+  const heroIntro = t.raw("hero.intro") as string[];
+  const whatIDoDescription = t.raw("whatIDo.description") as string[];
+  const howIWorkDescription = t.raw("howIWork.description") as string[];
+  const experienceDescription = t.raw("experience.description") as string[];
+  const educationDescription = t.raw("education.description") as string[];
+
   return (
     <main className={styles.home}>
       <section>
-        <h1>{t("name")}</h1>
-        <p>{t("intro")}</p>
+        <h1>{t("hero.name")}</h1>
+
+        {heroIntro.map((paragraph, index) => (
+          <>
+            <p key={index}>{paragraph}</p> <br />
+          </>
+        ))}
       </section>
 
       <section>
         <h2>{t("whatIDo.title")}</h2>
-        <p>{t("whatIDo.description")}</p>
+
+        {whatIDoDescription.map((paragraph, index) => (
+          <>
+            <p key={index}>{paragraph}</p> <br />
+          </>
+        ))}
       </section>
 
       <section>
         <h2>{t("howIWork.title")}</h2>
-        <p>
-          {t.rich("howIWork.description", {
-            b: (chunks) => <b>{chunks}</b>,
-            br: () => (
-              <>
-                <br />
-                <br />
-              </>
-            ),
-          })}
-        </p>
+
+        {howIWorkDescription.map((paragraph, index) => (
+          <>
+            <p key={index}>{paragraph}</p> <br />
+          </>
+        ))}
       </section>
 
       <section>
         <h2>{t("experience.title")}</h2>
-        <p>{t("experience.description")}</p>
+
+        {experienceDescription.map((paragraph, index) => (
+          <>
+            <p key={index}>{paragraph}</p> <br />
+          </>
+        ))}
       </section>
 
       <section>
         <h2>{t("education.title")}</h2>
+
         <p>
-          {t.rich("education.description", {
-            br: () => <br />,
-          })}
+          {educationDescription.map((line, index) => (
+            <span key={index}>
+              {line}
+              {index < educationDescription.length - 1 && <br />}
+            </span>
+          ))}
         </p>
       </section>
 

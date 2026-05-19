@@ -1,22 +1,41 @@
 {
   "HomePage": {
-    "name": "Miro Mariapori",
-    "intro": "Olen pian valmistuva tieto- ja viestintätekniikan insinööriopiskelija ja full-stack-kehittäjä, jonka vahvuuksia ovat web-sovellukset, tekoälyn käytännön hyödyntäminen, selkeä koodi ja datalähtöiset tekniset ratkaisut. Olen rakentanut muun muassa full-stack-sovelluksia, interaktiivisia käyttöliittymiä, automaatiotyökaluja sekä tekoälyä hyödyntäviä ominaisuuksia.",
+    "hero": {
+      "name": "Miro Mariapori",
+      "intro": [
+        "Olen juuri valmistumaisillani oleva tieto- ja viestintätekniikan insinööriopiskelija. Vahvin osaamisalueeni on moderni web-kehitys, mutta osaamista löytyy laajasti myös muilta ohjelmistotuotannon osa-alueilta, kuten tekoälyn hyödyntämisestä, automaatioista ja ohjelmistokokonaisuuksien suunnittelusta.",
+        "Teen tällä hetkellä insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa. Kokemusta minulle on kertynyt jo useamman vuoden ajalta työharjoittelusta sekä freelance-projekteista."
+      ]
+    },
     "whatIDo": {
       "title": "Mitä teen",
-      "description": "Rakennan web-sovelluksia, joita on helppo käyttää, ylläpitää ja jatkokehittää. Vahvin alueeni on full-stack-web-kehitys, ja minua kiinnostavat erityisesti projektit, joissa tekoälyä, dataa ja automaatiota voidaan hyödyntää käytännön ongelmien ratkaisemiseen. Viihdyn kokonaisuuksissa, joissa pääsen ymmärtämään sekä käyttäjän tarpeet että teknisen toteutuksen frontendistä backendiin."
+      "description": [
+        "Suunnittelen ja toteutan ohjelmistokokonaisuuksia alusta loppuun. Hallitsen hyvin sekä backend- että frontend-kehityksen, ja “työkalupakista” löytyy moderneja frameworkkeja ja teknologioita. Tämäkin sivu on toteutettu Next.js:llä.",
+        "Pidän siitä, kun pääsen osallistumaan toteutuksen joka vaiheeseen suunnittelusta julkaisuun. Näin ymmärrän kokonaisuuden paremmin, eikä työ jää vain yksittäisten ominaisuuksien tai koodirivien toteuttamiseksi. Minua motivoi erityisesti se, että tekninen ratkaisu palvelee oikeaa käyttötarvetta ja toimii hyvin myös käyttäjän näkökulmasta."
+      ]
     },
     "howIWork": {
       "title": "Miten työskentelen",
-      "description": "Pidän selkeästä koodista, järkevästä rakenteesta ja ratkaisuista, jotka kestävät käyttöä myös ensimmäisen version jälkeen. Työskentelyssäni tasapainotan laadun, nopeuden ja käytännöllisyyden: tärkeää on rakentaa hyvin, mutta myös saada asioita valmiiksi.<br></br>Käytän tekoälytyökaluja apuna ideoinnissa, työn nopeuttamisessa, koodin tarkastelussa ja toistuvien tehtävien vähentämisessä. En kuitenkaan pidä niitä ymmärtämisen korvikkeena. Haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan, jos jokin menee pieleen.<br></br>Työskentelen hyvin itsenäisesti, mutta viihdyn myös tiimissä. Pidän tiedon jakamisesta, muiden auttamisesta ja siitä, että ympärillä olevilta ihmisiltä oppii jatkuvasti uutta."
+      "description": [
+        "Pidän selkeästä koodista, järkevästä rakenteesta ja ratkaisuista, jotka kestävät käyttöä myös ensimmäisen version jälkeen. Työskentelyssäni tasapainotan laadun, nopeuden ja käytännöllisyyden: tärkeää on rakentaa hyvin, mutta myös saada asioita valmiiksi.",
+        "Käytän tekoälytyökaluja apuna ideoinnissa, työn nopeuttamisessa, koodin tarkastelussa ja toistuvien tehtävien vähentämisessä. En kuitenkaan pidä niitä ymmärtämisen korvikkeena. Haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan, jos jokin menee pieleen.",
+        "Työskentelen hyvin itsenäisesti, mutta viihdyn myös tiimissä. Pidän tiedon jakamisesta, muiden auttamisesta ja siitä, että ympärillä olevilta ihmisiltä oppii jatkuvasti uutta."
+      ]
     },
     "experience": {
       "title": "Kokemus",
-      "description": "Olen työskennellyt dataintensiivisten full-stack-sovellusten, backend-palveluiden ja tekoälyä hyödyntävien ominaisuuksien parissa erityisesti terveydenhuollon, tutkimuksen ja asiakaskohtaisten ohjelmistoratkaisujen tarpeisiin. Lisäksi olen tehnyt useamman vuoden ajan freelance-projekteja, joissa olen toteuttanut web-sovelluksia, automaatiotyökaluja ja käytännön työnkulkuja tukevia teknisiä ratkaisuja."
+      "description": [
+        "Työharjoittelussa olen päässyt kehittämään web-sovelluksen terveydenhuollon tarpeisiin alusta alkaen. Projektissa opin paljon kokonaisen sovelluksen suunnittelusta, asiakastarpeiden ymmärtämisestä, käyttöliittymien rakentamisesta, tietoturvan huomioimisesta sekä siitä, miten ohjelmistoa kehitetään käytännön tarpeisiin eikä vain teknisenä toteutuksena.",
+        "Lisäksi olen useamman vuoden ajan toiminut freelance-ohjelmoijana ja toteuttanut erilaisia automaatioratkaisuja, nettisivuja ja lisäosia asiakkaiden tarpeisiin. Näissä projekteissa olen oppinut kuuntelemaan asiakasta, hahmottamaan nopeasti olennaisen ongelman ja rakentamaan siihen käytännöllisen ratkaisun. Freelance-työ on kehittänyt erityisesti oma-aloitteisuutta, ajanhallintaa ja kykyä viedä projekteja itsenäisesti maaliin."
+      ]
     },
     "education": {
       "title": "Koulutus",
-      "description": "Insinööri AMK, tieto- ja viestintätekniikka<br></br>Pääaine: ohjelmistotuotanto<br></br>Metropolia Ammattikorkeakoulu | Arvioitu valmistuminen: kesä 2026"
+      "description": [
+        "Insinööri AMK, tieto- ja viestintätekniikka",
+        "Pääaine: ohjelmistotuotanto",
+        "Metropolia Ammattikorkeakoulu | Arvioitu valmistuminen: kesä 2026"
+      ]
     },
     "links": {
       "linkedin": "LinkedIn",
