@@ -3,6 +3,7 @@ import "../globals.css";
 import Header from "@/src/components/header/header";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "Miro Mariapori - Software Developer Portfolio",
@@ -23,6 +24,7 @@ export default async function RootLayout({
         <NextIntlClientProvider messages={messages}>
           <Header />
           <main>{children}</main>
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>
