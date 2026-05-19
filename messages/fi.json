@@ -3,30 +3,30 @@
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
-        "Olen juuri valmistumaisillani oleva tieto- ja viestintätekniikan insinööriopiskelija. Vahvin osaamisalueeni on moderni web-kehitys, mutta osaamista löytyy laajasti myös muilta ohjelmistotuotannon osa-alueilta, kuten tekoälyn hyödyntämisestä, automaatioista ja ohjelmistokokonaisuuksien suunnittelusta.",
-        "Teen tällä hetkellä insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa. Kokemusta minulle on kertynyt jo useamman vuoden ajalta työharjoittelusta sekä freelance-projekteista."
+        "Olen kesällä 2026 valmistuva tieto- ja viestintätekniikan insinööriopiskelija, jonka vahvin osaamisalue on moderni full-stack-web-kehitys. Rakennan web-sovelluksia, automaatioita ja ohjelmistokokonaisuuksia käytännön tarpeisiin.",
+        "Teen parhaillaan insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa. Kokemusta minulle on kertynyt työharjoittelusta sekä useamman vuoden freelance-projekteista."
       ]
     },
     "whatIDo": {
       "title": "Mitä teen",
       "description": [
-        "Suunnittelen ja toteutan ohjelmistokokonaisuuksia alusta loppuun. Hallitsen hyvin sekä backend- että frontend-kehityksen, ja “työkalupakista” löytyy moderneja frameworkkeja ja teknologioita. Tämäkin sivu on toteutettu Next.js:llä.",
-        "Pidän siitä, kun pääsen osallistumaan toteutuksen joka vaiheeseen suunnittelusta julkaisuun. Näin ymmärrän kokonaisuuden paremmin, eikä työ jää vain yksittäisten ominaisuuksien tai koodirivien toteuttamiseksi. Minua motivoi erityisesti se, että tekninen ratkaisu palvelee oikeaa käyttötarvetta ja toimii hyvin myös käyttäjän näkökulmasta."
+        "Suunnittelen ja toteutan ohjelmistokokonaisuuksia alusta loppuun. Hallitsen sekä frontend- että backend-kehitystä, ja työkalupakistani löytyy moderneja frameworkkeja ja teknologioita. Tämäkin sivu on toteutettu Next.js:llä.",
+        "Pidän siitä, kun pääsen mukaan toteutuksen kaikkiin vaiheisiin suunnittelusta julkaisuun. Minua motivoi erityisesti se, että tekninen ratkaisu palvelee oikeaa käyttötarvetta ja toimii hyvin myös käyttäjän näkökulmasta."
       ]
     },
     "howIWork": {
       "title": "Miten työskentelen",
       "description": [
-        "Pidän selkeästä koodista, järkevästä rakenteesta ja ratkaisuista, jotka kestävät käyttöä myös ensimmäisen version jälkeen. Työskentelyssäni tasapainotan laadun, nopeuden ja käytännöllisyyden: tärkeää on rakentaa hyvin, mutta myös saada asioita valmiiksi.",
-        "Käytän tekoälytyökaluja apuna ideoinnissa, työn nopeuttamisessa, koodin tarkastelussa ja toistuvien tehtävien vähentämisessä. En kuitenkaan pidä niitä ymmärtämisen korvikkeena. Haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan, jos jokin menee pieleen.",
-        "Työskentelen hyvin itsenäisesti, mutta viihdyn myös tiimissä. Pidän tiedon jakamisesta, muiden auttamisesta ja siitä, että ympärillä olevilta ihmisiltä oppii jatkuvasti uutta."
+        "Pidän selkeästä koodista, järkevästä rakenteesta ja ratkaisuista, jotka kestävät käyttöä myös ensimmäisen version jälkeen. Työskentelyssäni tasapainotan laadun, nopeuden ja käytännöllisyyden.",
+        "Käytän tekoälytyökaluja apuna ideoinnissa, työn nopeuttamisessa, koodin tarkastelussa ja toistuvien tehtävien vähentämisessä. En kuitenkaan pidä niitä ymmärtämisen korvikkeena: haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan.",
+        "Työskentelen hyvin itsenäisesti, mutta viihdyn myös tiimissä. Pidän tiedon jakamisesta, muiden auttamisesta ja jatkuvasta oppimisesta."
       ]
     },
     "experience": {
       "title": "Kokemus",
       "description": [
-        "Työharjoittelussa olen päässyt kehittämään web-sovelluksen terveydenhuollon tarpeisiin alusta alkaen. Projektissa opin paljon kokonaisen sovelluksen suunnittelusta, asiakastarpeiden ymmärtämisestä, käyttöliittymien rakentamisesta, tietoturvan huomioimisesta sekä siitä, miten ohjelmistoa kehitetään käytännön tarpeisiin eikä vain teknisenä toteutuksena.",
-        "Lisäksi olen useamman vuoden ajan toiminut freelance-ohjelmoijana ja toteuttanut erilaisia automaatioratkaisuja, nettisivuja ja lisäosia asiakkaiden tarpeisiin. Näissä projekteissa olen oppinut kuuntelemaan asiakasta, hahmottamaan nopeasti olennaisen ongelman ja rakentamaan siihen käytännöllisen ratkaisun. Freelance-työ on kehittänyt erityisesti oma-aloitteisuutta, ajanhallintaa ja kykyä viedä projekteja itsenäisesti maaliin."
+        "Työharjoittelussa kehitin web-sovellusta terveydenhuollon tarpeisiin alusta alkaen. Projektissa opin kokonaisen sovelluksen suunnittelusta, asiakastarpeiden ymmärtämisestä, käyttöliittymien rakentamisesta, tietoturvan huomioimisesta ja käytännönläheisestä ohjelmistokehityksestä.",
+        "Freelance-ohjelmoijana olen toteuttanut automaatioratkaisuja, verkkosivuja ja lisäosia asiakkaiden tarpeisiin. Projektit ovat kehittäneet erityisesti kykyä kuunnella asiakasta, hahmottaa nopeasti olennainen ongelma ja viedä ratkaisu itsenäisesti maaliin."
       ]
     },
     "education": {
@@ -34,7 +34,8 @@
       "description": [
         "Insinööri AMK, tieto- ja viestintätekniikka",
         "Pääaine: ohjelmistotuotanto",
-        "Metropolia Ammattikorkeakoulu | Arvioitu valmistuminen: kesä 2026"
+        "Metropolia Ammattikorkeakoulu ",
+        "Arvioitu valmistuminen: kesä 2026"
       ]
     },
     "links": {
@@ -70,21 +71,21 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Full-stack-kehittäjä | Sovellettu tekoäly ja datalähtöiset ratkaisut",
+      "title": "Ohjelmistokehittäjä | Full-stack",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack-kehittäjä ja tieto- ja viestintätekniikan insinööriopiskelija, jolla on kokemusta web-sovelluksista, backend-palveluista, interaktiivisista käyttöliittymistä sekä tekoälyä ja dataa hyödyntävistä ominaisuuksista. Olen työskennellyt erityisesti terveydenhuollon, tutkimuksen ja asiakaskohtaisten ohjelmistoratkaisujen parissa, joissa korostuvat käytettävyys, luotettavuus, tietosuoja ja selkeä tekninen toteutus.",
+      "summary": "Olen kesällä 2026 valmistuva tieto- ja viestintätekniikan insinööriopiskelija, jonka vahvin osaamisalue on moderni full-stack-web-kehitys. Olen rakentanut web-sovelluksia, automaatioita, rajapintoja ja asiakaskohtaisia ohjelmistoratkaisuja työharjoittelussa sekä freelance-projekteissa. Vahvuuksiani ovat kokonaisuuksien hahmottaminen, selkeä toteutus ja käytännön tarpeisiin sopivien ratkaisujen rakentaminen. Teen parhaillaan insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa.",
       "profilePicture": "/profile.jpeg"
     },
     "core": [
-      "Full-stack-web-kehitys",
-      "Sovellettu tekoäly ja liikeanalyysi",
-      "Backend-palvelut ja rajapinnat",
-      "Dataintensiiviset sovellukset",
-      "Interaktiiviset web-käyttöliittymät"
+      "Moderni full-stack-web-kehitys",
+      "Ohjelmistokokonaisuuksien suunnittelu ja toteutus",
+      "Backend-palvelut, rajapinnat ja integraatiot",
+      "Automaatioratkaisut ja tekoälyn hyödyntäminen",
+      "Selkeä, ylläpidettävä ja käytännönläheinen toteutus"
     ],
     "workExperience": [
       {
@@ -93,22 +94,23 @@
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Kehitin full-stack-terveydenhuoltoalustaa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin kuntoutusjärjestelmässä",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti reaaliaikaisen viestinnän sovellusten ja taustapalveluiden välillä",
-          "Suunnittelin ja optimoin korkeataajuista liikedataa käsitteleviä dataputkia responsiivista palautetta ja analytiikkaa varten",
-          "Suunnittelin ja toteutin neuroverkkoa hyödyntävän liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja antoi käyttäjälle palautetta harjoitusten suorituksesta",
+          "Kehitin web-sovellusta terveydenhuollon tarpeisiin alusta alkaen osana kuntoutukseen liittyvää ohjelmistokokonaisuutta",
+          "Osallistuin sovelluksen suunnitteluun, käyttöliittymien rakentamiseen, backend-kehitykseen ja käytännön asiakastarpeiden ratkaisemiseen",
+          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti viestinnän sovellusten ja taustapalveluiden välillä",
+          "Suunnittelin ja toteutin liikedataa käsitteleviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen",
           "Toteutin web-pohjaisen 3D-harjoite-editorin, jossa fysioterapialiikkeitä voitiin suunnitella humanoidimallin avulla",
-          "Osallistuin sovelluskehitykseen Unityllä ja toteutin selainpohjaisia 3D-visualisointeja Three.js:llä",
-          "Toteutin autentikointi- ja tietosuojaratkaisuja arkaluonteisen potilastiedon käsittelyyn"
+          "Osallistuin selainpohjaisten 3D-visualisointien ja Unity-sovelluskehityksen toteutukseen",
+          "Huomioin toteutuksessa tietoturvaa ja arkaluonteisen käyttäjädatan käsittelyä"
         ]
       },
       {
         "company": "Freelance",
-        "position": "Full-stack-kehittäjä",
+        "position": "Ohjelmistokehittäjä",
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Toteutin asiakaskohtaisia full-stack-sovelluksia, backend-palveluita ja automaatiotyökaluja erilaisiin työnkulku- ja datankäsittelytarpeisiin",
+          "Toteutan asiakaskohtaisia ohjelmistoratkaisuja, automaatioita, verkkosivuja ja lisäosia asiakkaiden tarpeisiin",
+          "Rakennan ratkaisuja, joissa korostuvat asiakkaan ongelman ymmärtäminen, käytännöllinen toteutus ja projektin vieminen itsenäisesti maaliin",
           "Kehitin Python-pohjaisen Telegram-botin automatisoituun tiedonkeruuseen ja datankäsittelyyn",
           "Rakensin ja ylläpidin WordPress-pohjaisia ratkaisuja, kuten räätälöityjä lisäosia ja alustakohtaisia mukautuksia"
         ]
@@ -124,7 +126,7 @@
       },
       {
         "company": "DHL Express",
-        "position": "Lentorahdin operatiivinen työntekijä",
+        "position": "Terminaalityöntekijä",
         "startDate": "2018-06-01",
         "endDate": "2020-08-31",
         "description": [
@@ -241,16 +243,21 @@
         ]
       },
       {
-        "category": "Tekoäly, data ja 3D",
+        "category": "AI",
         "children": [
           {
-            "name": "Neuroverkot"
+            "name": "OpenAI"
           },
           {
-            "name": "Liikeanalyysi"
-          },
+            "name": "TensorFlow"
+          }
+        ]
+      },
+      {
+        "category": "Muut",
+        "children": [
           {
-            "name": "Dataputket"
+            "name": ".NET"
           },
           {
             "name": "Three.js"
@@ -259,7 +266,7 @@
             "name": "Unity"
           },
           {
-            "name": ".NET"
+            "name": "WordPress"
           }
         ]
       }
@@ -268,8 +275,8 @@
       {
         "name": "Autonomisen ajoneuvon ohjelmisto (opinnäytetyö, käynnissä)",
         "description": [
-          "Kehitän autonomisen ajoneuvojärjestelmän ohjelmistoa yhteistyössä Puolustusvoimien kanssa",
-          "Työ keskittyy autonomiseen toimintaan, reaaliaikaisuuteen ja ohjaukseen liittyvään ohjelmistoon. Tarkemmat toteutustiedot ovat rajattuja projektin luottamuksellisuuden vuoksi"
+          "Kehitän autonomisen ajoneuvon ohjelmistoja insinöörityönä yhteistyössä Maanpuolustuskorkeakoulun kanssa",
+          "Työ liittyy autonomiseen toimintaan, reaaliaikaisuuteen ja ajoneuvon ohjaukseen. Tarkemmat toteutustiedot ovat rajattuja projektin luottamuksellisuuden vuoksi"
         ]
       },
       {
@@ -285,8 +292,11 @@
     "education": [
       {
         "degree": "Insinööri AMK, tieto- ja viestintätekniikka",
-        "institution": "Metropolia Ammattikorkeakoulu",
-        "description": "Pääaine: ohjelmistotuotanto. Arvioitu valmistuminen: kesä 2026"
+        "description": [
+          "Pääaine: ohjelmistotuotanto",
+          "Metropolia Ammattikorkeakoulu",
+          "Arvioitu valmistuminen: kesä 2026"
+        ]
       }
     ]
   }

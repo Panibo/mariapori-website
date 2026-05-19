@@ -12,14 +12,12 @@ const Home = () => {
   const educationDescription = t.raw("education.description") as string[];
 
   return (
-    <main className={styles.home}>
+    <div className={styles.home}>
       <section>
         <h1>{t("hero.name")}</h1>
 
         {heroIntro.map((paragraph, index) => (
-          <>
-            <p key={index}>{paragraph}</p> <br />
-          </>
+          <p key={index}>{paragraph}</p>
         ))}
       </section>
 
@@ -27,9 +25,7 @@ const Home = () => {
         <h2>{t("whatIDo.title")}</h2>
 
         {whatIDoDescription.map((paragraph, index) => (
-          <>
-            <p key={index}>{paragraph}</p> <br />
-          </>
+          <p key={index}>{paragraph}</p>
         ))}
       </section>
 
@@ -37,9 +33,7 @@ const Home = () => {
         <h2>{t("howIWork.title")}</h2>
 
         {howIWorkDescription.map((paragraph, index) => (
-          <>
-            <p key={index}>{paragraph}</p> <br />
-          </>
+          <p key={index}>{paragraph}</p>
         ))}
       </section>
 
@@ -47,9 +41,7 @@ const Home = () => {
         <h2>{t("experience.title")}</h2>
 
         {experienceDescription.map((paragraph, index) => (
-          <>
-            <p key={index}>{paragraph}</p> <br />
-          </>
+          <p key={index}>{paragraph}</p>
         ))}
       </section>
 
@@ -93,7 +85,7 @@ const Home = () => {
           />
         </a>
       </section>
-    </main>
+    </div>
   );
 };
 

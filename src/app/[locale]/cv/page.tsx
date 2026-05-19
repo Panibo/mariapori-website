@@ -37,7 +37,7 @@ type Project = {
 type Education = {
   institution: string;
   degree: string;
-  description: string;
+  description: string[];
 };
 
 const CV = () => {
@@ -175,8 +175,9 @@ const CV = () => {
             className={styles.avoidBreak}
           >
             <h3>{edu.degree}</h3>
-            <p>{edu.institution}</p>
-            <p>{edu.description}</p>
+            {edu.description.map((line, index) => (
+              <p key={`${edu.institution}-${index}`}>{line}</p>
+            ))}
           </div>
         ))}
       </section>
