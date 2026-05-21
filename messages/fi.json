@@ -1,4 +1,15 @@
 {
+  "Layout": {
+    "navigation": {
+      "home": "Tietoa minusta",
+      "cv": "CV",
+      "projects": "Projektit",
+      "contact": "Yhteystiedot"
+    },
+    "footer": {
+      "text": "© {year} Miro Mariapori. Kaikki oikeudet pidätetään."
+    }
+  },
   "HomePage": {
     "hero": {
       "name": "Miro Mariapori",
@@ -52,6 +63,10 @@
     "description": "Onko sinulla projekti, työmahdollisuus tai kysymys mielessä? Ota rohkeasti yhteyttä. Keskustelen mielelläni ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista."
   },
   "CVPage": {
+    "metadata": {
+      "title": "Miro Mariapori - CV",
+      "description": "Tutustu Miro Mariapordin CV:hen, ohjelmistokehittäjään, jolla on kokemusta eri teknologioissa ja projekteissa."
+    },
     "profilePhotoAlt": "{name}n kuva",
     "sections": {
       "summary": "Yhteenveto",
@@ -296,6 +311,112 @@
           "Pääaine: ohjelmistotuotanto",
           "Metropolia Ammattikorkeakoulu",
           "Arvioitu valmistuminen: kesä 2026"
+        ]
+      }
+    ]
+  },
+  "ProjectsPage": {
+    "title": "Projektit",
+    "description": "Valikoituja töitä, tutkimusprojekteja ja ohjelmistoprojekteja.",
+    "labels": {
+      "timeline": "Aikajana",
+      "technologies": "Teknologiat",
+      "links": "Linkit",
+      "code": "Koodi"
+    },
+    "projects": [
+      {
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "startDate": "1/2024",
+        "endDate": "3/2025",
+        "summary": "Terveydenhuollon teknologiaprojekti, jossa yhdistyivät XR, web-pohjaiset 3D-työkalut, GraphQL-palvelut ja neuroverkkoihin perustuva liikeanalyysi fysioterapian ja kuntoutuksen tueksi.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "GraphQL",
+          "Node.js",
+          "Three.js",
+          "Unity",
+          "XR",
+          "Machine Learning",
+          "Neural Networks"
+        ],
+        "description": [
+          "Kehitin full-stack-terveydenhuoltoalustaa fysioterapiaharjoitteiden suunnitteluun ja toteuttamiseen osana XR-pohjaista kuntoutusjärjestelmää.",
+          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti reaaliaikaisen viestinnän XR-sovellusten ja taustapalveluiden välillä.",
+          "Toteutin interaktiivisen web-pohjaisen 3D-harjoite-editorin, jossa fysioterapialiikkeitä voitiin suunnitella humanoidimallin avulla.",
+          "Osallistuin Unity-pohjaiseen XR-kehitykseen ja toteutin selainpohjaisia 3D-visualisointeja Three.js:llä.",
+          "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja joka tuotti käyttäjälle helposti ymmärrettävää palautetta harjoitteen suorituksesta.",
+          "Toteutin autentikointiin ja tietosuojaan liittyviä ratkaisuja arkaluonteisen potilastiedon käsittelyä varten."
+        ],
+        "links": [
+          {
+            "url": "https://helsinkixrcenter.com/projects/gamerat/",
+            "label": "Projektisivu"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ar5z2SLb7SI",
+            "label": "Projektivideo"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_animationmaker",
+            "label": "Harjoite-editori"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_data-api",
+            "label": "GraphQL-backend"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
+            "label": "AI"
+          }
+        ]
+      },
+      {
+        "name": "TKIO-Finder",
+        "startDate": "1/2026",
+        "endDate": "5/2026",
+        "summary": "Web-pohjainen alusta, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä haku-, suodatus- ja matchmaking-ominaisuuksien avulla.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Google OAuth2",
+          "PostgreSQL",
+          "Node.js"
+        ],
+        "description": [
+          "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä.",
+          "Toteutin haku-, suodatus- ja matchmaking-ominaisuuksia Reactilla, Node.js:llä ja PostgreSQL:llä.",
+          "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten.",
+          "Julkaisin ja ylläpidin backend-palveluita itse hallinnoidussa ympäristössä, mukaan lukien palvelinpuolen infrastruktuurin hallinta."
+        ]
+      },
+      {
+        "name": "Portfolio",
+        "startDate": "6/2024",
+        "endDate": "7/2024",
+        "summary": "Henkilökohtainen portfoliosivusto, joka esittelee projektejani, osaamistani ja kokemustani. Sivusto on toteutettu Next.js:llä ja Tailwind CSS:llä.",
+        "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+        "description": [
+          "Suunnittelin ja toteutin henkilökohtaisen portfoliosivuston projektieni, osaamiseni ja kokemukseni esittelyyn.",
+          "Toteutin selkeän ja responsiivisen käyttöliittymän Tailwind CSS:llä, jotta sivusto toimii hyvin eri kokoisilla laitteilla.",
+          "Julkaisin sivuston Vercelissä nopeaa ja luotettavaa ylläpitoa varten."
+        ],
+        "links": [
+          {
+            "url": "https://mariapori.dev/",
+            "label": "Projektisivu"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://github.com/Panibo/mariapori-website",
+            "label": "Lähdekoodi"
+          }
         ]
       }
     ]

@@ -29,7 +29,7 @@
   --font-mono: "Fira Code", monospace;
 
   --font-size-base: 16px;
-  --line-height-base: 1.65;
+  --line-height-base: 1.2;
 
   --padding-sm: 0.5rem;
   --padding-md: 1rem;
@@ -88,7 +88,7 @@ body {
   align-items: center;
 }
 main {
-  margin: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
   max-width: 900px;
 }
 h1,
@@ -102,6 +102,7 @@ h6 {
   font-weight: 600;
   letter-spacing: -0.02em;
   color: var(--color-text-primary);
+  line-height: 2;
 }
 
 p {
@@ -128,12 +129,6 @@ a:hover {
 }
 a:active {
   color: var(--color-link-active);
-}
-section:not(:last-child) {
-  margin-bottom: var(--spacing-sm);
-}
-article:not(:last-child) {
-  margin-bottom: var(--spacing-xl);
 }
 @media print {
   #root_header,
@@ -166,4 +161,9 @@ article:not(:last-child) {
   font-weight: 300 700;
   font-style: normal;
   font-display: swap;
+}
+@media screen and (max-width: 640px) {
+  main {
+    margin: 1rem;
+  }
 }

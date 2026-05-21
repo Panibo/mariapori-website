@@ -1,21 +1,22 @@
 "use client";
 
 import { Link, usePathname } from "@/src/i18n/routing";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
 import styles from "./header.module.css";
 
 const links = [
-  { href: "/", label: "Me" },
-  { href: "/cv", label: "CV" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
-];
+  { href: "/", labelKey: "home" },
+  { href: "/cv", labelKey: "cv" },
+  { href: "/projects", labelKey: "projects" },
+  { href: "/contact", labelKey: "contact" },
+] as const;
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
   const pathname = usePathname();
+  const t = useTranslations("Layout.navigation");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -56,7 +57,7 @@ const Header = () => {
       <nav className={styles.desktopNav}>
         {links.map((link) => (
           <Link key={link.href} href={link.href}>
-            {link.label}
+            {t(link.labelKey)}
           </Link>
         ))}
 
@@ -81,7 +82,7 @@ const Header = () => {
               href={link.href}
               onClick={() => setIsOpen(false)}
             >
-              {link.label}
+              {t(link.labelKey)}
             </Link>
           ))}
 

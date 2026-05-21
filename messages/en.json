@@ -1,4 +1,15 @@
 {
+  "Layout": {
+    "navigation": {
+      "home": "About me",
+      "cv": "CV",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "footer": {
+      "text": "© {year} Miro Mariapori. All rights reserved."
+    }
+  },
   "HomePage": {
     "hero": {
       "name": "Miro Mariapori",
@@ -52,6 +63,10 @@
     "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas."
   },
   "CVPage": {
+    "metadata": {
+      "title": "Miro Mariapori - CV",
+      "description": "Explore the CV of Miro Mariapori, a software developer with experience in various technologies and projects."
+    },
     "profilePhotoAlt": "{name}'s photo",
     "sections": {
       "summary": "Summary",
@@ -296,6 +311,112 @@
           "Major: Software Engineering",
           "Metropolia University of Applied Sciences",
           "Estimated graduation: summer 2026"
+        ]
+      }
+    ]
+  },
+  "ProjectsPage": {
+    "title": "Projects",
+    "description": "Selected work, research, and software projects.",
+    "labels": {
+      "timeline": "Timeline",
+      "technologies": "Technologies",
+      "links": "Links",
+      "code": "Code"
+    },
+    "projects": [
+      {
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "startDate": "1/2024",
+        "endDate": "3/2025",
+        "summary": "A healthcare technology project combining XR, web-based 3D tooling, GraphQL services, and neural-network-based motion analysis to support physiotherapy and rehabilitation.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "GraphQL",
+          "Node.js",
+          "Three.js",
+          "Unity",
+          "XR",
+          "Machine Learning",
+          "Neural Networks"
+        ],
+        "description": [
+          "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system.",
+          "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services.",
+          "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design.",
+          "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js.",
+          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance.",
+          "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."
+        ],
+        "links": [
+          {
+            "url": "https://helsinkixrcenter.com/projects/gamerat/",
+            "label": "Project page"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ar5z2SLb7SI",
+            "label": "Project video"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_animationmaker",
+            "label": "Exercise editor"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_data-api",
+            "label": "GraphQL backend"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
+            "label": "AI"
+          }
+        ]
+      },
+      {
+        "name": "TKIO-Finder",
+        "startDate": "1/2026",
+        "endDate": "5/2026",
+        "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences, featuring search, filtering, and matchmaking capabilities.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Google OAuth2",
+          "PostgreSQL",
+          "Node.js"
+        ],
+        "description": [
+          "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
+          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
+          "Added Google OAuth2 authentication for secure and user-friendly access",
+          "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+        ]
+      },
+      {
+        "name": "Personal Portfolio",
+        "startDate": "6/2024",
+        "endDate": "7/2024",
+        "summary": "A personal portfolio website showcasing my projects, skills, and experience, built with Next.js and styled with Tailwind CSS.",
+        "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+        "description": [
+          "Designed and developed a personal portfolio website to showcase my projects, skills, and experience",
+          "Implemented a clean and responsive design using Tailwind CSS, ensuring optimal user experience across devices",
+          "Deployed the website on Vercel for fast and reliable hosting"
+        ],
+        "links": [
+          {
+            "url": "https://mariapori.dev/",
+            "label": "Project page"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://github.com/Panibo/mariapori-website",
+            "label": "Source code"
+          }
         ]
       }
     ]
