@@ -1,9 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
 import styles from "./cv.module.css";
 import { formatDate } from "../../../utils/DateFormatter";
-import { Metadata } from "next";
 
 type General = {
   profilePicture: string;
@@ -42,24 +40,6 @@ type Education = {
   description: string[];
 };
 
-type Props = {
-  params: Promise<{ locale: string }>;
-};
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
-
-  const t = await getTranslations({
-    locale,
-    namespace: "CVPage.metadata",
-  });
-
-  return {
-    title: t("title"),
-    description: t("description"),
-  };
-}
-
 const CV = () => {
   const t = useTranslations("CVPage");
 
@@ -81,7 +61,7 @@ const CV = () => {
           height={160}
         />
 
-        <div className={styles.headerText}>
+        <div>
           <h1>{general.name}</h1>
           <p>{general.title}</p>
         </div>
