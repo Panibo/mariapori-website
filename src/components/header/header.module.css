@@ -2,22 +2,83 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 100%;
   background-color: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
 }
 
-.desktopNav,
-.mobileNav {
-  background-color: var(--color-surface);
+.skipLink {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 20;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border-strong);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(-150%);
+}
+
+.skipLink:focus {
+  transform: translateY(0);
+}
+
+.headerContent {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem;
+  align-items: center;
+  width: min(100%, 900px);
+  min-height: 3rem;
 }
 
 .desktopNav {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
-  flex: 1;
-  min-height: 3rem;
+  gap: 2rem;
+}
+
+.desktopNav a[aria-current="page"],
+.mobileNav a[aria-current="page"] {
+  color: var(--color-link-active);
+}
+
+.languageSwitcher {
+  display: inline-flex;
+  gap: 0.15rem;
+  align-items: center;
+  justify-self: end;
+  padding: 0.15rem;
+  background-color: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+.languageLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.35rem;
+  height: 2rem;
+  padding: 0 0.65rem;
+  border-radius: var(--radius-md);
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.languageLink:hover {
+  color: var(--color-link-hover);
+  background-color: var(--color-surface);
+}
+
+.languageLinkActive,
+.languageLinkActive:hover {
+  color: var(--color-text-inverse);
+  background-color: var(--color-primary);
 }
 
 .menuButton {
@@ -40,15 +101,22 @@
 
 .mobileNav {
   display: none;
+  background-color: var(--color-surface);
 }
 
 @media screen and (max-width: 768px) {
+  .headerContent {
+    grid-template-columns: auto 1fr;
+    padding: 0 1rem;
+  }
+
   .desktopNav {
     display: none;
   }
 
   .menuButton {
     display: flex;
+    justify-self: start;
   }
 
   .mobileNav {

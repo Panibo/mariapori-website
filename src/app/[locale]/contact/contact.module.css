@@ -1,0 +1,23 @@
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.methods {
+  margin-top: 1.5rem;
+  font-style: normal;
+}
+
+.method {
+  margin-bottom: 0.75rem;
+}
+
+.method:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .container {
+    margin: 0 1rem;
+  }
+}

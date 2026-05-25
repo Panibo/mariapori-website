@@ -1,7 +1,17 @@
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import styles from "./cv.module.css";
 import { formatDate } from "../../../utils/DateFormatter";
+import { Metadata } from "next";
+import JsonLd from "@/src/components/json-ld";
+import {
+  absoluteUrl,
+  getLocale,
+  localizedUrl,
+  siteConfig,
+} from "@/src/config/site";
+import { createPageMetadata, personId } from "@/src/utils/seo";
 
 type General = {
   profilePicture: string;
@@ -12,6 +22,7 @@ type General = {
   phone: string;
   linkedin: string;
   github: string;
+  website: string;
 };
 
 type Job = {
@@ -35,13 +46,35 @@ type Project = {
 };
 
 type Education = {
-  institution: string;
+  institution?: string;
   degree: string;
   description: string[];
 };
 
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const currentLocale = getLocale(locale);
+
+  const t = await getTranslations({
+    locale: currentLocale,
+    namespace: "CVPage.metadata",
+  });
+
+  return createPageMetadata({
+    locale: currentLocale,
+    path: "/cv",
+    title: t("title"),
+    description: t("description"),
+  });
+}
+
 const CV = () => {
   const t = useTranslations("CVPage");
+  const locale = getLocale(useLocale());
 
   const general = t.raw("general") as General;
   const core = t.raw("core") as string[];
@@ -49,9 +82,48 @@ const CV = () => {
   const techStack = t.raw("techStack") as TechCategory[];
   const projects = t.raw("projects") as Project[];
   const education = t.raw("education") as Education[];
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    name: t("metadata.title"),
+    description: t("metadata.description"),
+    url: localizedUrl(locale, "/cv"),
+    inLanguage: locale,
+    mainEntity: {
+      "@type": "Person",
+      "@id": personId,
+      name: general.name,
+      url: siteConfig.url,
+      image: absoluteUrl(general.profilePicture),
+      email: general.email,
+      telephone: general.phone,
+      jobTitle: general.title,
+      description: general.summary,
+      sameAs: [siteConfig.linkedin, siteConfig.github],
+      alumniOf: education.flatMap((edu) => {
+        const institution =
+          edu.institution ??
+          edu.description.find((line) => line.includes("Metropolia"));
+
+        return institution
+          ? [
+              {
+                "@type": "CollegeOrUniversity",
+                name: institution,
+              },
+            ]
+          : [];
+      }),
+      knowsAbout: techStack.flatMap((category) =>
+        category.children.map((tech) => tech.name),
+      ),
+    },
+  };
 
   return (
     <div className={styles.cv}>
+      <JsonLd data={structuredData} />
+
       <header className={styles.header}>
         <Image
           className={styles.photo}
@@ -61,7 +133,7 @@ const CV = () => {
           height={160}
         />
 
-        <div>
+        <div className={styles.headerText}>
           <h1>{general.name}</h1>
           <p>{general.title}</p>
         </div>

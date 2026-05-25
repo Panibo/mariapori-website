@@ -1,5 +1,44 @@
 {
+  "Layout": {
+    "navigation": {
+      "home": "About me",
+      "cv": "CV",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "aria": {
+      "mainNavigation": "Main navigation",
+      "languageSelection": "Language selection",
+      "openNavigation": "Open navigation",
+      "closeNavigation": "Close navigation",
+      "skipToContent": "Skip to content",
+      "switchToEnglish": "Switch to English",
+      "switchToFinnish": "Switch to Finnish"
+    },
+    "footer": {
+      "text": "© {year} Miro Mariapori. All rights reserved."
+    }
+  },
   "HomePage": {
+    "metadata": {
+      "title": "Miro Mariapori - Software Developer",
+      "description": "Miro Mariapori is a software developer focused on modern full-stack web development. Explore his skills, projects, and CV."
+    },
+    "structuredData": {
+      "jobTitle": "Software Developer",
+      "description": "A software developer focused on modern full-stack web development, automations, and practical software solutions.",
+      "alumniOf": "Metropolia University of Applied Sciences",
+      "knowsAbout": [
+        "Full-stack web development",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Node.js",
+        "GraphQL",
+        "Applied AI",
+        "Automation solutions"
+      ]
+    },
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
@@ -39,6 +78,7 @@
       ]
     },
     "links": {
+      "title": "Links",
       "linkedin": "LinkedIn",
       "github": "GitHub"
     }
@@ -48,10 +88,42 @@
     "description": "I am an information and communications technology engineering student majoring in software engineering. I am especially enthusiastic about building useful, reliable, and well-executed applications. My strongest area of expertise is full-stack web development, and I want to further develop my skills especially in the practical application of AI, data-driven features, and automation. It is important to me to write code that is easy to understand, maintain, and build upon."
   },
   "ContactPage": {
+    "metadata": {
+      "title": "Contact",
+      "description": "Contact Miro Mariapori by email, phone, LinkedIn, or GitHub."
+    },
     "title": "Contact",
-    "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas."
+    "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas.",
+    "methods": [
+      {
+        "label": "Email",
+        "value": "miro.mariapori@gmail.com",
+        "href": "mailto:miro.mariapori@gmail.com"
+      },
+      {
+        "label": "Phone",
+        "value": "+358 40 5140 403",
+        "href": "tel:+358405140403"
+      },
+      {
+        "label": "LinkedIn",
+        "value": "linkedin.com/in/miro-mariapori/",
+        "href": "https://www.linkedin.com/in/miro-mariapori/",
+        "external": true
+      },
+      {
+        "label": "GitHub",
+        "value": "github.com/panibo",
+        "href": "https://github.com/panibo",
+        "external": true
+      }
+    ]
   },
   "CVPage": {
+    "metadata": {
+      "title": "CV",
+      "description": "Explore the CV of Miro Mariapori, a software developer with experience in various technologies and projects."
+    },
     "profilePhotoAlt": "{name}'s photo",
     "sections": {
       "summary": "Summary",
@@ -296,6 +368,116 @@
           "Major: Software Engineering",
           "Metropolia University of Applied Sciences",
           "Estimated graduation: summer 2026"
+        ]
+      }
+    ]
+  },
+  "ProjectsPage": {
+    "metadata": {
+      "title": "Projects",
+      "description": "Explore selected software projects by Miro Mariapori, including full-stack applications, XR work, and automation solutions."
+    },
+    "title": "Projects",
+    "description": "Selected work, research, and software projects.",
+    "labels": {
+      "timeline": "Timeline",
+      "technologies": "Technologies",
+      "links": "Links",
+      "code": "Code"
+    },
+    "projects": [
+      {
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "startDate": "1/2024",
+        "endDate": "3/2025",
+        "summary": "A healthcare technology project combining XR, web-based 3D tooling, GraphQL services, and neural-network-based motion analysis to support physiotherapy and rehabilitation.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "GraphQL",
+          "Node.js",
+          "Three.js",
+          "Unity",
+          "XR",
+          "Machine Learning",
+          "Neural Networks"
+        ],
+        "description": [
+          "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system.",
+          "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services.",
+          "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design.",
+          "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js.",
+          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance.",
+          "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."
+        ],
+        "links": [
+          {
+            "url": "https://helsinkixrcenter.com/projects/gamerat/",
+            "label": "Project page"
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=ar5z2SLb7SI",
+            "label": "Project video"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_animationmaker",
+            "label": "Exercise editor"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_data-api",
+            "label": "GraphQL backend"
+          },
+          {
+            "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
+            "label": "AI"
+          }
+        ]
+      },
+      {
+        "name": "TKIO-Finder",
+        "startDate": "1/2026",
+        "endDate": "5/2026",
+        "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences, featuring search, filtering, and matchmaking capabilities.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Google OAuth2",
+          "PostgreSQL",
+          "Node.js"
+        ],
+        "description": [
+          "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
+          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
+          "Added Google OAuth2 authentication for secure and user-friendly access",
+          "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+        ]
+      },
+      {
+        "name": "Personal Portfolio",
+        "startDate": "6/2024",
+        "endDate": "7/2024",
+        "summary": "A personal portfolio website showcasing my projects, skills, and experience, built with Next.js and styled with Tailwind CSS.",
+        "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+        "description": [
+          "Designed and developed a personal portfolio website to showcase my projects, skills, and experience",
+          "Implemented a clean and responsive design using Tailwind CSS, ensuring optimal user experience across devices",
+          "Deployed the website on Vercel for fast and reliable hosting"
+        ],
+        "links": [
+          {
+            "url": "https://mariapori.dev/",
+            "label": "Project page"
+          }
+        ],
+        "code": [
+          {
+            "url": "https://github.com/Panibo/mariapori-website",
+            "label": "Source code"
+          }
         ]
       }
     ]

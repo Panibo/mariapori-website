@@ -1,21 +1,28 @@
 "use client";
 
 import { Link, usePathname } from "@/src/i18n/routing";
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
 import styles from "./header.module.css";
 
 const links = [
-  { href: "/", label: "Me" },
-  { href: "/cv", label: "CV" },
-  { href: "/projects", label: "Projects" },
-  { href: "/contact", label: "Contact" },
-];
+  { href: "/", labelKey: "home" },
+  { href: "/cv", labelKey: "cv" },
+  { href: "/projects", labelKey: "projects" },
+  { href: "/contact", labelKey: "contact" },
+] as const;
+
+const languages = [
+  { locale: "en", label: "EN", ariaLabelKey: "switchToEnglish" },
+  { locale: "fi", label: "FI", ariaLabelKey: "switchToFinnish" },
+] as const;
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
   const pathname = usePathname();
+  const t = useTranslations("Layout.navigation");
+  const ariaT = useTranslations("Layout.aria");
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,82 +37,90 @@ const Header = () => {
   }, []);
 
   const languageLinks = (
-    <div className={styles.languageLinks}>
-      <Link
-        href={pathname}
-        locale="en"
-        aria-current={locale === "en" ? "page" : undefined}
-      >
-        EN
-      </Link>
-
-      <span aria-hidden="true">/</span>
-
-      <Link
-        href={pathname}
-        locale="fi"
-        aria-current={locale === "fi" ? "page" : undefined}
-      >
-        FI
-      </Link>
-    </div>
+    <nav
+      className={styles.languageSwitcher}
+      aria-label={ariaT("languageSelection")}
+    >
+      {languages.map((language) => (
+        <Link
+          key={language.locale}
+          className={`${styles.languageLink} ${
+            locale === language.locale ? styles.languageLinkActive : ""
+          }`}
+          href={pathname}
+          locale={language.locale}
+          onClick={() => setIsOpen(false)}
+          aria-current={locale === language.locale ? "page" : undefined}
+          aria-label={ariaT(language.ariaLabelKey)}
+        >
+          {language.label}
+        </Link>
+      ))}
+    </nav>
   );
 
   return (
     <header className={styles.header}>
-      <nav className={styles.desktopNav}>
-        {links.map((link) => (
-          <Link key={link.href} href={link.href}>
-            {link.label}
-          </Link>
-        ))}
+      <a className={styles.skipLink} href="#main-content">
+        {ariaT("skipToContent")}
+      </a>
+
+      <div className={styles.headerContent}>
+        <button
+          className={styles.menuButton}
+          type="button"
+          onClick={() => setIsOpen((open) => !open)}
+          aria-label={
+            isOpen ? ariaT("closeNavigation") : ariaT("openNavigation")
+          }
+          aria-expanded={isOpen}
+          aria-controls="mobile-navigation"
+        >
+          {isOpen ? "✕" : "☰"}
+        </button>
+
+        <nav
+          className={styles.desktopNav}
+          aria-label={ariaT("mainNavigation")}
+        >
+          {links.map((link) => {
+            const isActive = pathname === link.href;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {t(link.labelKey)}
+              </Link>
+            );
+          })}
+        </nav>
 
         {languageLinks}
-      </nav>
-
-      <button
-        className={styles.menuButton}
-        type="button"
-        onClick={() => setIsOpen((open) => !open)}
-        aria-label="Toggle navigation"
-        aria-expanded={isOpen}
-      >
-        {isOpen ? "✕" : "☰"}
-      </button>
+      </div>
 
       {isOpen && (
-        <nav className={styles.mobileNav}>
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              onClick={() => setIsOpen(false)}
-            >
-              {link.label}
-            </Link>
-          ))}
+        <nav
+          id="mobile-navigation"
+          className={styles.mobileNav}
+          aria-label={ariaT("mainNavigation")}
+        >
+          {links.map((link) => {
+            const isActive = pathname === link.href;
 
-          <div className={styles.languageLinks}>
-            <Link
-              href={pathname}
-              locale="en"
-              onClick={() => setIsOpen(false)}
-              aria-current={locale === "en" ? "page" : undefined}
-            >
-              EN
-            </Link>
-
-            <span aria-hidden="true">/</span>
-
-            <Link
-              href={pathname}
-              locale="fi"
-              onClick={() => setIsOpen(false)}
-              aria-current={locale === "fi" ? "page" : undefined}
-            >
-              FI
-            </Link>
-          </div>
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                onClick={() => setIsOpen(false)}
+                aria-current={isActive ? "page" : undefined}
+              >
+                {t(link.labelKey)}
+              </Link>
+            );
+          })}
         </nav>
       )}
     </header>
