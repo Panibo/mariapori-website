@@ -5,6 +5,7 @@ export type RoutePath = "" | "/cv" | "/projects" | "/contact";
 
 export const siteConfig = {
   name: "Miro Mariapori",
+  shortName: "Mariapori",
   url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://mariapori.dev").replace(
     /\/+$/,
     "",
