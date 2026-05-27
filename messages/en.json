@@ -458,14 +458,21 @@
       },
       {
         "name": "Personal Portfolio",
-        "startDate": "6/2024",
-        "endDate": "7/2024",
-        "summary": "A personal portfolio website showcasing my projects, skills, and experience, built with Next.js and styled with Tailwind CSS.",
-        "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+        "startDate": "4/2026",
+        "endDate": "5/2026",
+        "summary": "A multilingual personal portfolio built with Next.js to present my projects, skills, and experience in Finnish and English.",
+        "technologies": [
+          "TypeScript",
+          "Next.js",
+          "next-intl",
+          "CSS Modules",
+          "Vercel"
+        ],
         "description": [
-          "Designed and developed a personal portfolio website to showcase my projects, skills, and experience",
-          "Implemented a clean and responsive design using Tailwind CSS, ensuring optimal user experience across devices",
-          "Deployed the website on Vercel for fast and reliable hosting"
+          "Designed and developed a multilingual portfolio website for presenting my projects, skills, and experience",
+          "Built a responsive interface with CSS Modules, keeping the layout simple, maintainable, and easy to scan",
+          "Added page-specific metadata, canonical and alternate language links, and JSON-LD structured data for SEO",
+          "Deployed the site on Vercel and added Vercel Analytics for lightweight visitor insights"
         ],
         "links": [
           {

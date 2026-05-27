@@ -458,14 +458,21 @@
       },
       {
         "name": "Portfolio",
-        "startDate": "6/2024",
-        "endDate": "7/2024",
-        "summary": "Henkilökohtainen portfoliosivusto, joka esittelee projektejani, osaamistani ja kokemustani. Sivusto on toteutettu Next.js:llä ja Tailwind CSS:llä.",
-        "technologies": ["TypeScript", "Next.js", "Tailwind CSS"],
+        "startDate": "4/2026",
+        "endDate": "5/2026",
+        "summary": "Next.js:llä toteutettu henkilökohtainen portfoliosivusto, joka kokoaa yhteen projektini, osaamiseni ja kokemukseni suomeksi ja englanniksi.",
+        "technologies": [
+          "TypeScript",
+          "Next.js",
+          "next-intl",
+          "CSS Modules",
+          "Vercel"
+        ],
         "description": [
-          "Suunnittelin ja toteutin henkilökohtaisen portfoliosivuston projektieni, osaamiseni ja kokemukseni esittelyyn.",
-          "Toteutin selkeän ja responsiivisen käyttöliittymän Tailwind CSS:llä, jotta sivusto toimii hyvin eri kokoisilla laitteilla.",
-          "Julkaisin sivuston Vercelissä nopeaa ja luotettavaa ylläpitoa varten."
+          "Suunnittelin ja toteutin monikielisen portfoliosivuston projektieni, osaamiseni ja kokemukseni esittelyyn.",
+          "Rakensin responsiivisen käyttöliittymän CSS-moduleilla ja pidin rakenteen selkeänä sekä ylläpidettävänä.",
+          "Lisäsin sivukohtaiset metatiedot, kieliversioiden canonical- ja alternate-linkit sekä JSON-LD-rakenteista dataa hakukonenäkyvyyttä varten.",
+          "Julkaisin sivuston Vercelissä ja hyödynsin Vercel Analyticsia kävijäseurannan tueksi."
         ],
         "links": [
           {
