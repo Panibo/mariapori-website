@@ -64,7 +64,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={styles.contact}>
       <JsonLd data={structuredData} />
 
       <section>
@@ -72,9 +72,9 @@ const Contact = () => {
         <p>{t("description")}</p>
       </section>
 
-      <address className={styles.methods}>
+      <section>
         {methods.map((method) => (
-          <p key={method.href} className={styles.method}>
+          <p key={method.href}>
             <strong>{method.label}:</strong>{" "}
             <a
               href={method.href}
@@ -85,7 +85,7 @@ const Contact = () => {
             </a>
           </p>
         ))}
-      </address>
+      </section>
     </div>
   );
 };

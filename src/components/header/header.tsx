@@ -1,8 +1,9 @@
 "use client";
 
 import { Link, usePathname } from "@/src/i18n/routing";
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import { useState, useEffect } from "react";
+import LanguageSwitcher from "./language-switcher";
 import styles from "./header.module.css";
 
 const links = [
@@ -12,14 +13,8 @@ const links = [
   { href: "/contact", labelKey: "contact" },
 ] as const;
 
-const languages = [
-  { locale: "en", label: "EN", ariaLabelKey: "switchToEnglish" },
-  { locale: "fi", label: "FI", ariaLabelKey: "switchToFinnish" },
-] as const;
-
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const locale = useLocale();
   const pathname = usePathname();
   const t = useTranslations("Layout.navigation");
   const ariaT = useTranslations("Layout.aria");
@@ -36,35 +31,8 @@ const Header = () => {
     };
   }, []);
 
-  const languageLinks = (
-    <nav
-      className={styles.languageSwitcher}
-      aria-label={ariaT("languageSelection")}
-    >
-      {languages.map((language) => (
-        <Link
-          key={language.locale}
-          className={`${styles.languageLink} ${
-            locale === language.locale ? styles.languageLinkActive : ""
-          }`}
-          href={pathname}
-          locale={language.locale}
-          onClick={() => setIsOpen(false)}
-          aria-current={locale === language.locale ? "page" : undefined}
-          aria-label={ariaT(language.ariaLabelKey)}
-        >
-          {language.label}
-        </Link>
-      ))}
-    </nav>
-  );
-
   return (
     <header className={styles.header}>
-      <a className={styles.skipLink} href="#main-content">
-        {ariaT("skipToContent")}
-      </a>
-
       <div className={styles.headerContent}>
         <button
           className={styles.menuButton}
@@ -98,7 +66,7 @@ const Header = () => {
           })}
         </nav>
 
-        {languageLinks}
+        <LanguageSwitcher onNavigate={() => setIsOpen(false)} />
       </div>
 
       {isOpen && (

@@ -11,7 +11,6 @@
       "languageSelection": "Language selection",
       "openNavigation": "Open navigation",
       "closeNavigation": "Close navigation",
-      "skipToContent": "Skip to content",
       "switchToEnglish": "Switch to English",
       "switchToFinnish": "Switch to Finnish"
     },
@@ -94,6 +93,7 @@
     },
     "title": "Contact",
     "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas.",
+    "vCardQrAlt": "QR code containing Miro Mariapori's vCard",
     "methods": [
       {
         "label": "Email",

@@ -8,23 +8,6 @@
   border-bottom: 1px solid var(--color-border);
 }
 
-.skipLink {
-  position: absolute;
-  top: 0.5rem;
-  left: 0.5rem;
-  z-index: 20;
-  padding: 0.5rem 0.75rem;
-  background-color: var(--color-surface-alt);
-  border: 1px solid var(--color-border-strong);
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-sm);
-  transform: translateY(-150%);
-}
-
-.skipLink:focus {
-  transform: translateY(0);
-}
-
 .headerContent {
   display: grid;
   grid-template-columns: 1fr auto;
@@ -32,6 +15,7 @@
   align-items: center;
   width: min(100%, 900px);
   min-height: 3rem;
+  margin: 0 1rem;
 }
 
 .desktopNav {
@@ -43,42 +27,6 @@
 .desktopNav a[aria-current="page"],
 .mobileNav a[aria-current="page"] {
   color: var(--color-link-active);
-}
-
-.languageSwitcher {
-  display: inline-flex;
-  gap: 0.15rem;
-  align-items: center;
-  justify-self: end;
-  padding: 0.15rem;
-  background-color: var(--color-surface-alt);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-}
-
-.languageLink {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 2.35rem;
-  height: 2rem;
-  padding: 0 0.65rem;
-  border-radius: var(--radius-md);
-  color: var(--color-text-secondary);
-  font-size: 0.9rem;
-  font-weight: 700;
-}
-
-.languageLink:hover {
-  color: var(--color-link-hover);
-  background-color: var(--color-surface);
-}
-
-.languageLinkActive,
-.languageLinkActive:hover {
-  color: var(--color-text-inverse);
-  background-color: var(--color-primary);
 }
 
 .menuButton {
@@ -106,8 +54,8 @@
 
 @media screen and (max-width: 768px) {
   .headerContent {
+    margin: 0 0.5rem 0 0;
     grid-template-columns: auto 1fr;
-    padding: 0 1rem;
   }
 
   .desktopNav {

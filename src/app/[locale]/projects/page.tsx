@@ -4,7 +4,7 @@ import { getTranslations } from "next-intl/server";
 import JsonLd from "@/src/components/json-ld";
 import { getLocale, localizedUrl } from "@/src/config/site";
 import { createPageMetadata } from "@/src/utils/seo";
-import styles from "./cv.module.css";
+import styles from "./projects.module.css";
 
 type ProjectLink = {
   url: string;
@@ -73,7 +73,7 @@ const Projects = () => {
   };
 
   return (
-    <div className={styles.cv}>
+    <div className={styles.projects}>
       <JsonLd data={structuredData} />
 
       <header className={styles.header}>
@@ -83,71 +83,61 @@ const Projects = () => {
         </div>
       </header>
 
-      <section>
-        {projects.map((project) => (
-          <article key={project.name} className={styles.avoidBreak}>
-            <h3>{project.name}</h3>
+      {projects.map((project) => (
+        <section key={project.name}>
+          <h3>{project.name}</h3>
 
-            {(project.startDate || project.endDate) && (
-              <p>
-                <strong>{t("labels.timeline")}:</strong> {project.startDate}
-                {project.endDate ? ` - ${project.endDate}` : ""}
-              </p>
-            )}
+          {(project.startDate || project.endDate) && (
+            <p>
+              <strong>{t("labels.timeline")}:</strong> {project.startDate}
+              {project.endDate ? ` - ${project.endDate}` : ""}
+            </p>
+          )}
 
-            {project.summary && <p>{project.summary}</p>}
+          {project.summary && <p>{project.summary}</p>}
 
-            {project.technologies && project.technologies.length > 0 && (
-              <p>
-                <strong>{t("labels.technologies")}:</strong>{" "}
-                {project.technologies.join(", ")}
-              </p>
-            )}
+          {project.technologies && project.technologies.length > 0 && (
+            <p>
+              <strong>{t("labels.technologies")}:</strong>{" "}
+              {project.technologies.join(", ")}
+            </p>
+          )}
 
-            <ul>
-              {project.description.map((line, index) => (
-                <li key={index}>{line}</li>
+          <ul>
+            {project.description.map((line, index) => (
+              <li key={index}>{line}</li>
+            ))}
+          </ul>
+
+          {project.links && project.links.length > 0 && (
+            <p>
+              <strong>{t("labels.links")}:</strong>{" "}
+              {project.links.map((link, index) => (
+                <span key={link.url}>
+                  <a href={link.url} target="_blank" rel="noopener noreferrer">
+                    {link.label}
+                  </a>
+                  {index < (project.links?.length ?? 0) - 1 ? " • " : ""}
+                </span>
               ))}
-            </ul>
+            </p>
+          )}
 
-            {project.links && project.links.length > 0 && (
-              <p>
-                <strong>{t("labels.links")}:</strong>{" "}
-                {project.links.map((link, index) => (
-                  <span key={link.url}>
-                    <a
-                      href={link.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {link.label}
-                    </a>
-                    {index < (project.links?.length ?? 0) - 1 ? " • " : ""}
-                  </span>
-                ))}
-              </p>
-            )}
-
-            {project.code && project.code.length > 0 && (
-              <p>
-                <strong>{t("labels.code")}:</strong>{" "}
-                {project.code.map((code, index) => (
-                  <span key={code.url}>
-                    <a
-                      href={code.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      {code.label}
-                    </a>
-                    {index < (project.code?.length ?? 0) - 1 ? " • " : ""}
-                  </span>
-                ))}
-              </p>
-            )}
-          </article>
-        ))}
-      </section>
+          {project.code && project.code.length > 0 && (
+            <p>
+              <strong>{t("labels.code")}:</strong>{" "}
+              {project.code.map((code, index) => (
+                <span key={code.url}>
+                  <a href={code.url} target="_blank" rel="noopener noreferrer">
+                    {code.label}
+                  </a>
+                  {index < (project.code?.length ?? 0) - 1 ? " • " : ""}
+                </span>
+              ))}
+            </p>
+          )}
+        </section>
+      ))}
     </div>
   );
 };

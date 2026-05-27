@@ -11,7 +11,6 @@
       "languageSelection": "Kielivalinta",
       "openNavigation": "Avaa navigaatio",
       "closeNavigation": "Sulje navigaatio",
-      "skipToContent": "Siirry sisältöön",
       "switchToEnglish": "Vaihda englanniksi",
       "switchToFinnish": "Vaihda suomeksi"
     },
@@ -94,6 +93,7 @@
     },
     "title": "Ota yhteyttä",
     "description": "Onko sinulla projekti, työmahdollisuus tai kysymys mielessä? Ota rohkeasti yhteyttä. Keskustelen mielelläni ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista.",
+    "vCardQrAlt": "QR-koodi, joka sisältää Miro Mariaporin vCard-yhteystiedot",
     "methods": [
       {
         "label": "Sähköposti",

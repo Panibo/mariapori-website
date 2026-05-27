@@ -1,8 +1,10 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 .home a {
   margin-right: 0.5rem;
-}
-.home h1 {
-  font-size: 3.5rem;
 }
 .home p:not(:last-child) {
   margin-bottom: 1rem;

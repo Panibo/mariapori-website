@@ -63,7 +63,11 @@ body,
 }
 
 body {
+  min-height: 100svh;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: var(--font-body);
   font-size: var(--font-size-base);
   font-weight: 400;
@@ -82,14 +86,12 @@ body {
       transparent 50%
     );
 }
-body {
+main {
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-main {
-  margin: 2rem;
+  flex: 1;
   max-width: 900px;
+  margin: 1rem;
 }
 h1,
 h2,
@@ -100,9 +102,7 @@ h6 {
   margin: 0;
   font-family: var(--font-heading);
   font-weight: 600;
-  letter-spacing: -0.02em;
   color: var(--color-text-primary);
-  line-height: 2;
 }
 
 p {
@@ -130,12 +130,7 @@ a:hover {
 a:active {
   color: var(--color-link-active);
 }
-@media print {
-  #root_header,
-  #root_header nav {
-    display: none;
-  }
-}
+
 /* Body Text */
 @font-face {
   font-family: "Nunito";
@@ -163,7 +158,9 @@ a:active {
   font-display: swap;
 }
 @media screen and (max-width: 640px) {
+}
+@media print {
   main {
-    margin: 1rem;
+    margin: 0;
   }
 }
