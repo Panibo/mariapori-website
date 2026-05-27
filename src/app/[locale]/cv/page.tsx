@@ -82,6 +82,7 @@ const CV = () => {
   const techStack = t.raw("techStack") as TechCategory[];
   const projects = t.raw("projects") as Project[];
   const education = t.raw("education") as Education[];
+  const websiteUrl = `${siteConfig.url}/`;
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
@@ -155,6 +156,13 @@ const CV = () => {
         <p>
           <strong>{t("labels.phone")}:</strong>{" "}
           <a href={`tel:${general.phone}`}>{general.phone}</a>
+        </p>
+
+        <p>
+          <strong>{t("labels.website")}:</strong>{" "}
+          <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
+            {general.website}
+          </a>
         </p>
 
         <p>
