@@ -21,7 +21,7 @@
   "HomePage": {
     "metadata": {
       "title": "Miro Mariapori - Software Developer",
-      "description": "Miro Mariapori is a software developer focused on modern full-stack web development. Explore his skills, projects, and CV."
+      "description": "I am a software developer focused on modern full-stack web development, automations, and practical software solutions. Explore my skills, experience, and projects."
     },
     "structuredData": {
       "jobTitle": "Software Developer",
@@ -89,7 +89,7 @@
   "ContactPage": {
     "metadata": {
       "title": "Contact",
-      "description": "Contact Miro Mariapori by email, phone, LinkedIn, or GitHub."
+      "description": "Contact Miro Mariapori: email, phone, LinkedIn, and GitHub. Let's discuss software development, collaboration, and new ideas."
     },
     "title": "Contact",
     "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas.",
@@ -122,7 +122,7 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Explore the CV of Miro Mariapori, a software developer with experience in various technologies and projects."
+      "description": "Miro Mariapori's CV: education, work experience, technical skills, and project details."
     },
     "profilePhotoAlt": "{name}'s photo",
     "sections": {
@@ -375,7 +375,7 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projects",
-      "description": "Explore selected software projects by Miro Mariapori, including full-stack applications, XR work, and automation solutions."
+      "description": "Selected work, research projects, and software projects."
     },
     "title": "Projects",
     "description": "Selected work, research, and software projects.",

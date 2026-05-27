@@ -21,7 +21,7 @@
   "HomePage": {
     "metadata": {
       "title": "Miro Mariapori - Ohjelmistokehittäjä",
-      "description": "Miro Mariapori on moderniin full-stack-web-kehitykseen keskittyvä ohjelmistokehittäjä. Tutustu osaamiseen, projekteihin ja CV:hen."
+      "description": "Olen ohjelmistokehittäjä, joka keskittyy moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin. Tutustu osaamiseeni, kokemukseeni ja projekteihini."
     },
     "structuredData": {
       "jobTitle": "Ohjelmistokehittäjä",
@@ -89,7 +89,7 @@
   "ContactPage": {
     "metadata": {
       "title": "Yhteystiedot",
-      "description": "Ota yhteyttä Miro Mariaporiin sähköpostilla, puhelimitse, LinkedInissä tai GitHubissa."
+      "description": "Ota yhteyttä Miro Mariaporiin: sähköposti, puhelin, LinkedIn ja GitHub. Keskustellaan ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista."
     },
     "title": "Ota yhteyttä",
     "description": "Onko sinulla projekti, työmahdollisuus tai kysymys mielessä? Ota rohkeasti yhteyttä. Keskustelen mielelläni ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista.",
@@ -122,7 +122,7 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Tutustu Miro Mariapordin CV:hen, ohjelmistokehittäjään, jolla on kokemusta eri teknologioissa ja projekteissa."
+      "description": "Miro Mariaporin CV: koulutus, työkokemus, tekninen osaaminen ja projektitiedot. "
     },
     "profilePhotoAlt": "{name}n kuva",
     "sections": {
@@ -375,7 +375,7 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projektit",
-      "description": "Tutustu Miro Mariapordin valikoituihin ohjelmistoprojekteihin, full-stack-toteutuksiin, XR-työhön ja automaatioratkaisuihin."
+      "description": "Valikoituja töitä, tutkimusprojekteja ja ohjelmistoprojekteja."
     },
     "title": "Projektit",
     "description": "Valikoituja töitä, tutkimusprojekteja ja ohjelmistoprojekteja.",
