@@ -6,6 +6,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
 import { getLocale, siteConfig } from "@/src/config/site";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -69,6 +70,7 @@ export default async function RootLayout({
           <main id="main-content">{children}</main>
           <Footer />
           <Analytics />
+          <SpeedInsights />
         </NextIntlClientProvider>
       </body>
     </html>
