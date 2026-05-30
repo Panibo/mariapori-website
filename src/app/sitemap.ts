@@ -8,7 +8,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     siteConfig.locales.map((locale) => ({
       url: localizedUrl(locale, route.path),
       lastModified,
-      changeFrequency: route.changeFrequency,
+      changeFrequency:
+        route.changeFrequency as MetadataRoute.Sitemap[number]["changeFrequency"],
       priority: route.priority,
       alternates: {
         languages: {

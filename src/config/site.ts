@@ -6,17 +6,22 @@ export type RoutePath = "" | "/cv" | "/projects" | "/contact";
 export const siteConfig = {
   name: "Miro Mariapori",
   shortName: "Mariapori",
-  url: (process.env.NEXT_PUBLIC_SITE_URL ?? "https://mariapori.dev").replace(
-    /\/+$/,
-    "",
-  ),
+
+  // Important: use the canonical www domain here.
+  url: (
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.mariapori.dev"
+  ).replace(/\/+$/, ""),
+
   defaultLocale: "en" as const,
   locales,
+
   profileImage: "/profile.jpeg",
   email: "miro.mariapori@gmail.com",
   phone: "+358405140403",
+
   linkedin: "https://www.linkedin.com/in/miro-mariapori/",
   github: "https://github.com/panibo",
+
   routes: [
     { path: "", changeFrequency: "monthly", priority: 1 },
     { path: "/cv", changeFrequency: "monthly", priority: 0.9 },
@@ -32,7 +37,7 @@ export const getLocale = (locale: string): Locale =>
   isLocale(locale) ? locale : siteConfig.defaultLocale;
 
 export const absoluteUrl = (path = "") =>
-  new URL(path, siteConfig.url).toString();
+  new URL(path, `${siteConfig.url}/`).toString();
 
 export const localizedPath = (locale: Locale, path: RoutePath) =>
   `/${locale}${path}`;
