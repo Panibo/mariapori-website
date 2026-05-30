@@ -21,12 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(siteConfig.url),
 
     title: {
-      default: "Miro Mariapori - Software Developer Portfolio",
+      default: "Miro Mariapori - Software Engineer",
       template: "%s | Miro Mariapori",
     },
 
     description:
-      "Welcome to my software developer portfolio! Explore my projects, experience, and skills in software development. Discover innovative solutions I've created and learn more about my work in the field.",
+      "Welcome to my software engineer portfolio! Explore my projects, experience, and skills in software development. Discover innovative solutions I've created and learn more about my work in the field.",
 
     applicationName: siteConfig.name,
     authors: [{ name: siteConfig.name, url: siteConfig.url }],
@@ -35,11 +35,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     category: "software development",
 
     alternates: {
-      canonical: `/${locale}`,
+      canonical: `${siteConfig.url}/${locale}`,
       languages: {
-        en: "/en",
-        fi: "/fi",
-        "x-default": "/en",
+        en: `${siteConfig.url}/en`,
+        fi: `${siteConfig.url}/fi`,
+        "x-default": `${siteConfig.url}/${siteConfig.defaultLocale}`,
       },
     },
 
