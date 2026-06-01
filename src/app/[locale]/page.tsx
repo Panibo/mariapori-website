@@ -4,7 +4,12 @@ import { getTranslations } from "next-intl/server";
 import styles from "../../styles/home.module.css";
 import Image from "next/image";
 import JsonLd from "@/src/components/json-ld";
-import { absoluteUrl, getLocale, siteConfig } from "@/src/config/site";
+import {
+  absoluteUrl,
+  getLocale,
+  localizedUrl,
+  siteConfig,
+} from "@/src/config/site";
 import { createPageMetadata, personId, websiteId } from "@/src/utils/seo";
 
 type Props = {
@@ -39,6 +44,7 @@ const Home = () => {
   const experienceDescription = t.raw("experience.description") as string[];
   const educationDescription = t.raw("education.description") as string[];
   const knowsAbout = t.raw("structuredData.knowsAbout") as string[];
+  const pageUrl = localizedUrl(locale, "");
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -47,7 +53,7 @@ const Home = () => {
         "@type": "Person",
         "@id": personId,
         name: t("hero.name"),
-        url: siteConfig.url,
+        url: pageUrl,
         image: absoluteUrl(siteConfig.profileImage),
         email: siteConfig.email,
         telephone: siteConfig.phone,
@@ -64,7 +70,7 @@ const Home = () => {
         "@type": "WebSite",
         "@id": websiteId,
         name: siteConfig.name,
-        url: siteConfig.url,
+        url: pageUrl,
         inLanguage: locale,
         publisher: {
           "@id": personId,

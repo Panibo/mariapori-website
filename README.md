@@ -1,6 +1,7 @@
 # Miro Mariapori Portfolio
 
-Personal portfolio and CV website for [mariapori.dev](https://mariapori.dev).
+Personal portfolio and CV website for
+[www.mariapori.dev](https://www.mariapori.dev/en).
 The site presents Miro Mariapori's background, work experience, projects, and
 contact details in English and Finnish.
 
@@ -85,7 +86,7 @@ sync.
 
 `NEXT_PUBLIC_SITE_URL` is used when generating absolute URLs for metadata,
 structured data, robots, and the sitemap. If it is not set, the project falls
-back to `https://mariapori.dev`.
+back to `https://www.mariapori.dev`.
 
 ## Deployment
 

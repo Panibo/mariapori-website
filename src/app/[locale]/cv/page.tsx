@@ -82,7 +82,7 @@ const CV = () => {
   const techStack = t.raw("techStack") as TechCategory[];
   const projects = t.raw("projects") as Project[];
   const education = t.raw("education") as Education[];
-  const websiteUrl = `${siteConfig.url}/`;
+  const websiteUrl = localizedUrl(locale, "");
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
@@ -94,7 +94,7 @@ const CV = () => {
       "@type": "Person",
       "@id": personId,
       name: general.name,
-      url: siteConfig.url,
+      url: websiteUrl,
       image: absoluteUrl(general.profilePicture),
       email: general.email,
       telephone: general.phone,

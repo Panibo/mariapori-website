@@ -43,19 +43,21 @@ const Contact = () => {
   const t = useTranslations("ContactPage");
   const locale = getLocale(useLocale());
   const methods = t.raw("methods") as ContactMethod[];
+  const pageUrl = localizedUrl(locale, "/contact");
+  const profileUrl = localizedUrl(locale, "");
 
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
     name: t("metadata.title"),
     description: t("metadata.description"),
-    url: localizedUrl(locale, "/contact"),
+    url: pageUrl,
     inLanguage: locale,
     mainEntity: {
       "@type": "Person",
       "@id": personId,
       name: siteConfig.name,
-      url: siteConfig.url,
+      url: profileUrl,
       image: absoluteUrl(siteConfig.profileImage),
       email: siteConfig.email,
       telephone: siteConfig.phone,

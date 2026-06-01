@@ -5,7 +5,7 @@ import Header from "@/src/components/header/header";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { Analytics } from "@vercel/analytics/next";
-import { getLocale, locales, siteConfig } from "@/src/config/site";
+import { getLocale, localizedUrl, locales, siteConfig } from "@/src/config/site";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
 type Props = Readonly<{
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "Welcome to my software engineer portfolio! Explore my projects, experience, and skills in software development. Discover innovative solutions I've created and learn more about my work in the field.",
 
     applicationName: siteConfig.name,
-    authors: [{ name: siteConfig.name, url: siteConfig.url }],
+    authors: [{ name: siteConfig.name, url: localizedUrl(locale, "") }],
     creator: siteConfig.name,
     publisher: siteConfig.name,
     category: "software development",
