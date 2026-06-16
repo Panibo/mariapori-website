@@ -69,23 +69,26 @@ const Contact = () => {
     <div className={styles.contact}>
       <JsonLd data={structuredData} />
 
-      <section>
-        <h1>{t("title")}</h1>
-        <p>{t("description")}</p>
+      <section className={styles.intro}>
+        <div>
+          <h1>{t("title")}</h1>
+          <p>{t("description")}</p>
+        </div>
       </section>
 
-      <section>
+      <section className={styles.methods} aria-label={t("title")}>
         {methods.map((method) => (
-          <p key={method.href}>
-            <strong>{method.label}:</strong>{" "}
+          <div className={styles.method} key={method.href}>
+            <span className={styles.methodLabel}>{method.label}</span>
             <a
+              className={styles.methodValue}
               href={method.href}
               target={method.external ? "_blank" : undefined}
               rel={method.external ? "noopener noreferrer" : undefined}
             >
               {method.value}
             </a>
-          </p>
+          </div>
         ))}
       </section>
     </div>

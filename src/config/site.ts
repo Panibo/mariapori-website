@@ -15,7 +15,7 @@ export const siteConfig = {
   defaultLocale: "en" as const,
   locales,
 
-  profileImage: "/profile.jpeg",
+  profileImage: "/profile.webp",
   email: "miro.mariapori@gmail.com",
   phone: "+358405140403",
 

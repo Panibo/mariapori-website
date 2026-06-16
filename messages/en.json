@@ -20,12 +20,12 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Miro Mariapori - Software Developer",
+      "title": "Miro Mariapori - Software Engineer",
       "description": "I am a software developer focused on modern full-stack web development, automations, and practical software solutions. Explore my skills, experience, and projects."
     },
     "structuredData": {
-      "jobTitle": "Software Developer",
-      "description": "A software developer focused on modern full-stack web development, automations, and practical software solutions.",
+      "jobTitle": "Software Engineer",
+      "description": "A software engineer focused on modern full-stack web development, automations, and practical software solutions.",
       "alumniOf": "Metropolia University of Applied Sciences",
       "knowsAbout": [
         "Full-stack web development",
@@ -144,7 +144,7 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Software Developer | Full-stack",
+      "title": "Software Engineer | Full-stack",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",

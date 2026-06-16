@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import JsonLd from "@/src/components/json-ld";
@@ -25,6 +26,12 @@ type Project = {
 type Props = {
   params: Promise<{ locale: string }>;
 };
+
+const projectVisuals = [
+  "/placeholders/project-gamerat.svg",
+  "/placeholders/project-tkio-finder.svg",
+  "/placeholders/project-portfolio.svg",
+] as const;
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -83,61 +90,103 @@ const Projects = () => {
         </div>
       </header>
 
-      {projects.map((project) => (
-        <section key={project.name}>
-          <h3>{project.name}</h3>
+      <div className={styles.projectList}>
+        {projects.map((project, index) => {
+          const visual = projectVisuals[index];
 
-          {(project.startDate || project.endDate) && (
-            <p>
-              <strong>{t("labels.timeline")}:</strong> {project.startDate}
-              {project.endDate ? ` - ${project.endDate}` : ""}
-            </p>
-          )}
+          return (
+            <section key={project.name} className={styles.projectCard}>
+              {visual && (
+                <div className={styles.projectVisual}>
+                  <Image
+                    className={styles.projectImage}
+                    src={visual}
+                    alt=""
+                    width={960}
+                    height={600}
+                    loading={index === 0 ? "eager" : "lazy"}
+                  />
+                </div>
+              )}
 
-          {project.summary && <p>{project.summary}</p>}
+              <div className={styles.projectContent}>
+                <h2>{project.name}</h2>
 
-          {project.technologies && project.technologies.length > 0 && (
-            <p>
-              <strong>{t("labels.technologies")}:</strong>{" "}
-              {project.technologies.join(", ")}
-            </p>
-          )}
+                {(project.startDate || project.endDate) && (
+                  <p className={styles.timeline}>
+                    <strong>{t("labels.timeline")}:</strong>{" "}
+                    {project.startDate}
+                    {project.endDate ? ` - ${project.endDate}` : ""}
+                  </p>
+                )}
 
-          <ul>
-            {project.description.map((line, index) => (
-              <li key={index}>{line}</li>
-            ))}
-          </ul>
+                {project.summary && (
+                  <p className={styles.summary}>{project.summary}</p>
+                )}
 
-          {project.links && project.links.length > 0 && (
-            <p>
-              <strong>{t("labels.links")}:</strong>{" "}
-              {project.links.map((link, index) => (
-                <span key={link.url}>
-                  <a href={link.url} target="_blank" rel="noopener noreferrer">
-                    {link.label}
-                  </a>
-                  {index < (project.links?.length ?? 0) - 1 ? " • " : ""}
-                </span>
-              ))}
-            </p>
-          )}
+                {project.technologies && project.technologies.length > 0 && (
+                  <div className={styles.techBlock}>
+                    <strong>{t("labels.technologies")}</strong>
+                    <ul className={styles.techList}>
+                      {project.technologies.map((technology) => (
+                        <li key={technology}>{technology}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
-          {project.code && project.code.length > 0 && (
-            <p>
-              <strong>{t("labels.code")}:</strong>{" "}
-              {project.code.map((code, index) => (
-                <span key={code.url}>
-                  <a href={code.url} target="_blank" rel="noopener noreferrer">
-                    {code.label}
-                  </a>
-                  {index < (project.code?.length ?? 0) - 1 ? " • " : ""}
-                </span>
-              ))}
-            </p>
-          )}
-        </section>
-      ))}
+                <ul className={styles.descriptionList}>
+                  {project.description.map((line, descriptionIndex) => (
+                    <li key={descriptionIndex}>{line}</li>
+                  ))}
+                </ul>
+
+                <div className={styles.linkRows}>
+                  {project.links && project.links.length > 0 && (
+                    <p>
+                      <strong>{t("labels.links")}:</strong>{" "}
+                      {project.links.map((link, linkIndex) => (
+                        <span key={link.url}>
+                          <a
+                            href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {link.label}
+                          </a>
+                          {linkIndex < (project.links?.length ?? 0) - 1
+                            ? " • "
+                            : ""}
+                        </span>
+                      ))}
+                    </p>
+                  )}
+
+                  {project.code && project.code.length > 0 && (
+                    <p>
+                      <strong>{t("labels.code")}:</strong>{" "}
+                      {project.code.map((code, codeIndex) => (
+                        <span key={code.url}>
+                          <a
+                            href={code.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {code.label}
+                          </a>
+                          {codeIndex < (project.code?.length ?? 0) - 1
+                            ? " • "
+                            : ""}
+                        </span>
+                      ))}
+                    </p>
+                  )}
+                </div>
+              </div>
+            </section>
+          );
+        })}
+      </div>
     </div>
   );
 };

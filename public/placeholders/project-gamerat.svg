@@ -1,0 +1,25 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">GameRAT project placeholder</title>
+  <desc id="desc">Abstract placeholder showing an XR rehabilitation editor, pose guide, and motion analysis chart.</desc>
+  <rect width="960" height="600" fill="#0D1F1D"/>
+  <path d="M0 80H960" stroke="#21423E" stroke-width="2"/>
+  <path d="M0 520H960" stroke="#21423E" stroke-width="2"/>
+  <rect x="64" y="72" width="832" height="456" rx="8" fill="#F7FBFA"/>
+  <rect x="96" y="112" width="296" height="376" rx="8" fill="#E6F4F1"/>
+  <rect x="428" y="112" width="404" height="226" rx="8" fill="#102A27"/>
+  <rect x="428" y="366" width="404" height="122" rx="8" fill="#FFFFFF"/>
+  <circle cx="244" cy="184" r="38" fill="#0F766E"/>
+  <path d="M244 222V318" stroke="#0F766E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M190 276L244 244L300 276" stroke="#D97706" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M244 318L196 398" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <path d="M244 318L306 388" stroke="#0F766E" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="244" cy="318" r="15" fill="#D97706"/>
+  <path d="M472 288C520 232 568 254 616 208C671 155 724 190 788 144" stroke="#14B8A6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M472 286L472 152M536 286L536 182M600 286L600 218M664 286L664 166M728 286L728 202M792 286L792 132" stroke="#315C56" stroke-width="10" stroke-linecap="round"/>
+  <rect x="472" y="404" width="88" height="16" rx="8" fill="#0F766E"/>
+  <rect x="584" y="404" width="168" height="16" rx="8" fill="#B9DCD6"/>
+  <rect x="472" y="438" width="220" height="16" rx="8" fill="#D97706"/>
+  <rect x="716" y="438" width="72" height="16" rx="8" fill="#D9E7E4"/>
+  <rect x="96" y="536" width="328" height="14" rx="7" fill="#C8E5E0"/>
+  <rect x="448" y="536" width="126" height="14" rx="7" fill="#D97706"/>
+</svg>

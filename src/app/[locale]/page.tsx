@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server";
 import styles from "../../styles/home.module.css";
 import Image from "next/image";
 import JsonLd from "@/src/components/json-ld";
+import { Link } from "@/src/i18n/routing";
 import {
   absoluteUrl,
   getLocale,
@@ -36,6 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const Home = () => {
   const t = useTranslations("HomePage");
+  const navT = useTranslations("Layout.navigation");
   const locale = getLocale(useLocale());
 
   const heroIntro = t.raw("hero.intro") as string[];
@@ -83,15 +85,49 @@ const Home = () => {
     <div className={styles.home}>
       <JsonLd data={structuredData} />
 
-      <section>
-        <h1>{t("hero.name")}</h1>
+      <section className={styles.hero} aria-labelledby="home-title">
+        <div className={styles.heroCopy}>
+          <p className={styles.kicker}>{t("structuredData.jobTitle")}</p>
+          <h1 id="home-title">{t("hero.name")}</h1>
 
-        {heroIntro.map((paragraph, index) => (
-          <p key={index}>{paragraph}</p>
-        ))}
+          <div className={styles.heroIntro}>
+            {heroIntro.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
+          </div>
+
+          <div className={styles.heroActions}>
+            <Link href="/projects" className={styles.primaryAction}>
+              {navT("projects")}
+            </Link>
+            <Link href="/cv" className={styles.secondaryAction}>
+              {navT("cv")}
+            </Link>
+          </div>
+        </div>
+
+        <div className={styles.heroVisual}>
+          <div className={styles.portraitFrame}>
+            <Image
+              className={styles.portrait}
+              src={siteConfig.profileImage}
+              alt={t("hero.name")}
+              width={360}
+              height={360}
+              priority
+            />
+          </div>
+
+          <div className={styles.focusList} aria-label={t("whatIDo.title")}>
+            {knowsAbout.slice(0, 5).map((topic) => (
+              <span key={topic}>{topic}</span>
+            ))}
+          </div>
+        </div>
       </section>
 
-      <section>
+      <div className={styles.sectionGrid}>
+      <section className={styles.contentSection}>
         <h2>{t("whatIDo.title")}</h2>
 
         {whatIDoDescription.map((paragraph, index) => (
@@ -99,7 +135,7 @@ const Home = () => {
         ))}
       </section>
 
-      <section>
+      <section className={styles.contentSection}>
         <h2>{t("howIWork.title")}</h2>
 
         {howIWorkDescription.map((paragraph, index) => (
@@ -107,7 +143,7 @@ const Home = () => {
         ))}
       </section>
 
-      <section>
+      <section className={styles.contentSection}>
         <h2>{t("experience.title")}</h2>
 
         {experienceDescription.map((paragraph, index) => (
@@ -115,7 +151,7 @@ const Home = () => {
         ))}
       </section>
 
-      <section>
+      <section className={styles.contentSection}>
         <h2>{t("education.title")}</h2>
 
         <p>
@@ -128,10 +164,11 @@ const Home = () => {
         </p>
       </section>
 
-      <section>
+      <section className={`${styles.contentSection} ${styles.linksSection}`}>
         <h2>{t("links.title")}</h2>
 
         <a
+          className={styles.iconLink}
           href="https://www.linkedin.com/in/miro-mariapori/"
           target="_blank"
           rel="noopener noreferrer"
@@ -146,6 +183,7 @@ const Home = () => {
         </a>
 
         <a
+          className={styles.iconLink}
           href="https://github.com/panibo"
           target="_blank"
           rel="noopener noreferrer"
@@ -159,6 +197,7 @@ const Home = () => {
           />
         </a>
       </section>
+      </div>
     </div>
   );
 };

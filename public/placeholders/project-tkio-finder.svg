@@ -1,0 +1,28 @@
+<svg width="960" height="600" viewBox="0 0 960 600" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">TKIO-Finder project placeholder</title>
+  <desc id="desc">Abstract placeholder showing a research project search interface and matching cards.</desc>
+  <rect width="960" height="600" fill="#F4F8FB"/>
+  <rect x="72" y="72" width="816" height="456" rx="8" fill="#FFFFFF" stroke="#C9DAD7" stroke-width="2"/>
+  <rect x="112" y="120" width="736" height="64" rx="8" fill="#EAF6F3"/>
+  <circle cx="152" cy="152" r="18" stroke="#0F766E" stroke-width="10"/>
+  <path d="M166 166L190 190" stroke="#0F766E" stroke-width="10" stroke-linecap="round"/>
+  <rect x="224" y="138" width="360" height="18" rx="9" fill="#8DBFB7"/>
+  <rect x="624" y="132" width="164" height="40" rx="8" fill="#0F766E"/>
+  <rect x="112" y="226" width="210" height="230" rx="8" fill="#102A27"/>
+  <rect x="362" y="226" width="210" height="230" rx="8" fill="#FFFFFF" stroke="#D7E3E0" stroke-width="2"/>
+  <rect x="612" y="226" width="210" height="230" rx="8" fill="#FFFFFF" stroke="#D7E3E0" stroke-width="2"/>
+  <rect x="142" y="260" width="102" height="14" rx="7" fill="#14B8A6"/>
+  <rect x="142" y="292" width="134" height="12" rx="6" fill="#A8D8D1"/>
+  <rect x="142" y="322" width="118" height="12" rx="6" fill="#A8D8D1"/>
+  <rect x="142" y="380" width="150" height="38" rx="8" fill="#D97706"/>
+  <rect x="394" y="260" width="124" height="14" rx="7" fill="#0F766E"/>
+  <rect x="394" y="292" width="126" height="12" rx="6" fill="#B9DCD6"/>
+  <rect x="394" y="322" width="92" height="12" rx="6" fill="#B9DCD6"/>
+  <rect x="394" y="380" width="118" height="38" rx="8" fill="#EAF6F3"/>
+  <rect x="644" y="260" width="106" height="14" rx="7" fill="#0F766E"/>
+  <rect x="644" y="292" width="138" height="12" rx="6" fill="#B9DCD6"/>
+  <rect x="644" y="322" width="110" height="12" rx="6" fill="#B9DCD6"/>
+  <rect x="644" y="380" width="118" height="38" rx="8" fill="#EAF6F3"/>
+  <rect x="112" y="536" width="286" height="14" rx="7" fill="#0F766E"/>
+  <rect x="422" y="536" width="178" height="14" rx="7" fill="#D97706"/>
+</svg>

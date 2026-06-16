@@ -20,12 +20,12 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Miro Mariapori - Ohjelmistokehittäjä",
+      "title": "Miro Mariapori - Ohjelmistoinsinööri",
       "description": "Olen ohjelmistokehittäjä, joka keskittyy moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin. Tutustu osaamiseeni, kokemukseeni ja projekteihini."
     },
     "structuredData": {
-      "jobTitle": "Ohjelmistokehittäjä",
-      "description": "Moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin keskittyvä ohjelmistokehittäjä.",
+      "jobTitle": "Ohjelmistoinsinööri",
+      "description": "Moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin keskittyvä ohjelmistoinsinööri.",
       "alumniOf": "Metropolia Ammattikorkeakoulu",
       "knowsAbout": [
         "Full-stack-web-kehitys",
@@ -144,7 +144,7 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Ohjelmistokehittäjä | Full-stack",
+      "title": "Ohjelmistoinsinööri | Full-stack",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
