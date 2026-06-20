@@ -1,10 +1,10 @@
 {
   "Layout": {
     "navigation": {
-      "home": "Tietoa minusta",
+      "home": "Profiili",
       "cv": "CV",
       "projects": "Projektit",
-      "contact": "Yhteystiedot"
+      "contact": "Yhteys"
     },
     "aria": {
       "mainNavigation": "Päänavigaatio",
@@ -20,51 +20,51 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Miro Mariapori - Ohjelmistoinsinööri",
-      "description": "Olen ohjelmistokehittäjä, joka keskittyy moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin. Tutustu osaamiseeni, kokemukseeni ja projekteihini."
+      "title": "Miro Mariapori - Full-stack-ohjelmistokehittäjä",
+      "description": "Full-stack-ohjelmistokehittäjä, joka rakentaa web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita. Katso kokemus, projektit ja CV."
     },
     "structuredData": {
-      "jobTitle": "Ohjelmistoinsinööri",
-      "description": "Moderniin full-stack-web-kehitykseen, automaatioihin ja käytännön ohjelmistoratkaisuihin keskittyvä ohjelmistoinsinööri.",
+      "jobTitle": "Full-stack-ohjelmistokehittäjä",
+      "description": "Full-stack-ohjelmistokehittäjä, joka rakentaa web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita.",
       "alumniOf": "Metropolia Ammattikorkeakoulu",
       "knowsAbout": [
         "Full-stack-web-kehitys",
-        "TypeScript",
-        "React",
+        "TypeScript ja React",
         "Next.js",
-        "Node.js",
-        "GraphQL",
-        "Tekoälyn hyödyntäminen",
+        "Node.js ja GraphQL",
+        "PostgreSQL",
+        "REST-rajapinnat",
+        "Integraatiot",
         "Automaatioratkaisut"
       ]
     },
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
-        "Olen kesällä 2026 valmistuva tieto- ja viestintätekniikan insinööriopiskelija, jonka vahvin osaamisalue on moderni full-stack-web-kehitys. Rakennan web-sovelluksia, automaatioita ja ohjelmistokokonaisuuksia käytännön tarpeisiin.",
-        "Teen parhaillaan insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa. Kokemusta minulle on kertynyt työharjoittelusta sekä useamman vuoden freelance-projekteista."
+        "Olen full-stack-ohjelmistokehittäjä, joka etsii seuraavaa roolia modernin web-kehityksen parissa. Vahvinta osaamistani ovat TypeScript, React, Next.js, Node.js, GraphQL, PostgreSQL sekä käytännönläheiset web-, backend- ja automaatioratkaisut.",
+        "Viimeisimmissä projekteissani olen rakentanut terveydenhuollon web-sovelluksia, GraphQL-backendejä, asiakaskohtaisia automaatioita, reaaliaikaisia WebSocket-ratkaisuja sekä tutkimusprojektien löydettävyyttä parantavan full-stack-alustan."
       ]
     },
     "whatIDo": {
       "title": "Mitä teen",
       "description": [
-        "Suunnittelen ja toteutan ohjelmistokokonaisuuksia alusta loppuun. Hallitsen sekä frontend- että backend-kehitystä, ja työkalupakistani löytyy moderneja frameworkkeja ja teknologioita. Tämäkin sivu on toteutettu Next.js:llä.",
-        "Pidän siitä, kun pääsen mukaan toteutuksen kaikkiin vaiheisiin suunnittelusta julkaisuun. Minua motivoi erityisesti se, että tekninen ratkaisu palvelee oikeaa käyttötarvetta ja toimii hyvin myös käyttäjän näkökulmasta."
+        "Rakennan käyttöliittymiä, backendejä, rajapintoja ja integraatioita, jotka ratkaisevat oikeita käyttötarpeita. Vahvin alueeni on moderni full-stack-web-kehitys: React- ja Next.js-käyttöliittymät, Node.js-palvelut, GraphQL/REST-rajapinnat ja tietokantapohjaiset sovellukset.",
+        "Pystyn ottamaan vastuuta kokonaisuudesta määrittelystä julkaisuun: hahmotan käyttäjän tarpeen, pilkon ongelman toteutettavaksi ja pidän ratkaisun sellaisena, että sitä on helppo ylläpitää myös ensimmäisen version jälkeen."
       ]
     },
     "howIWork": {
       "title": "Miten työskentelen",
       "description": [
-        "Pidän selkeästä koodista, järkevästä rakenteesta ja ratkaisuista, jotka kestävät käyttöä myös ensimmäisen version jälkeen. Työskentelyssäni tasapainotan laadun, nopeuden ja käytännöllisyyden.",
-        "Käytän tekoälytyökaluja apuna ideoinnissa, työn nopeuttamisessa, koodin tarkastelussa ja toistuvien tehtävien vähentämisessä. En kuitenkaan pidä niitä ymmärtämisen korvikkeena: haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan.",
-        "Työskentelen hyvin itsenäisesti, mutta viihdyn myös tiimissä. Pidän tiedon jakamisesta, muiden auttamisesta ja jatkuvasta oppimisesta."
+        "Työskentelen järjestelmällisesti ja käytännönläheisesti. Arvostan selkeää koodia, luettavaa rakennetta, hyvää dokumentointia ja sitä, että ratkaisu toimii myös käyttäjän näkökulmasta.",
+        "Käytän tekoälytyökaluja ideoinnin, toteutuksen, koodin tarkastelun ja toistuvien tehtävien nopeuttamiseen, mutta pidän teknisen ymmärryksen omissa käsissäni. Haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan.",
+        "Olen tottunut viemään tehtäviä itsenäisesti maaliin, mutta parhaimmillani olen tiimissä, jossa tietoa jaetaan avoimesti, palautetta annetaan nopeasti ja ratkaisuja parannetaan yhdessä."
       ]
     },
     "experience": {
       "title": "Kokemus",
       "description": [
-        "Työharjoittelussa kehitin web-sovellusta terveydenhuollon tarpeisiin alusta alkaen. Projektissa opin kokonaisen sovelluksen suunnittelusta, asiakastarpeiden ymmärtämisestä, käyttöliittymien rakentamisesta, tietoturvan huomioimisesta ja käytännönläheisestä ohjelmistokehityksestä.",
-        "Freelance-ohjelmoijana olen toteuttanut automaatioratkaisuja, verkkosivuja ja lisäosia asiakkaiden tarpeisiin. Projektit ovat kehittäneet erityisesti kykyä kuunnella asiakasta, hahmottaa nopeasti olennainen ongelma ja viedä ratkaisu itsenäisesti maaliin."
+        "Helsinki XR Centerissä kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa. Työhön kuului React-käyttöliittymiä, GraphQL-backendiä, integraatioita, liikedatan käsittelyä ja arkaluonteisen käyttäjädatan huomioimista.",
+        "Freelance-kehittäjänä olen toimittanut automaatioita, verkkosivuja, WordPress-lisäosia ja asiakaskohtaisia ohjelmistoratkaisuja. Projektit ovat vahvistaneet kykyäni kuunnella asiakasta, löytää olennainen ongelma ja viedä ratkaisu itsenäisesti tuotantoon asti."
       ]
     },
     "education": {
@@ -72,7 +72,7 @@
       "description": [
         "Insinööri AMK, tieto- ja viestintätekniikka",
         "Pääaine: ohjelmistotuotanto",
-        "Metropolia Ammattikorkeakoulu ",
+        "Metropolia Ammattikorkeakoulu",
         "Arvioitu valmistuminen: kesä 2026"
       ]
     },
@@ -84,15 +84,15 @@
   },
   "AboutPage": {
     "title": "Tietoa minusta",
-    "description": "Olen tieto- ja viestintätekniikan insinööriopiskelija, jonka pääaine on ohjelmistotuotanto. Innostun erityisesti hyödyllisten, luotettavien ja hyvin toteutettujen sovellusten rakentamisesta. Vahvin osaamisalueeni on full-stack-web-kehitys, ja haluan kehittää osaamistani erityisesti tekoälyn käytännön soveltamisessa, datalähtöisissä ominaisuuksissa ja automaatiossa. Minulle on tärkeää kirjoittaa koodia, jota on helppo ymmärtää, ylläpitää ja kehittää eteenpäin."
+    "description": "Olen full-stack-kehittäjä, joka rakentaa käytännönläheisiä web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita. Minulle on tärkeää ymmärtää käyttäjän tarve, kirjoittaa ylläpidettävää koodia ja viedä ratkaisut valmiiksi asti."
   },
   "ContactPage": {
     "metadata": {
       "title": "Yhteystiedot",
-      "description": "Ota yhteyttä Miro Mariaporiin: sähköposti, puhelin, LinkedIn ja GitHub. Keskustellaan ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista."
+      "description": "Ota yhteyttä Miro Mariaporiin: sähköposti, puhelin, LinkedIn ja GitHub. Keskustellaan ohjelmistokehityksestä, full-stack-rooleista ja yhteistyöstä."
     },
     "title": "Ota yhteyttä",
-    "description": "Onko sinulla projekti, työmahdollisuus tai kysymys mielessä? Ota rohkeasti yhteyttä. Keskustelen mielelläni ohjelmistokehityksestä, yhteistyöstä ja uusista ideoista.",
+    "description": "Etsitkö full-stack-kehittäjää, jolla on kokemusta web-sovelluksista, backendeistä, rajapinnoista, integraatioista ja automaatioista? Ota yhteyttä, keskustelen mielelläni työmahdollisuuksista ja yhteistyöstä.",
     "vCardQrAlt": "QR-koodi, joka sisältää Miro Mariaporin vCard-yhteystiedot",
     "methods": [
       {
@@ -122,13 +122,16 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Miro Mariaporin CV: koulutus, työkokemus, tekninen osaaminen ja projektitiedot. "
+      "description": "Miro Mariaporin CV: full-stack-web-kehitys, backendit, rajapinnat, integraatiot, automaatio, tekninen osaaminen, työkokemus ja koulutus."
     },
     "profilePhotoAlt": "{name}n kuva",
+    "actions": {
+      "print": "Tulosta CV"
+    },
     "sections": {
       "summary": "Yhteenveto",
       "contact": "Yhteystiedot",
-      "coreStrengths": "Vahvuudet",
+      "coreStrengths": "Ydinosaaminen",
       "experience": "Työkokemus",
       "keyTechnologies": "Teknologiat",
       "projects": "Projektit",
@@ -139,26 +142,26 @@
       "phone": "Puhelin",
       "linkedin": "LinkedIn",
       "github": "GitHub",
-      "website": "Nettisivu",
+      "website": "Verkkosivu",
       "present": "Nykyhetki"
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Ohjelmistoinsinööri | Full-stack",
+      "title": "Full-stack-ohjelmistokehittäjä | React, Next.js ja Node.js",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Olen kesällä 2026 valmistuva tieto- ja viestintätekniikan insinööriopiskelija, jonka vahvin osaamisalue on moderni full-stack-web-kehitys. Olen rakentanut web-sovelluksia, automaatioita, rajapintoja ja asiakaskohtaisia ohjelmistoratkaisuja työharjoittelussa sekä freelance-projekteissa. Vahvuuksiani ovat kokonaisuuksien hahmottaminen, selkeä toteutus ja käytännön tarpeisiin sopivien ratkaisujen rakentaminen. Teen parhaillaan insinöörityötä autonomisen ajoneuvon ohjelmistoista yhteistyössä Maanpuolustuskorkeakoulun kanssa.",
+      "summary": "Full-stack-kehittäjä, jonka vahvuus on käytännönläheinen web-kehitys. Olen rakentanut React- ja Next.js-käyttöliittymiä, Node.js-palveluita, GraphQL- ja REST-rajapintoja, tietokantapohjaisia sovelluksia sekä automaatioita harjoittelu- ja freelance-projekteissa. Hahmotan kokonaisuuksia nopeasti, vien tehtäviä itsenäisesti maaliin ja kirjoitan koodia, jota on helppo jatkokehittää. Etsin seuraavaa full-stack-kehittäjän roolia, jossa pääsen rakentamaan luotettavia web-tuotteita oikeisiin käyttötarpeisiin.",
       "profilePicture": "/profile.webp"
     },
     "core": [
-      "Moderni full-stack-web-kehitys",
-      "Ohjelmistokokonaisuuksien suunnittelu ja toteutus",
-      "Backend-palvelut, rajapinnat ja integraatiot",
-      "Automaatioratkaisut ja tekoälyn hyödyntäminen",
-      "Selkeä, ylläpidettävä ja käytännönläheinen toteutus"
+      "Full-stack-web-sovellukset TypeScriptillä, Reactilla ja Next.js:llä",
+      "Backend-palvelut, GraphQL/REST-rajapinnat ja integraatiot",
+      "Tietokantapohjaiset sovellukset PostgreSQL:llä ja MongoDB:llä",
+      "Automaatioratkaisut ja datankäsittely Pythonilla ja Node.js:llä",
+      "Itsenäinen vastuunotto asiakastarpeesta julkaisuun"
     ],
     "workExperience": [
       {
@@ -167,13 +170,13 @@
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Kehitin web-sovellusta terveydenhuollon tarpeisiin alusta alkaen osana kuntoutukseen liittyvää ohjelmistokokonaisuutta",
-          "Osallistuin sovelluksen suunnitteluun, käyttöliittymien rakentamiseen, backend-kehitykseen ja käytännön asiakastarpeiden ratkaisemiseen",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti viestinnän sovellusten ja taustapalveluiden välillä",
-          "Suunnittelin ja toteutin liikedataa käsitteleviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen",
-          "Toteutin web-pohjaisen 3D-harjoite-editorin, jossa fysioterapialiikkeitä voitiin suunnitella humanoidimallin avulla",
-          "Osallistuin selainpohjaisten 3D-visualisointien ja Unity-sovelluskehityksen toteutukseen",
-          "Huomioin toteutuksessa tietoturvaa ja arkaluonteisen käyttäjädatan käsittelyä"
+          "Kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin",
+          "Rakensin ja ylläpidin GraphQL-backendiä, joka yhdisti web-sovellukset ja taustapalvelut",
+          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden hallintaan, suunnitteluun ja käyttäjäpalautteen tuottamiseen",
+          "Suunnittelin liikedataa käsitteleviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen",
+          "Toteutin neuroverkkoon perustuvan liikeanalyysiratkaisun, joka koulutettiin yli 1000 fysioterapiaharjoitteella",
+          "Osallistuin selainpohjaisten visualisointien toteutukseen osana laajempaa sovelluskokonaisuutta",
+          "Huomioin toteutuksessa autentikoinnin, tietosuojan ja arkaluonteisen käyttäjädatan käsittelyn"
         ]
       },
       {
@@ -182,10 +185,10 @@
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Toteutan asiakaskohtaisia ohjelmistoratkaisuja, automaatioita, verkkosivuja ja lisäosia asiakkaiden tarpeisiin",
-          "Rakennan ratkaisuja, joissa korostuvat asiakkaan ongelman ymmärtäminen, käytännöllinen toteutus ja projektin vieminen itsenäisesti maaliin",
+          "Toimitan asiakaskohtaisia ohjelmistoratkaisuja, automaatioita, verkkosivuja ja lisäosia asiakkaiden tarpeisiin",
+          "Määrittelen asiakkaan ongelman, rajaan toteutuksen ja vien projektit itsenäisesti käyttöön asti",
           "Kehitin Python-pohjaisen Telegram-botin automatisoituun tiedonkeruuseen ja datankäsittelyyn",
-          "Rakensin ja ylläpidin WordPress-pohjaisia ratkaisuja, kuten räätälöityjä lisäosia ja alustakohtaisia mukautuksia"
+          "Rakensin ja ylläpidin WordPress-pohjaisia ratkaisuja, kuten räätälöityjä lisäosia ja alustakohtaisia integraatioita"
         ]
       },
       {
@@ -194,7 +197,7 @@
         "startDate": "2023-05-01",
         "endDate": "2023-09-30",
         "description": [
-          "Arvioin verkkomainosten osuvuutta ja laatua suhteessa käyttäjien hakuihin kansainvälisessä laadunvarmistusympäristössä"
+          "Arvioin verkkomainosten osuvuutta ja laatua suhteessa käyttäjien hakuihin kansainvälisessä laadunvarmistusympäristössä ja vahvistin tarkkuutta datalähtöisessä arviointityössä"
         ]
       },
       {
@@ -203,7 +206,7 @@
         "startDate": "2018-06-01",
         "endDate": "2020-08-31",
         "description": [
-          "Työskentelin aikakriittisissä lentorahtitehtävissä, kuten rahdin käsittelyssä, tullaukseen liittyvissä prosesseissa ja lähetysten lajittelussa"
+          "Työskentelin aikakriittisissä lentorahtitehtävissä, joissa korostuivat täsmällisyys, prosessien noudattaminen ja vastuu toimitusketjun sujuvuudesta"
         ]
       },
       {
@@ -316,13 +319,16 @@
         ]
       },
       {
-        "category": "AI",
+        "category": "Automaatio ja data",
         "children": [
           {
             "name": "OpenAI"
           },
           {
             "name": "TensorFlow"
+          },
+          {
+            "name": "Datankäsittely"
           }
         ]
       },
@@ -333,12 +339,6 @@
             "name": ".NET"
           },
           {
-            "name": "Three.js"
-          },
-          {
-            "name": "Unity"
-          },
-          {
             "name": "WordPress"
           }
         ]
@@ -346,17 +346,28 @@
     ],
     "projects": [
       {
-        "name": "Autonomisen ajoneuvon ohjelmisto (opinnäytetyö, käynnissä)",
+        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä (insinöörityö)",
         "description": [
-          "Kehitän autonomisen ajoneuvon ohjelmistoja insinöörityönä yhteistyössä Maanpuolustuskorkeakoulun kanssa",
-          "Työ liittyy autonomiseen toimintaan, reaaliaikaisuuteen ja ajoneuvon ohjaukseen. Tarkemmat toteutustiedot ovat rajattuja projektin luottamuksellisuuden vuoksi"
+          "Suunnittelin ja toteutin full-stack-ohjelmistokerroksen autonomisen telakuorma-auton reitinhallintaan osana Metropolian KOTKA-hanketta yhteistyössä Maanpuolustuskorkeakoulun kanssa",
+          "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän ajoneuvokohtaisten reittien määrittelyyn, tallentamiseen ja tilaseurantaan",
+          "Toteutin TypeScriptillä Node.js WebSocket-palvelimen, joka välittää reittikomennot oikealle ajoneuvotunnukselle, ylläpitää ajoneuvotiloja ja julkaisee tilapäivityksiä reaaliaikaisesti",
+          "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, jolla usean simuloidun ajoneuvon reititys ja tilapäivitykset voitiin todentaa ilman varsinaista ajoneuvorajapintaa"
+        ]
+      },
+      {
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "description": [
+          "Kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin",
+          "Rakensin ja ylläpidin GraphQL-backendiä, joka yhdisti web-sovellukset ja taustapalvelut",
+          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden hallintaan, suunnitteluun ja käyttäjäpalautteen tuottamiseen",
+          "Suunnittelin liikedataa ja neuroverkkomallia hyödyntäviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen"
         ]
       },
       {
         "name": "TKIO-Finder",
         "description": [
           "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä",
-          "Toteutin haku-, suodatus- ja matchmaking-ominaisuuksia Reactilla, Node.js:llä ja PostgreSQL:llä",
+          "Toteutin haku-, suodatus- ja matchmaking-ominaisuudet Reactilla, Node.js:llä ja PostgreSQL:llä",
           "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten",
           "Julkaisin ja ylläpidin backend-palveluita itse hallinnoidussa ympäristössä, mukaan lukien palvelinpuolen infrastruktuurin hallinta"
         ]
@@ -368,7 +379,7 @@
         "description": [
           "Pääaine: ohjelmistotuotanto",
           "Metropolia Ammattikorkeakoulu",
-          "Arvioitu valmistuminen: kesä 2026"
+          "Valmistuminen: kesä 2026 (arvioitu)"
         ]
       }
     ]
@@ -376,10 +387,10 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projektit",
-      "description": "Valikoituja töitä, tutkimusprojekteja ja ohjelmistoprojekteja."
+      "description": "Valikoituja projekteja, jotka näyttävät full-stack-, backend-, rajapinta-, data- ja automaatio-osaamiseni käytännössä."
     },
     "title": "Projektit",
-    "description": "Valikoituja töitä, tutkimusprojekteja ja ohjelmistoprojekteja.",
+    "description": "Valikoituja projekteja, joissa näkyvät käytännön toteutus, tekninen vastuu ja kyky rakentaa toimivia ratkaisuja oikeisiin tarpeisiin.",
     "labels": {
       "timeline": "Aikajana",
       "technologies": "Teknologiat",
@@ -388,28 +399,46 @@
     },
     "projects": [
       {
+        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä",
+        "summary": "Insinöörityönä toteutettu full-stack-ohjelmistokokonaisuus autonomisen telakuorma-auton reittien määrittelyyn, komentojen välitykseen ja usean simuloidun ajoneuvon reaaliaikaiseen tilaseurantaan.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Leaflet",
+          "Node.js",
+          "WebSocket",
+          "JSON"
+        ],
+        "description": [
+          "Suunnittelin ja toteutin ohjelmistokerroksen Metropolian KOTKA-hankkeeseen yhteistyössä Maanpuolustuskorkeakoulun kanssa.",
+          "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän, jossa käyttäjä voi määrittää ajoneuvokohtaisia reittejä, valita hallittavan ajoneuvon, tallentaa reittejä ja seurata tilatietoja.",
+          "Toteutin TypeScriptillä Node.js WebSocket-palvelimen, joka vastaanottaa käyttöliittymän reitti- ja ajokomennot, kohdistaa ne ajoneuvotunnuksen perusteella ja välittää tilapäivitykset takaisin käyttöliittymään.",
+          "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, joka rekisteröityy palvelimelle omalla ajoneuvotunnuksellaan ja suorittaa palvelimelta vastaanotettua reittiä.",
+          "Varmensin kokonaisuuden kahdella samanaikaisella simuloidulla ajoneuvolla sekä ajoneuvokohtaisilla reittisuunnitelmilla, jotta eri ajoneuvojen reitit eivät korvaa toisiaan.",
+          "Toteutus muodostaa rajatun ja jatkokehitettävän pohjan todellisen ajoneuvodatan ja varsinaisen ajoneuvorajapinnan myöhemmälle kytkemiselle."
+        ]
+      },
+      {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "startDate": "1/2024",
         "endDate": "3/2025",
-        "summary": "Terveydenhuollon teknologiaprojekti, jossa yhdistyivät XR, web-pohjaiset 3D-työkalut, GraphQL-palvelut ja neuroverkkoihin perustuva liikeanalyysi fysioterapian ja kuntoutuksen tueksi.",
+        "summary": "Terveydenhuollon ohjelmistoprojekti, jossa rakensin web-käyttöliittymiä, GraphQL-palveluita, liikedatan käsittelyä ja käyttäjäpalautetta fysioterapian ja kuntoutuksen tueksi.",
         "technologies": [
           "TypeScript",
           "React",
           "Vite",
           "GraphQL",
           "Node.js",
-          "Three.js",
-          "Unity",
-          "XR",
           "Machine Learning",
           "Neural Networks"
         ],
         "description": [
-          "Kehitin full-stack-terveydenhuoltoalustaa fysioterapiaharjoitteiden suunnitteluun ja toteuttamiseen osana XR-pohjaista kuntoutusjärjestelmää.",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti reaaliaikaisen viestinnän XR-sovellusten ja taustapalveluiden välillä.",
-          "Toteutin interaktiivisen web-pohjaisen 3D-harjoite-editorin, jossa fysioterapialiikkeitä voitiin suunnitella humanoidimallin avulla.",
-          "Osallistuin Unity-pohjaiseen XR-kehitykseen ja toteutin selainpohjaisia 3D-visualisointeja Three.js:llä.",
-          "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja joka tuotti käyttäjälle helposti ymmärrettävää palautetta harjoitteen suorituksesta.",
+          "Kehitin full-stack-terveydenhuoltoalustaa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin.",
+          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti viestinnän web-sovellusten ja taustapalveluiden välillä.",
+          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden suunnitteluun, hallintaan ja palautteen tuottamiseen.",
+          "Osallistuin selainpohjaisten visualisointien toteutukseen osana laajempaa sovelluskokonaisuutta.",
+          "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja tuotti käyttäjälle ymmärrettävää palautetta harjoitteen suorituksesta.",
           "Toteutin autentikointiin ja tietosuojaan liittyviä ratkaisuja arkaluonteisen potilastiedon käsittelyä varten."
         ],
         "links": [
@@ -441,7 +470,7 @@
         "name": "TKIO-Finder",
         "startDate": "1/2026",
         "endDate": "5/2026",
-        "summary": "Web-pohjainen alusta, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä haku-, suodatus- ja matchmaking-ominaisuuksien avulla.",
+        "summary": "Web-pohjainen alusta, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä haun, suodatuksen ja matchmakingin avulla.",
         "technologies": [
           "TypeScript",
           "React",
@@ -452,16 +481,14 @@
         ],
         "description": [
           "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä.",
-          "Toteutin haku-, suodatus- ja matchmaking-ominaisuuksia Reactilla, Node.js:llä ja PostgreSQL:llä.",
+          "Toteutin haku-, suodatus- ja matchmaking-ominaisuudet Reactilla, Node.js:llä ja PostgreSQL:llä.",
           "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten.",
           "Julkaisin ja ylläpidin backend-palveluita itse hallinnoidussa ympäristössä, mukaan lukien palvelinpuolen infrastruktuurin hallinta."
         ]
       },
       {
         "name": "Portfolio",
-        "startDate": "4/2026",
-        "endDate": "5/2026",
-        "summary": "Next.js:llä toteutettu henkilökohtainen portfoliosivusto, joka kokoaa yhteen projektini, osaamiseni ja kokemukseni suomeksi ja englanniksi.",
+        "summary": "Next.js:llä toteutettu monikielinen portfoliosivusto, joka kokoaa projektit, osaamisen, CV:n ja yhteystiedot työnhakua varten.",
         "technologies": [
           "TypeScript",
           "Next.js",
@@ -470,7 +497,7 @@
           "Vercel"
         ],
         "description": [
-          "Suunnittelin ja toteutin monikielisen portfoliosivuston projektieni, osaamiseni ja kokemukseni esittelyyn.",
+          "Suunnittelin ja toteutin monikielisen portfoliosivuston projektieni, osaamiseni, CV:ni ja yhteystietojeni esittelyyn.",
           "Rakensin responsiivisen käyttöliittymän CSS-moduleilla ja pidin rakenteen selkeänä sekä ylläpidettävänä.",
           "Lisäsin sivukohtaiset metatiedot, kieliversioiden canonical- ja alternate-linkit sekä JSON-LD-rakenteista dataa hakukonenäkyvyyttä varten.",
           "Julkaisin sivuston Vercelissä ja hyödynsin Vercel Analyticsia kävijäseurannan tueksi."

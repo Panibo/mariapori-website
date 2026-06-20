@@ -5,6 +5,7 @@ import styles from "./cv.module.css";
 import { formatDate } from "../../../utils/DateFormatter";
 import { Metadata } from "next";
 import JsonLd from "@/src/components/json-ld";
+import PrintCvButton from "@/src/components/print-cv-button";
 import {
   absoluteUrl,
   getLocale,
@@ -122,146 +123,154 @@ const CV = () => {
   };
 
   return (
-    <div className={styles.cv}>
-      <JsonLd data={structuredData} />
+    <>
+      <div className={styles.printToolbar}>
+        <PrintCvButton className={styles.printButton} autoPrintFromQuery>
+          {t("actions.print")}
+        </PrintCvButton>
+      </div>
 
-      <header className={styles.header}>
-        <Image
-          className={styles.photo}
-          src={general.profilePicture}
-          alt={t("profilePhotoAlt", { name: general.name })}
-          width={160}
-          height={160}
-        />
+      <div className={styles.cv}>
+        <JsonLd data={structuredData} />
 
-        <div className={styles.headerText}>
-          <h1>{general.name}</h1>
-          <p>{general.title}</p>
-        </div>
-      </header>
+        <header className={styles.header}>
+          <Image
+            className={styles.photo}
+            src={general.profilePicture}
+            alt={t("profilePhotoAlt", { name: general.name })}
+            width={160}
+            height={160}
+          />
 
-      <section>
-        <h2>{t("sections.summary")}</h2>
-        <p>{general.summary}</p>
-      </section>
+          <div className={styles.headerText}>
+            <h1>{general.name}</h1>
+            <p>{general.title}</p>
+          </div>
+        </header>
 
-      <section>
-        <h2>{t("sections.contact")}</h2>
+        <section>
+          <h2>{t("sections.summary")}</h2>
+          <p>{general.summary}</p>
+        </section>
 
-        <p>
-          <strong>{t("labels.email")}:</strong>{" "}
-          <a href={`mailto:${general.email}`}>{general.email}</a>
-        </p>
+        <section>
+          <h2>{t("sections.contact")}</h2>
 
-        <p>
-          <strong>{t("labels.phone")}:</strong>{" "}
-          <a href={`tel:${general.phone}`}>{general.phone}</a>
-        </p>
-
-        <p>
-          <strong>{t("labels.website")}:</strong>{" "}
-          <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
-            {general.website}
-          </a>
-        </p>
-
-        <p>
-          <strong>{t("labels.linkedin")}:</strong>{" "}
-          <a
-            href={`https://www.${general.linkedin}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {general.linkedin}
-          </a>
-        </p>
-
-        <p>
-          <strong>{t("labels.github")}:</strong>{" "}
-          <a
-            href={`https://www.${general.github}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {general.github}
-          </a>
-        </p>
-      </section>
-
-      <section>
-        <h2>{t("sections.coreStrengths")}</h2>
-        <span>{core.join(", ")}</span>
-      </section>
-
-      <section>
-        <h2>{t("sections.experience")}</h2>
-
-        {workExperience.map((job) => (
-          <article
-            key={`${job.company}-${job.position}`}
-            className={styles.avoidBreak}
-          >
-            <h3>{job.position}</h3>
-
-            <p>
-              {job.company} • {formatDate(job.startDate)}
-              {job.endDate
-                ? ` - ${formatDate(job.endDate)}`
-                : ` - ${t("labels.present")}`}
-            </p>
-
-            <ul>
-              {job.description.map((line, index) => (
-                <li key={`${job.company}-${index}`}>{line}</li>
-              ))}
-            </ul>
-          </article>
-        ))}
-      </section>
-
-      <section>
-        <h2>{t("sections.keyTechnologies")}</h2>
-
-        {techStack.map((category) => (
-          <p key={category.category}>
-            <strong>{category.category}:</strong>{" "}
-            {category.children.map((tech) => tech.name).join(", ")}
+          <p>
+            <strong>{t("labels.email")}:</strong>{" "}
+            <a href={`mailto:${general.email}`}>{general.email}</a>
           </p>
-        ))}
-      </section>
 
-      <section className={styles.avoidBreak}>
-        <h2>{t("sections.projects")}</h2>
+          <p>
+            <strong>{t("labels.phone")}:</strong>{" "}
+            <a href={`tel:${general.phone}`}>{general.phone}</a>
+          </p>
 
-        {projects.map((project) => (
-          <div key={project.name} className={styles.avoidBreak}>
-            <h3>{project.name}</h3>
+          <p>
+            <strong>{t("labels.website")}:</strong>{" "}
+            <a href={websiteUrl} target="_blank" rel="noopener noreferrer">
+              {general.website}
+            </a>
+          </p>
 
-            <ul>
-              {project.description.map((line, index) => (
-                <li key={`${project.name}-${index}`}>{line}</li>
+          <p>
+            <strong>{t("labels.linkedin")}:</strong>{" "}
+            <a
+              href={`https://www.${general.linkedin}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {general.linkedin}
+            </a>
+          </p>
+
+          <p>
+            <strong>{t("labels.github")}:</strong>{" "}
+            <a
+              href={`https://www.${general.github}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {general.github}
+            </a>
+          </p>
+        </section>
+
+        <section>
+          <h2>{t("sections.coreStrengths")}</h2>
+          <span>{core.join(", ")}</span>
+        </section>
+
+        <section>
+          <h2>{t("sections.experience")}</h2>
+
+          {workExperience.map((job) => (
+            <article
+              key={`${job.company}-${job.position}`}
+              className={styles.avoidBreak}
+            >
+              <h3>{job.position}</h3>
+
+              <p>
+                {job.company} • {formatDate(job.startDate)}
+                {job.endDate
+                  ? ` - ${formatDate(job.endDate)}`
+                  : ` - ${t("labels.present")}`}
+              </p>
+
+              <ul>
+                {job.description.map((line, index) => (
+                  <li key={`${job.company}-${index}`}>{line}</li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </section>
+
+        <section className={styles.avoidBreak}>
+          <h2>{t("sections.keyTechnologies")}</h2>
+
+          {techStack.map((category) => (
+            <p key={category.category}>
+              <strong>{category.category}:</strong>{" "}
+              {category.children.map((tech) => tech.name).join(", ")}
+            </p>
+          ))}
+        </section>
+
+        <section className={styles.avoidBreak}>
+          <h2>{t("sections.projects")}</h2>
+
+          {projects.map((project) => (
+            <div key={project.name} className={styles.avoidBreak}>
+              <h3>{project.name}</h3>
+
+              <ul>
+                {project.description.map((line, index) => (
+                  <li key={`${project.name}-${index}`}>{line}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </section>
+
+        <section>
+          <h2>{t("sections.education")}</h2>
+
+          {education.map((edu) => (
+            <div
+              key={`${edu.institution}-${edu.degree}`}
+              className={styles.avoidBreak}
+            >
+              <h3>{edu.degree}</h3>
+              {edu.description.map((line, index) => (
+                <p key={`${edu.institution}-${index}`}>{line}</p>
               ))}
-            </ul>
-          </div>
-        ))}
-      </section>
-
-      <section>
-        <h2>{t("sections.education")}</h2>
-
-        {education.map((edu) => (
-          <div
-            key={`${edu.institution}-${edu.degree}`}
-            className={styles.avoidBreak}
-          >
-            <h3>{edu.degree}</h3>
-            {edu.description.map((line, index) => (
-              <p key={`${edu.institution}-${index}`}>{line}</p>
-            ))}
-          </div>
-        ))}
-      </section>
-    </div>
+            </div>
+          ))}
+        </section>
+      </div>
+    </>
   );
 };
 

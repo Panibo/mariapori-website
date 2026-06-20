@@ -21,12 +21,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(siteConfig.url),
 
     title: {
-      default: "Miro Mariapori - Software Engineer",
+      default: "Miro Mariapori - Full-stack Software Developer",
       template: "%s | Miro Mariapori",
     },
 
     description:
-      "Welcome to my software engineer portfolio! Explore my projects, experience, and skills in software development. Discover innovative solutions I've created and learn more about my work in the field.",
+      "Full-stack software developer with experience in web applications, backends, APIs, integrations, and automation. Explore my projects, CV, and contact details.",
 
     applicationName: siteConfig.name,
     authors: [{ name: siteConfig.name, url: localizedUrl(locale, "") }],

@@ -1,3 +1,32 @@
+.printToolbar {
+  width: min(100%, 840px);
+  max-width: 840px;
+  margin: 0 auto 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.printButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  padding: 0.75rem 1.05rem;
+  color: var(--color-text-inverse);
+  background-color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+  font: inherit;
+  font-weight: 850;
+}
+
+.printButton:hover {
+  background-color: var(--color-primary-hover);
+  border-color: var(--color-primary-hover);
+}
+
 .cv {
   width: min(100%, 840px);
   max-width: 840px;
@@ -101,6 +130,10 @@
   @page {
     size: A4;
     margin: 12mm;
+  }
+
+  .printToolbar {
+    display: none;
   }
 
   .cv {

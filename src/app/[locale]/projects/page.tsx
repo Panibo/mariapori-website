@@ -27,11 +27,17 @@ type Props = {
   params: Promise<{ locale: string }>;
 };
 
-const projectVisuals = [
-  "/placeholders/project-gamerat.svg",
-  "/placeholders/project-tkio-finder.svg",
-  "/placeholders/project-portfolio.svg",
-] as const;
+const projectVisuals: Record<string, string> = {
+  "Autonomisen telakuorma-auton reitinhallintajärjestelmä":
+    "/projects/kotka.png",
+  "Route Management System for an Autonomous Tracked Articulated Vehicle":
+    "/projects/kotka.png",
+  "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)":
+    "/projects/gamerat.png",
+  "TKIO-Finder": "/projects/tkio-finder.png",
+  Portfolio: "/projects/portfolio.png",
+  "Personal Portfolio": "/projects/portfolio.png",
+};
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
@@ -92,7 +98,7 @@ const Projects = () => {
 
       <div className={styles.projectList}>
         {projects.map((project, index) => {
-          const visual = projectVisuals[index];
+          const visual = projectVisuals[project.name];
 
           return (
             <section key={project.name} className={styles.projectCard}>

@@ -1,7 +1,7 @@
 {
   "Layout": {
     "navigation": {
-      "home": "About me",
+      "home": "Profile",
       "cv": "CV",
       "projects": "Projects",
       "contact": "Contact"
@@ -20,51 +20,51 @@
   },
   "HomePage": {
     "metadata": {
-      "title": "Miro Mariapori - Software Engineer",
-      "description": "I am a software developer focused on modern full-stack web development, automations, and practical software solutions. Explore my skills, experience, and projects."
+      "title": "Miro Mariapori - Full-stack Software Developer",
+      "description": "Full-stack software developer building web applications, backends, APIs, integrations, and automation. Explore my experience, projects, and CV."
     },
     "structuredData": {
-      "jobTitle": "Software Engineer",
-      "description": "A software engineer focused on modern full-stack web development, automations, and practical software solutions.",
+      "jobTitle": "Full-stack Software Developer",
+      "description": "Full-stack software developer building web applications, backends, APIs, integrations, and automation.",
       "alumniOf": "Metropolia University of Applied Sciences",
       "knowsAbout": [
         "Full-stack web development",
-        "TypeScript",
-        "React",
+        "TypeScript and React",
         "Next.js",
-        "Node.js",
-        "GraphQL",
-        "Applied AI",
+        "Node.js and GraphQL",
+        "PostgreSQL",
+        "REST APIs",
+        "Integrations",
         "Automation solutions"
       ]
     },
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
-        "I am an information and communications technology engineering student graduating in summer 2026, with my strongest area of expertise being modern full-stack web development. I build web applications, automations, and software solutions for practical needs.",
-        "I am currently working on my engineering thesis on autonomous vehicle software in collaboration with the Finnish National Defence University. I have gained experience through an internship as well as several years of freelance projects."
+        "I am a full-stack software developer looking for my next role in modern web development. My strongest tools are TypeScript, React, Next.js, Node.js, GraphQL, PostgreSQL, and practical web, backend, and automation solutions.",
+        "In recent projects, I have built healthcare web applications, GraphQL backends, client-specific automations, real-time WebSocket solutions, and a full-stack platform for improving research project discoverability."
       ]
     },
     "whatIDo": {
       "title": "What I do",
       "description": [
-        "I design and implement software solutions from start to finish. I am skilled in both frontend and backend development, and my toolkit includes modern frameworks and technologies. This website, too, was built with Next.js.",
-        "I enjoy being involved in every stage of implementation, from planning to deployment. I am especially motivated by creating technical solutions that serve real needs and also work well from the user's perspective."
+        "I build user interfaces, backends, APIs, and integrations that solve real needs. My main focus is modern full-stack web development: React and Next.js interfaces, Node.js services, GraphQL/REST APIs, and database-driven applications.",
+        "I can take responsibility from initial requirements to deployment: understand the user need, break the problem into shippable pieces, and keep the implementation maintainable beyond the first version."
       ]
     },
     "howIWork": {
       "title": "How I work",
       "description": [
-        "I value clear code, sensible structure, and solutions that remain usable beyond the first version. In my work, I balance quality, speed, and practicality.",
-        "I use AI tools to support ideation, speed up work, review code, and reduce repetitive tasks. However, I do not see them as a substitute for understanding: I want to know what I am building, why it works, and how problems are fixed.",
-        "I work well independently, but I also enjoy working in a team. I value sharing knowledge, helping others, and continuous learning."
+        "I work in a structured and practical way. I value clear code, readable architecture, useful documentation, and solutions that work well from the user's perspective.",
+        "I use AI tools to support ideation, implementation, code review, and repetitive work, while keeping the technical understanding in my own hands. I want to know what I am building, why it works, and how to fix it when it does not.",
+        "I am used to moving tasks forward independently, but I do my best work in teams where knowledge is shared openly, feedback is quick, and solutions improve through collaboration."
       ]
     },
     "experience": {
       "title": "Experience",
       "description": [
-        "During my internship, I developed a web application for healthcare needs from the ground up. In the project, I learned about designing a complete application, understanding customer needs, building user interfaces, considering information security, and practical software development.",
-        "As a freelance software developer, I have implemented automation solutions, websites, and plugins based on customer needs. These projects have especially developed my ability to listen to customers, quickly identify the core problem, and independently carry a solution through to completion."
+        "At Helsinki XR Center, I worked in a full-stack role on a healthcare software platform. The work included React user interfaces, a GraphQL backend, integrations, motion-data processing, and handling sensitive user data responsibly.",
+        "As a freelance developer, I have delivered automations, websites, WordPress plugins, and custom software solutions for client needs. These projects have strengthened my ability to listen to customers, identify the essential problem, and ship working solutions independently."
       ]
     },
     "education": {
@@ -84,15 +84,15 @@
   },
   "AboutPage": {
     "title": "About me",
-    "description": "I am an information and communications technology engineering student majoring in software engineering. I am especially enthusiastic about building useful, reliable, and well-executed applications. My strongest area of expertise is full-stack web development, and I want to further develop my skills especially in the practical application of AI, data-driven features, and automation. It is important to me to write code that is easy to understand, maintain, and build upon."
+    "description": "I am a full-stack developer who builds practical web applications, backends, APIs, integrations, and automation. I care about understanding the user need, writing maintainable code, and taking solutions all the way to production."
   },
   "ContactPage": {
     "metadata": {
       "title": "Contact",
-      "description": "Contact Miro Mariapori: email, phone, LinkedIn, and GitHub. Let's discuss software development, collaboration, and new ideas."
+      "description": "Contact Miro Mariapori: email, phone, LinkedIn, and GitHub. Let's discuss software development, full-stack roles, and collaboration."
     },
     "title": "Contact",
-    "description": "Do you have a project, job opportunity, or question in mind? Feel free to get in touch. I am happy to discuss software development, collaboration, and new ideas.",
+    "description": "Looking for a full-stack developer with experience in web applications, backends, APIs, integrations, and automation? Get in touch, I am happy to discuss job opportunities and collaboration.",
     "vCardQrAlt": "QR code containing Miro Mariapori's vCard",
     "methods": [
       {
@@ -122,13 +122,16 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Miro Mariapori's CV: education, work experience, technical skills, and project details."
+      "description": "Miro Mariapori's CV: full-stack web development, backends, APIs, integrations, automation, technical skills, work experience, and education."
     },
     "profilePhotoAlt": "{name}'s photo",
+    "actions": {
+      "print": "Print CV"
+    },
     "sections": {
       "summary": "Summary",
       "contact": "Contact information",
-      "coreStrengths": "Strengths",
+      "coreStrengths": "Core strengths",
       "experience": "Work experience",
       "keyTechnologies": "Technologies",
       "projects": "Projects",
@@ -144,21 +147,21 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Software Engineer | Full-stack",
+      "title": "Full-stack Software Developer | React, Next.js & Node.js",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "I am an information and communications technology engineering student graduating in summer 2026, with my strongest area of expertise being modern full-stack web development. I have built web applications, automations, APIs, and customer-specific software solutions during my internship and in freelance projects. My strengths include understanding larger systems, clear implementation, and building solutions that fit practical needs. I am currently working on my engineering thesis on autonomous vehicle software in collaboration with the Finnish National Defence University.",
+      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation in internship and freelance projects. I understand systems quickly, move work forward independently, and write code that is easy to continue building on. I am looking for my next full-stack developer role where I can help build reliable web products for real user needs.",
       "profilePicture": "/profile.webp"
     },
     "core": [
-      "Modern full-stack web development",
-      "Design and implementation of software solutions",
-      "Backend services, APIs, and integrations",
-      "Automation solutions and use of AI",
-      "Clear, maintainable, and practical implementation"
+      "Full-stack web applications with TypeScript, React, and Next.js",
+      "Backend services, GraphQL/REST APIs, and integrations",
+      "Database-driven applications with PostgreSQL and MongoDB",
+      "Automation and data processing with Python and Node.js",
+      "Independent ownership from customer need to deployment"
     ],
     "workExperience": [
       {
@@ -167,13 +170,13 @@
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Developed a web application for healthcare needs from the ground up as part of a rehabilitation-related software solution",
-          "Participated in application design, user interface development, backend development, and solving practical customer needs",
-          "Built and maintained a GraphQL backend that enabled communication between applications and backend services",
-          "Designed and implemented solutions for processing motion data to analyze exercises and provide user feedback",
-          "Implemented a web-based 3D exercise editor where physiotherapy movements could be designed using a humanoid model",
-          "Participated in the development of browser-based 3D visualizations and Unity application development",
-          "Took information security and the handling of sensitive user data into account in the implementation"
+          "Developed a healthcare software platform in a full-stack role for designing, delivering, and analyzing physiotherapy exercises",
+          "Built and maintained a GraphQL backend connecting web applications with backend services",
+          "Implemented React-based user interfaces for exercise management, planning, and user feedback",
+          "Designed motion-data processing features for exercise analysis and user feedback",
+          "Implemented a neural-network-based motion analysis solution trained on 1000+ physiotherapy exercises",
+          "Contributed to browser-based visualizations as part of the broader application",
+          "Handled authentication, data protection, and sensitive user data considerations in the implementation"
         ]
       },
       {
@@ -182,10 +185,10 @@
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Implement customer-specific software solutions, automations, websites, and plugins based on customer needs",
-          "Build solutions that emphasize understanding the customer's problem, practical implementation, and independently completing the project",
+          "Deliver customer-specific software solutions, automations, websites, and plugins based on client needs",
+          "Define the customer's problem, scope the implementation, and take projects independently into use",
           "Developed a Python-based Telegram bot for automated data collection and data processing",
-          "Built and maintained WordPress-based solutions, such as custom plugins and platform-specific customizations"
+          "Built and maintained WordPress-based solutions, including custom plugins and platform-specific integrations"
         ]
       },
       {
@@ -194,7 +197,7 @@
         "startDate": "2023-05-01",
         "endDate": "2023-09-30",
         "description": [
-          "Evaluated the relevance and quality of online advertisements in relation to user searches in an international quality assurance environment"
+          "Evaluated the relevance and quality of online advertisements against user searches in an international quality-assurance environment, strengthening accuracy in data-driven evaluation work"
         ]
       },
       {
@@ -203,7 +206,7 @@
         "startDate": "2018-06-01",
         "endDate": "2020-08-31",
         "description": [
-          "Worked in time-critical air freight tasks, including freight handling, customs-related processes, and shipment sorting"
+          "Worked in time-critical air freight operations where precision, process discipline, and responsibility for smooth logistics were essential"
         ]
       },
       {
@@ -316,13 +319,16 @@
         ]
       },
       {
-        "category": "AI",
+        "category": "Automation and data",
         "children": [
           {
             "name": "OpenAI"
           },
           {
             "name": "TensorFlow"
+          },
+          {
+            "name": "Data Processing"
           }
         ]
       },
@@ -333,12 +339,6 @@
             "name": ".NET"
           },
           {
-            "name": "Three.js"
-          },
-          {
-            "name": "Unity"
-          },
-          {
             "name": "WordPress"
           }
         ]
@@ -346,10 +346,21 @@
     ],
     "projects": [
       {
-        "name": "Autonomous vehicle software (thesis, ongoing)",
+        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle (thesis)",
         "description": [
-          "Developing autonomous vehicle software as an engineering thesis in collaboration with the Finnish National Defence University",
-          "The work relates to autonomous operation, real-time systems, and vehicle control. More detailed implementation information is restricted due to the confidential nature of the project"
+          "Designed and implemented a full-stack software layer for autonomous vehicle route management as part of Metropolia's KOTKA project in cooperation with the Finnish National Defence University",
+          "Built a React and Leaflet-based map interface for defining, storing, and monitoring vehicle-specific route plans",
+          "Implemented a TypeScript Node.js WebSocket server that routes commands to the correct vehicle identifier, manages vehicle state, and publishes real-time status updates",
+          "Implemented a command-line vehicle simulator for validating route execution and status updates with multiple simulated vehicles before integration with a real vehicle interface"
+        ]
+      },
+      {
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "description": [
+          "Developed a healthcare software platform in a full-stack role for designing, delivering, and analyzing physiotherapy exercises",
+          "Built and maintained a GraphQL backend connecting web applications with backend services",
+          "Implemented React-based user interfaces for exercise management, planning, and user feedback",
+          "Designed motion-data and neural-network-based features for exercise analysis and user feedback"
         ]
       },
       {
@@ -368,7 +379,7 @@
         "description": [
           "Major: Software Engineering",
           "Metropolia University of Applied Sciences",
-          "Estimated graduation: summer 2026"
+          "Graduation: summer 2026 (estimated)"
         ]
       }
     ]
@@ -376,10 +387,10 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projects",
-      "description": "Selected work, research projects, and software projects."
+      "description": "Selected projects showing practical full-stack, backend, API, data, and automation experience."
     },
     "title": "Projects",
-    "description": "Selected work, research, and software projects.",
+    "description": "Selected projects that show practical implementation, technical ownership, and the ability to build working solutions for real needs.",
     "labels": {
       "timeline": "Timeline",
       "technologies": "Technologies",
@@ -388,28 +399,46 @@
     },
     "projects": [
       {
+        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle",
+        "summary": "A thesis full-stack software system for defining autonomous vehicle routes, forwarding route commands, and monitoring multiple simulated vehicles in real time.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Leaflet",
+          "Node.js",
+          "WebSocket",
+          "JSON"
+        ],
+        "description": [
+          "Designed and implemented the software layer for Metropolia's KOTKA project in cooperation with the Finnish National Defence University.",
+          "Built a React and Leaflet-based map interface where users can define vehicle-specific routes, select the controlled vehicle, store routes, and monitor vehicle status.",
+          "Implemented a TypeScript Node.js WebSocket server that receives route and driving commands from the UI, targets them by vehicle identifier, and sends status updates back to the interface.",
+          "Implemented a command-line vehicle simulator that registers with the server using its own vehicle identifier and executes routes received from the server.",
+          "Validated the system with two simultaneous simulated vehicles and vehicle-specific route plans so that routes for different vehicles do not overwrite each other.",
+          "The implementation provides a scoped and extensible foundation for later connection to real vehicle data and the actual vehicle interface."
+        ]
+      },
+      {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "startDate": "1/2024",
         "endDate": "3/2025",
-        "summary": "A healthcare technology project combining XR, web-based 3D tooling, GraphQL services, and neural-network-based motion analysis to support physiotherapy and rehabilitation.",
+        "summary": "A healthcare software project where I built web interfaces, GraphQL services, motion-data processing, and user feedback features to support physiotherapy and rehabilitation.",
         "technologies": [
           "TypeScript",
           "React",
           "Vite",
           "GraphQL",
           "Node.js",
-          "Three.js",
-          "Unity",
-          "XR",
           "Machine Learning",
           "Neural Networks"
         ],
         "description": [
-          "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system.",
-          "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services.",
-          "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design.",
-          "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js.",
-          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance.",
+          "Developed a full-stack healthcare platform for designing, delivering, and analyzing physiotherapy exercises.",
+          "Built and maintained a GraphQL backend supporting communication between web applications and backend services.",
+          "Implemented React-based user interfaces for exercise planning, management, and feedback.",
+          "Contributed to browser-based visualizations as part of the broader application.",
+          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing understandable feedback on exercise performance.",
           "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."
         ],
         "links": [
@@ -441,7 +470,7 @@
         "name": "TKIO-Finder",
         "startDate": "1/2026",
         "endDate": "5/2026",
-        "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences, featuring search, filtering, and matchmaking capabilities.",
+        "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences through search, filtering, and matchmaking.",
         "technologies": [
           "TypeScript",
           "React",
@@ -459,9 +488,7 @@
       },
       {
         "name": "Personal Portfolio",
-        "startDate": "4/2026",
-        "endDate": "5/2026",
-        "summary": "A multilingual personal portfolio built with Next.js to present my projects, skills, and experience in Finnish and English.",
+        "summary": "A multilingual Next.js portfolio that brings together my projects, skills, CV, and contact details for job search and collaboration.",
         "technologies": [
           "TypeScript",
           "Next.js",
@@ -470,7 +497,7 @@
           "Vercel"
         ],
         "description": [
-          "Designed and developed a multilingual portfolio website for presenting my projects, skills, and experience",
+          "Designed and developed a multilingual portfolio website for presenting my projects, skills, CV, and contact details",
           "Built a responsive interface with CSS Modules, keeping the layout simple, maintainable, and easy to scan",
           "Added page-specific metadata, canonical and alternate language links, and JSON-LD structured data for SEO",
           "Deployed the site on Vercel and added Vercel Analytics for lightweight visitor insights"
