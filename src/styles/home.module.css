@@ -49,7 +49,8 @@
 }
 
 .primaryAction,
-.secondaryAction {
+.secondaryAction,
+.downloadAction {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -71,12 +72,14 @@
   background-color: var(--color-primary-hover);
 }
 
-.secondaryAction {
+.secondaryAction,
+.downloadAction {
   color: var(--color-primary);
   background-color: var(--color-surface);
 }
 
-.secondaryAction:hover {
+.secondaryAction:hover,
+.downloadAction:hover {
   color: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
 }

@@ -45,6 +45,9 @@
         "In recent projects, I have built healthcare web applications, GraphQL backends, client-specific automations, real-time WebSocket solutions, and a full-stack platform for improving research project discoverability."
       ]
     },
+    "actions": {
+      "downloadCv": "Download CV"
+    },
     "whatIDo": {
       "title": "What I do",
       "description": [
@@ -126,7 +129,7 @@
     },
     "profilePhotoAlt": "{name}'s photo",
     "actions": {
-      "print": "Print CV"
+      "download": "Download CV"
     },
     "sections": {
       "summary": "Summary",

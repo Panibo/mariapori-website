@@ -2,25 +2,11 @@
 
 import { useEffect, useRef } from "react";
 
-type PrintCvButtonProps = {
-  autoPrintFromQuery?: boolean;
-  children: React.ReactNode;
-  className?: string;
-};
-
-const PrintCvButton = ({
-  autoPrintFromQuery = false,
-  children,
-  className,
-}: PrintCvButtonProps) => {
+const CvPrintTrigger = () => {
   const hasAutoPrinted = useRef(false);
 
-  const printCv = () => {
-    window.print();
-  };
-
   useEffect(() => {
-    if (!autoPrintFromQuery || hasAutoPrinted.current) {
+    if (hasAutoPrinted.current) {
       return;
     }
 
@@ -44,13 +30,9 @@ const PrintCvButton = ({
     return () => {
       window.clearTimeout(timeout);
     };
-  }, [autoPrintFromQuery]);
+  }, []);
 
-  return (
-    <button className={className} type="button" onClick={printCv}>
-      {children}
-    </button>
-  );
+  return null;
 };
 
-export default PrintCvButton;
+export default CvPrintTrigger;

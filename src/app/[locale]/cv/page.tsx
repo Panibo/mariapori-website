@@ -4,8 +4,8 @@ import { getTranslations } from "next-intl/server";
 import styles from "./cv.module.css";
 import { formatDate } from "../../../utils/DateFormatter";
 import { Metadata } from "next";
+import CvPrintTrigger from "@/src/components/cv-print-trigger";
 import JsonLd from "@/src/components/json-ld";
-import PrintCvButton from "@/src/components/print-cv-button";
 import {
   absoluteUrl,
   getLocale,
@@ -84,6 +84,7 @@ const CV = () => {
   const projects = t.raw("projects") as Project[];
   const education = t.raw("education") as Education[];
   const websiteUrl = localizedUrl(locale, "");
+  const cvPdfPath = siteConfig.cvPdf[locale];
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
@@ -124,10 +125,12 @@ const CV = () => {
 
   return (
     <>
-      <div className={styles.printToolbar}>
-        <PrintCvButton className={styles.printButton} autoPrintFromQuery>
-          {t("actions.print")}
-        </PrintCvButton>
+      <CvPrintTrigger />
+
+      <div className={styles.downloadToolbar}>
+        <a className={styles.downloadButton} href={cvPdfPath} download>
+          {t("actions.download")}
+        </a>
       </div>
 
       <div className={styles.cv}>

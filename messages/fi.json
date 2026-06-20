@@ -45,6 +45,9 @@
         "Viimeisimmissä projekteissani olen rakentanut terveydenhuollon web-sovelluksia, GraphQL-backendejä, asiakaskohtaisia automaatioita, reaaliaikaisia WebSocket-ratkaisuja sekä tutkimusprojektien löydettävyyttä parantavan full-stack-alustan."
       ]
     },
+    "actions": {
+      "downloadCv": "Lataa CV"
+    },
     "whatIDo": {
       "title": "Mitä teen",
       "description": [
@@ -126,7 +129,7 @@
     },
     "profilePhotoAlt": "{name}n kuva",
     "actions": {
-      "print": "Tulosta CV"
+      "download": "Lataa CV"
     },
     "sections": {
       "summary": "Yhteenveto",

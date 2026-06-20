@@ -47,6 +47,7 @@ const Home = () => {
   const educationDescription = t.raw("education.description") as string[];
   const knowsAbout = t.raw("structuredData.knowsAbout") as string[];
   const pageUrl = localizedUrl(locale, "");
+  const cvPdfPath = siteConfig.cvPdf[locale];
 
   const structuredData = {
     "@context": "https://schema.org",
@@ -103,6 +104,9 @@ const Home = () => {
             <Link href="/cv" className={styles.secondaryAction}>
               {navT("cv")}
             </Link>
+            <a className={styles.downloadAction} href={cvPdfPath} download>
+              {t("actions.downloadCv")}
+            </a>
           </div>
         </div>
 

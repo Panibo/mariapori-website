@@ -22,6 +22,11 @@ export const siteConfig = {
   linkedin: "https://www.linkedin.com/in/miro-mariapori/",
   github: "https://github.com/panibo",
 
+  cvPdf: {
+    en: "/data/Miro-Mariapori-CV-EN.pdf",
+    fi: "/data/Miro-Mariapori-CV-FI.pdf",
+  },
+
   routes: [
     { path: "", changeFrequency: "monthly", priority: 1 },
     { path: "/cv", changeFrequency: "monthly", priority: 0.9 },

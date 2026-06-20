@@ -1,4 +1,4 @@
-.printToolbar {
+.downloadToolbar {
   width: min(100%, 840px);
   max-width: 840px;
   margin: 0 auto 1rem;
@@ -6,7 +6,7 @@
   justify-content: flex-end;
 }
 
-.printButton {
+.downloadButton {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,8 @@
   font-weight: 850;
 }
 
-.printButton:hover {
+.downloadButton:hover {
+  color: var(--color-text-inverse);
   background-color: var(--color-primary-hover);
   border-color: var(--color-primary-hover);
 }
@@ -132,7 +133,7 @@
     margin: 12mm;
   }
 
-  .printToolbar {
+  .downloadToolbar {
     display: none;
   }
 
