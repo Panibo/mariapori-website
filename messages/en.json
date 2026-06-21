@@ -156,15 +156,15 @@
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write code that is easy to continue building on. I am looking for my next full-stack developer role where I can help build reliable web products for real user needs.",
+      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write maintainable code that is easy for others to extend. I am looking for a full-stack developer role where I can help build reliable web products for real user needs.",
       "profilePicture": "/profile.webp"
     },
     "core": [
-      "Full-stack web applications with TypeScript, React, and Next.js",
-      "Backend services, GraphQL/REST APIs, and integrations",
-      "Database-driven applications with PostgreSQL and MongoDB",
-      "Automation and data processing with Python and Node.js",
-      "Independent ownership from customer need to deployment"
+      "TypeScript, React, and Next.js web applications",
+      "Node.js backends, GraphQL/REST APIs, and integrations",
+      "PostgreSQL and MongoDB applications",
+      "Python and Node.js automation and data processing",
+      "Independent ownership from requirements to production"
     ],
     "workExperience": [
       {
@@ -174,12 +174,12 @@
         "endDate": "2025-03-31",
         "description": [
           "Developed a healthcare software platform in a full-stack role for designing, delivering, and analyzing physiotherapy exercises",
-          "Built and maintained a GraphQL backend connecting web applications with backend services",
+          "Built and maintained a GraphQL backend that connected web applications to backend services",
           "Implemented React-based user interfaces for exercise management, planning, and user feedback",
           "Designed motion-data processing features for exercise analysis and user feedback",
           "Implemented a neural-network-based motion analysis solution trained on 1000+ physiotherapy exercises",
           "Contributed to browser-based visualizations as part of the broader application",
-          "Handled authentication, data protection, and sensitive user data considerations in the implementation"
+          "Implemented authentication and data protection measures for handling sensitive user data"
         ]
       },
       {
@@ -188,9 +188,9 @@
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Deliver customer-specific software solutions, automations, websites, and plugins based on client needs",
-          "Define the customer's problem, scope the implementation, and take projects independently into use",
-          "Developed a Python-based Telegram bot for automated data collection and data processing",
+          "Deliver customer-specific software solutions, automations, websites, and plugins tailored to client needs",
+          "Clarify the customer's problem, scope the implementation, and deliver projects independently from requirements to production",
+          "Developed a Python-based Telegram bot for automated data collection and processing",
           "Built and maintained WordPress-based solutions, including custom plugins and platform-specific integrations"
         ]
       }
@@ -295,7 +295,7 @@
         ]
       },
       {
-        "category": "Automation and data",
+        "category": "Automation and data processing",
         "children": [
           {
             "name": "OpenAI"
@@ -304,7 +304,7 @@
             "name": "TensorFlow"
           },
           {
-            "name": "Data Processing"
+            "name": "Data processing"
           }
         ]
       },
@@ -345,7 +345,7 @@
           "Built a full-stack platform that improves the discoverability of Metropolia University of Applied Sciences' research and innovation projects",
           "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
           "Added Google OAuth2 authentication for secure and user-friendly login",
-          "Deployed and maintained backend services in a self-managed environment, including server-side infrastructure management"
+          "Deployed and maintained backend services in a self-hosted environment and managed the supporting server infrastructure"
         ]
       }
     ],
@@ -459,7 +459,7 @@
           "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
           "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
           "Added Google OAuth2 authentication for secure and user-friendly access",
-          "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+          "Deployed and maintained backend services in a self-hosted environment and managed the supporting server infrastructure"
         ]
       },
       {

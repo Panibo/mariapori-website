@@ -201,7 +201,11 @@ const CV = () => {
 
         <section>
           <h2>{t("sections.coreStrengths")}</h2>
-          <span>{core.join(", ")}</span>
+          <ul>
+            {core.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </ul>
         </section>
 
         <section>

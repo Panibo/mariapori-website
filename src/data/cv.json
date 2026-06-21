@@ -11,11 +11,11 @@
     "profilePicture": "/profile.jpeg"
   },
   "core": [
-    "Real-time interactive systems",
-    "Full-stack web architecture",
-    "XR and 3D application development",
-    "Applied AI and motion analysis",
-    "Data-intensive healthcare and research platforms"
+    "TypeScript, React, and Next.js web applications",
+    "Node.js backends, GraphQL/REST APIs, and integrations",
+    "PostgreSQL and MongoDB applications",
+    "Python and Node.js automation and data processing",
+    "Independent ownership from requirements to production"
   ],
   "workExperience": [
     {
@@ -115,7 +115,7 @@
         "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
         "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
         "Added Google OAuth2 authentication for secure and user-friendly access",
-        "Deployed and maintained backend services in a self-hosted environment, including server-side infrastructure management"
+        "Deployed and maintained backend services in a self-hosted environment and managed the supporting server infrastructure"
       ]
     }
   ],
