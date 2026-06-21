@@ -156,7 +156,7 @@
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation in internship and freelance projects. I understand systems quickly, move work forward independently, and write code that is easy to continue building on. I am looking for my next full-stack developer role where I can help build reliable web products for real user needs.",
+      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write code that is easy to continue building on. I am looking for my next full-stack developer role where I can help build reliable web products for real user needs.",
       "profilePicture": "/profile.webp"
     },
     "core": [
@@ -192,33 +192,6 @@
           "Define the customer's problem, scope the implementation, and take projects independently into use",
           "Developed a Python-based Telegram bot for automated data collection and data processing",
           "Built and maintained WordPress-based solutions, including custom plugins and platform-specific integrations"
-        ]
-      },
-      {
-        "company": "TELUS International",
-        "position": "Personalized Internet Ads Assessor",
-        "startDate": "2023-05-01",
-        "endDate": "2023-09-30",
-        "description": [
-          "Evaluated the relevance and quality of online advertisements against user searches in an international quality-assurance environment, strengthening accuracy in data-driven evaluation work"
-        ]
-      },
-      {
-        "company": "DHL Express",
-        "position": "Terminal Worker",
-        "startDate": "2018-06-01",
-        "endDate": "2020-08-31",
-        "description": [
-          "Worked in time-critical air freight operations where precision, process discipline, and responsibility for smooth logistics were essential"
-        ]
-      },
-      {
-        "company": "Hexagon Manufacturing Intelligence",
-        "position": "Trainee",
-        "startDate": "2015-09-01",
-        "endDate": "2016-05-31",
-        "description": [
-          "Programmed coordinate measuring machines, performed product measurements, and assisted with customer communication and sales-related tasks"
         ]
       }
     ],

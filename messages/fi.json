@@ -156,7 +156,7 @@
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack-kehittäjä, jonka vahvuus on käytännönläheinen web-kehitys. Olen rakentanut React- ja Next.js-käyttöliittymiä, Node.js-palveluita, GraphQL- ja REST-rajapintoja, tietokantapohjaisia sovelluksia sekä automaatioita harjoittelu- ja freelance-projekteissa. Hahmotan kokonaisuuksia nopeasti, vien tehtäviä itsenäisesti maaliin ja kirjoitan koodia, jota on helppo jatkokehittää. Etsin seuraavaa full-stack-kehittäjän roolia, jossa pääsen rakentamaan luotettavia web-tuotteita oikeisiin käyttötarpeisiin.",
+      "summary": "Full-stack-kehittäjä, jonka vahvuus on käytännönläheinen web-kehitys. Olen rakentanut React- ja Next.js-käyttöliittymiä, Node.js-palveluita, GraphQL- ja REST-rajapintoja, tietokantapohjaisia sovelluksia sekä automaatioita Helsinki XR Centerissä ja freelance-projekteissa. Hahmotan kokonaisuuksia nopeasti, vien tehtäviä itsenäisesti maaliin ja kirjoitan koodia, jota on helppo jatkokehittää. Etsin seuraavaa full-stack-kehittäjän roolia, jossa pääsen rakentamaan luotettavia web-tuotteita oikeisiin käyttötarpeisiin.",
       "profilePicture": "/profile.webp"
     },
     "core": [
@@ -192,33 +192,6 @@
           "Määrittelen asiakkaan ongelman, rajaan toteutuksen ja vien projektit itsenäisesti käyttöön asti",
           "Kehitin Python-pohjaisen Telegram-botin automatisoituun tiedonkeruuseen ja datankäsittelyyn",
           "Rakensin ja ylläpidin WordPress-pohjaisia ratkaisuja, kuten räätälöityjä lisäosia ja alustakohtaisia integraatioita"
-        ]
-      },
-      {
-        "company": "TELUS International",
-        "position": "Personalized Internet Ads Assessor",
-        "startDate": "2023-05-01",
-        "endDate": "2023-09-30",
-        "description": [
-          "Arvioin verkkomainosten osuvuutta ja laatua suhteessa käyttäjien hakuihin kansainvälisessä laadunvarmistusympäristössä ja vahvistin tarkkuutta datalähtöisessä arviointityössä"
-        ]
-      },
-      {
-        "company": "DHL Express",
-        "position": "Terminaalityöntekijä",
-        "startDate": "2018-06-01",
-        "endDate": "2020-08-31",
-        "description": [
-          "Työskentelin aikakriittisissä lentorahtitehtävissä, joissa korostuivat täsmällisyys, prosessien noudattaminen ja vastuu toimitusketjun sujuvuudesta"
-        ]
-      },
-      {
-        "company": "Hexagon Manufacturing Intelligence",
-        "position": "Harjoittelija",
-        "startDate": "2015-09-01",
-        "endDate": "2016-05-31",
-        "description": [
-          "Ohjelmoin koordinaattimittauskoneita, suoritin tuotemittauksia sekä avustin asiakasviestinnässä ja myyntiin liittyvissä tehtävissä"
         ]
       }
     ],

@@ -42,33 +42,6 @@
         "Developed a Python-based Telegram bot for automated data collection and processing workflows",
         "Built and maintained WordPress-based systems, including custom plugin development and platform customization"
       ]
-    },
-    {
-      "company": "TELUS International",
-      "position": "Personalized Internet Ads Assessor",
-      "startDate": "2023-05-01",
-      "endDate": "2023-09-30",
-      "description": [
-        "Evaluated the relevance and quality of online advertisements against user queries while working in an international quality-assurance environment"
-      ]
-    },
-    {
-      "company": "DHL Express",
-      "position": "Air Freight Operations Worker",
-      "startDate": "2018-06-01",
-      "endDate": "2020-08-31",
-      "description": [
-        "Worked in time-sensitive air freight operations, including cargo handling, customs-related workflows, and shipment sorting"
-      ]
-    },
-    {
-      "company": "Hexagon Manufacturing Intelligence",
-      "position": "Trainee",
-      "startDate": "2015-09-01",
-      "endDate": "2016-05-31",
-      "description": [
-        "Programmed coordinate measuring machines, performed product measurements, and supported client communication and sales-related tasks"
-      ]
     }
   ],
   "techStack": [
