@@ -17,8 +17,8 @@
       "Neural Networks"
     ],
     "description": [
-      "Developed a full-stack healthcare platform for designing and delivering physiotherapy exercises within an XR-based rehabilitation system.",
-      "Built and maintained a GraphQL backend supporting real-time communication between XR applications and backend services.",
+      "Built parts of a rehabilitation platform for designing, delivering, and analyzing physiotherapy exercises.",
+      "Connected React interfaces, GraphQL services, and backend systems to support exercise planning and feedback workflows.",
       "Created an interactive web-based 3D exercise editor using a humanoid model for custom physiotherapy movement design.",
       "Contributed to Unity-based XR development and implemented browser-based 3D visualizations with Three.js.",
       "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing intuitive feedback on exercise performance.",

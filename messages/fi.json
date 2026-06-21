@@ -138,7 +138,8 @@
       "experience": "Työkokemus",
       "keyTechnologies": "Teknologiat",
       "projects": "Projektit",
-      "education": "Koulutus"
+      "education": "Koulutus",
+      "languages": "Kielet"
     },
     "labels": {
       "email": "Sähköposti",
@@ -295,7 +296,7 @@
         ]
       },
       {
-        "category": "Automaatio ja datan käsittely",
+        "category": "Automaatio ja data",
         "children": [
           {
             "name": "OpenAI"
@@ -304,7 +305,7 @@
             "name": "TensorFlow"
           },
           {
-            "name": "Datan käsittely"
+            "name": "Python-pohjainen datankäsittely"
           }
         ]
       },
@@ -326,17 +327,17 @@
         "description": [
           "Suunnittelin ja toteutin full-stack-ohjelmistokerroksen autonomisen telakuorma-auton reitinhallintaan osana Metropolian KOTKA-hanketta yhteistyössä Maanpuolustuskorkeakoulun kanssa",
           "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän ajoneuvokohtaisten reittien määrittelyyn, tallentamiseen ja tilaseurantaan",
-        "Toteutin TypeScript- ja Node.js-pohjaisen WebSocket-palvelimen, joka välittää reittikomennot oikealle ajoneuvotunnukselle, ylläpitää ajoneuvotiloja ja julkaisee tilapäivityksiä reaaliaikaisesti",
+          "Toteutin TypeScriptillä Node.js-pohjaisen WebSocket-palvelimen, joka välittää reittikomennot oikealle ajoneuvotunnukselle, ylläpitää ajoneuvotiloja ja julkaisee tilapäivityksiä reaaliaikaisesti",
           "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, jolla usean simuloidun ajoneuvon reititys ja tilapäivitykset voitiin todentaa ilman varsinaista ajoneuvorajapintaa"
         ]
       },
       {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "description": [
-          "Kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka yhdisti web-sovellukset ja taustapalvelut",
-          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden hallintaan, suunnitteluun ja käyttäjäpalautteen tuottamiseen",
-          "Suunnittelin liikedataa ja neuroverkkomallia hyödyntäviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen"
+          "Kokosin fysioterapian ja kuntoutuksen tueksi web-käyttöliittymiä, GraphQL-palveluita ja liikedatan käsittelyä yhdistävän kokonaisuuden",
+          "Toteutin harjoitteiden hallintaa, suunnittelua ja palautteen tuottamista tukevia React-pohjaisia työkaluja",
+          "Rakensin liikedataan ja neuroverkkomalliin perustuvia analyysiominaisuuksia harjoitusten suorituksen arviointiin",
+          "Ratkaisu mahdollisti harjoitteiden suunnittelun, analysoinnin ja käyttäjäpalautteen tuottamisen samassa terveydenhuollon sovelluskokonaisuudessa"
         ]
       },
       {
@@ -358,6 +359,10 @@
           "Valmistuminen: kesä 2026 (arvioitu)"
         ]
       }
+    ],
+    "languages": [
+      "Suomi – äidinkieli",
+      "Englanti – sujuva / ammatillinen käyttötaito"
     ]
   },
   "ProjectsPage": {
@@ -389,7 +394,7 @@
         "description": [
           "Suunnittelin ja toteutin ohjelmistokerroksen Metropolian KOTKA-hankkeeseen yhteistyössä Maanpuolustuskorkeakoulun kanssa.",
           "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän, jossa käyttäjä voi määrittää ajoneuvokohtaisia reittejä, valita hallittavan ajoneuvon, tallentaa reittejä ja seurata tilatietoja.",
-          "Toteutin TypeScriptillä Node.js WebSocket-palvelimen, joka vastaanottaa käyttöliittymän reitti- ja ajokomennot, kohdistaa ne ajoneuvotunnuksen perusteella ja välittää tilapäivitykset takaisin käyttöliittymään.",
+          "Toteutin TypeScriptillä Node.js-pohjaisen WebSocket-palvelimen, joka vastaanottaa käyttöliittymän reitti- ja ajokomennot, kohdistaa ne ajoneuvotunnuksen perusteella ja välittää tilapäivitykset takaisin käyttöliittymään.",
           "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, joka rekisteröityy palvelimelle omalla ajoneuvotunnuksellaan ja suorittaa palvelimelta vastaanotettua reittiä.",
           "Varmensin kokonaisuuden kahdella samanaikaisella simuloidulla ajoneuvolla sekä ajoneuvokohtaisilla reittisuunnitelmilla, jotta eri ajoneuvojen reitit eivät korvaa toisiaan.",
           "Toteutus muodostaa rajatun ja jatkokehitettävän pohjan todellisen ajoneuvodatan ja varsinaisen ajoneuvorajapinnan myöhemmälle kytkemiselle."
@@ -410,9 +415,8 @@
           "Neural Networks"
         ],
         "description": [
-          "Kehitin full-stack-terveydenhuoltoalustaa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin.",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka mahdollisti viestinnän web-sovellusten ja taustapalveluiden välillä.",
-          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden suunnitteluun, hallintaan ja palautteen tuottamiseen.",
+          "Rakensin kuntoutusalustan osia, joissa fysioterapiaharjoitteita voitiin suunnitella, toteuttaa ja analysoida digitaalisesti.",
+          "Yhdistin React-käyttöliittymiä, GraphQL-palveluita ja taustapalveluita harjoitteiden suunnittelun ja palautteen tueksi.",
           "Osallistuin selainpohjaisten visualisointien toteutukseen osana laajempaa sovelluskokonaisuutta.",
           "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja tuotti käyttäjälle ymmärrettävää palautetta harjoitteen suorituksesta.",
           "Toteutin autentikointiin ja tietosuojaan liittyviä ratkaisuja arkaluonteisen potilastiedon käsittelyä varten."

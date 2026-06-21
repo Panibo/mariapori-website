@@ -138,7 +138,8 @@
       "experience": "Work experience",
       "keyTechnologies": "Technologies",
       "projects": "Projects",
-      "education": "Education"
+      "education": "Education",
+      "languages": "Languages"
     },
     "labels": {
       "email": "Email",
@@ -156,7 +157,7 @@
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write maintainable code that is easy for others to extend. I am looking for a full-stack developer role where I can help build reliable web products for real user needs.",
+      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation solutions at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write maintainable code that is easy for others to extend. I am looking for a full-stack developer role where I can help build reliable web products for real-world use cases.",
       "profilePicture": "/profile.webp"
     },
     "core": [
@@ -295,7 +296,7 @@
         ]
       },
       {
-        "category": "Automation and data processing",
+        "category": "Automation and data",
         "children": [
           {
             "name": "OpenAI"
@@ -304,7 +305,7 @@
             "name": "TensorFlow"
           },
           {
-            "name": "Data processing"
+            "name": "Python-based data processing"
           }
         ]
       },
@@ -333,10 +334,10 @@
       {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "description": [
-          "Developed a healthcare software platform in a full-stack role for designing, delivering, and analyzing physiotherapy exercises",
-          "Built and maintained a GraphQL backend connecting web applications with backend services",
-          "Implemented React-based user interfaces for exercise management, planning, and user feedback",
-          "Designed motion-data and neural-network-based features for exercise analysis and user feedback"
+          "Built a rehabilitation-focused software module that combined web interfaces, GraphQL services, motion-data processing, and user feedback",
+          "Implemented React-based tools for exercise planning, management, and feedback workflows",
+          "Designed motion-data and neural-network-based analysis features for evaluating exercise performance",
+          "The project connected exercise design, performance analysis, and understandable user feedback within one healthcare platform"
         ]
       },
       {
@@ -358,6 +359,10 @@
           "Graduation: summer 2026 (estimated)"
         ]
       }
+    ],
+    "languages": [
+      "Finnish – native",
+      "English – fluent / professional working proficiency"
     ]
   },
   "ProjectsPage": {
@@ -410,9 +415,8 @@
           "Neural Networks"
         ],
         "description": [
-          "Developed a full-stack healthcare platform for designing, delivering, and analyzing physiotherapy exercises.",
-          "Built and maintained a GraphQL backend supporting communication between web applications and backend services.",
-          "Implemented React-based user interfaces for exercise planning, management, and feedback.",
+          "Built parts of a rehabilitation platform for designing, delivering, and analyzing physiotherapy exercises.",
+          "Connected React interfaces, GraphQL services, and backend systems to support exercise planning and feedback workflows.",
           "Contributed to browser-based visualizations as part of the broader application.",
           "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing understandable feedback on exercise performance.",
           "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."

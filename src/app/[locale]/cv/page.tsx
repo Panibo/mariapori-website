@@ -83,6 +83,7 @@ const CV = () => {
   const techStack = t.raw("techStack") as TechCategory[];
   const projects = t.raw("projects") as Project[];
   const education = t.raw("education") as Education[];
+  const languages = t.raw("languages") as string[];
   const websiteUrl = localizedUrl(locale, "");
   const cvPdfPath = siteConfig.cvPdf[locale];
   const structuredData = {
@@ -275,6 +276,16 @@ const CV = () => {
               ))}
             </div>
           ))}
+        </section>
+
+        <section className={styles.avoidBreak}>
+          <h2>{t("sections.languages")}</h2>
+
+          <ul>
+            {languages.map((language) => (
+              <li key={language}>{language}</li>
+            ))}
+          </ul>
         </section>
       </div>
     </>
