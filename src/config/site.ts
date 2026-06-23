@@ -23,8 +23,8 @@ export const siteConfig = {
   github: "https://github.com/panibo",
 
   cvPdf: {
-    en: "/data/Miro-Mariapori-CV-EN.pdf",
-    fi: "/data/Miro-Mariapori-CV-FI.pdf",
+    en: "/api/cv/download/en",
+    fi: "/api/cv/download/fi",
   },
 
   routes: [
