@@ -21,28 +21,31 @@
   "HomePage": {
     "metadata": {
       "title": "Miro Mariapori - Full-stack Software Developer",
-      "description": "Full-stack software developer building web applications, backends, APIs, integrations, and automation. Explore my experience, projects, and CV."
+      "description": "Junior full-stack software developer with strong React, Next.js, Node.js, GraphQL, MongoDB, and backend experience. I build practical web products, APIs, integrations, automation, and data-driven tools."
     },
     "structuredData": {
-      "jobTitle": "Full-stack Software Developer",
-      "description": "Full-stack software developer building web applications, backends, APIs, integrations, and automation.",
+      "jobTitle": "Junior Full-stack Software Developer",
+      "description": "Junior full-stack software developer focused on React, Next.js, Node.js, GraphQL, MongoDB, APIs, integrations, automation, and practical product development.",
       "alumniOf": "Metropolia University of Applied Sciences",
       "knowsAbout": [
-        "Full-stack web development",
+        "Full-stack product development",
         "TypeScript and React",
         "Next.js",
         "Node.js and GraphQL",
-        "PostgreSQL",
-        "REST APIs",
-        "Integrations",
-        "Automation solutions"
+        "MongoDB and PostgreSQL",
+        "Authentication and role-based access control",
+        "REST APIs and integrations",
+        "WebSockets and real-time systems",
+        "Automation solutions",
+        "Three.js and browser-based 3D tools"
       ]
     },
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
-        "I am a full-stack software developer looking for my next role in modern web development. My strongest tools are TypeScript, React, Next.js, Node.js, GraphQL, PostgreSQL, and practical web, backend, and automation solutions.",
-        "In recent projects, I have built healthcare web applications, GraphQL backends, client-specific automations, real-time WebSocket solutions, and a full-stack platform for improving research project discoverability."
+        "I am a junior full-stack software developer focused on building practical web products with React, Next.js, Node.js, GraphQL, and modern backend systems.",
+        "My strongest experience comes from GameRAT, a 15-month healthcare software project where I independently designed and built the web platform, GraphQL API, authentication, MongoDB infrastructure, 3D exercise editor, movement-data pipeline, analysis tools, and supporting systems for Quest 3 physiotherapy data.",
+        "I enjoy turning complex requirements into working software, especially when the problem involves backend logic, data flow, architecture, or interactive tools. I am open to junior, internship, freelance, and full-time opportunities in Finland and remote roles across Europe."
       ]
     },
     "actions": {
@@ -51,23 +54,26 @@
     "whatIDo": {
       "title": "What I do",
       "description": [
-        "I build user interfaces, backends, APIs, and integrations that solve real needs. My main focus is modern full-stack web development: React and Next.js interfaces, Node.js services, GraphQL/REST APIs, and database-driven applications.",
-        "I can take responsibility from initial requirements to deployment: understand the user need, break the problem into shippable pieces, and keep the implementation maintainable beyond the first version."
+        "I build user interfaces, backends, APIs, integrations, and automations that solve real needs. My main focus is full-stack product development: React and Next.js interfaces, Node.js services, GraphQL/REST APIs, MongoDB/PostgreSQL-backed applications, and reliable data flows.",
+        "I am strongest when a feature needs to work end to end. I can move from unclear requirements to a working implementation, connect the frontend and backend pieces, and keep the system maintainable after the first version.",
+        "Although React is one of my strongest skills, I am not looking for frontend-only work. I am most interested in full-stack or backend-leaning roles where I can contribute to architecture, APIs, data handling, and product functionality."
       ]
     },
     "howIWork": {
       "title": "How I work",
       "description": [
         "I work in a structured and practical way. I value clear code, readable architecture, useful documentation, and solutions that work well from the user's perspective.",
-        "I use AI tools to support ideation, implementation, code review, and repetitive work, while keeping the technical understanding in my own hands. I want to know what I am building, why it works, and how to fix it when it does not.",
-        "I am used to moving tasks forward independently, but I do my best work in teams where knowledge is shared openly, feedback is quick, and solutions improve through collaboration."
+        "I am comfortable starting from zero, making technical decisions, and owning large parts of a system independently. In GameRAT, I was responsible for the web architecture, backend architecture, data model, authentication, and several complex product features.",
+        "I use AI tools such as ChatGPT, Codex, and Claude mainly for debugging and documentation, while keeping the technical understanding in my own hands. I read and verify generated code instead of treating it as a black box.",
+        "I am used to moving tasks forward independently, but I do my best work in teams where developers can discuss ideas openly, review each other's work, and improve solutions together."
       ]
     },
     "experience": {
       "title": "Experience",
       "description": [
-        "At Helsinki XR Center, I worked in a full-stack role on a healthcare software platform. The work included React user interfaces, a GraphQL backend, integrations, motion-data processing, and handling sensitive user data responsibly.",
-        "As a freelance developer, I have delivered automations, websites, WordPress plugins, and custom software solutions for client needs. These projects have strengthened my ability to listen to customers, identify the essential problem, and ship working solutions independently."
+        "At Helsinki XR Center, I worked for 15 months on GameRAT, a healthcare software platform for gamifying physiotherapy exercises. I independently built the React web platform, GraphQL backend, JWT authentication, role-based access control, MongoDB infrastructure, 3D exercise editor, movement-data processing, messaging, pain-scale reporting, and analysis tools.",
+        "My thesis project was a TypeScript-based route management system for an autonomous tracked articulated vehicle. I built a React and Leaflet map interface, Node.js WebSocket communication layer, vehicle-specific command routing, and a simulator for testing multiple vehicles in real time.",
+        "As a freelance developer, I have delivered automations, websites, WordPress solutions, and custom software for individuals and student organizations. These projects have strengthened my ability to understand a customer problem, scope the implementation, and ship working solutions independently."
       ]
     },
     "education": {
@@ -87,15 +93,15 @@
   },
   "AboutPage": {
     "title": "About me",
-    "description": "I am a full-stack developer who builds practical web applications, backends, APIs, integrations, and automation. I care about understanding the user need, writing maintainable code, and taking solutions all the way to production."
+    "description": "I am a junior full-stack developer who builds practical web applications, backends, APIs, integrations, and automation. I am strongest at understanding large systems, starting from zero, and turning complex requirements into working products. My direction is full-stack or backend-leaning development, with React, Next.js, Node.js, GraphQL, MongoDB, and TypeScript as my main tools."
   },
   "ContactPage": {
     "metadata": {
       "title": "Contact",
-      "description": "Contact Miro Mariapori: email, phone, LinkedIn, and GitHub. Let's discuss software development, full-stack roles, and collaboration."
+      "description": "Contact Miro Mariapori: junior full-stack software developer focused on React, Next.js, Node.js, GraphQL, MongoDB, APIs, integrations, and automation."
     },
     "title": "Contact",
-    "description": "Looking for a full-stack developer with experience in web applications, backends, APIs, integrations, and automation? Get in touch, I am happy to discuss job opportunities and collaboration.",
+    "description": "Looking for a junior full-stack developer with strong React skills, backend experience, and the ability to take complex features from idea to working product? Get in touch — I am open to junior, internship, freelance, and full-time opportunities in Finland and remote roles across Europe.",
     "vCardQrAlt": "QR code containing Miro Mariapori's vCard",
     "methods": [
       {
@@ -125,7 +131,7 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Miro Mariapori's CV: full-stack web development, backends, APIs, integrations, automation, technical skills, work experience, and education."
+      "description": "Miro Mariapori's CV: junior full-stack software developer with React, Next.js, Node.js, GraphQL, MongoDB, APIs, integrations, automation, healthcare software, and real-time systems experience."
     },
     "profilePhotoAlt": "{name}'s photo",
     "actions": {
@@ -151,21 +157,21 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Full-stack Software Developer | React, Next.js & Node.js",
+      "title": "Junior Full-stack Software Developer | React, Next.js & Node.js",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack developer with a strong focus on practical web development. I have built React and Next.js user interfaces, Node.js services, GraphQL and REST APIs, database-driven applications, and automation solutions at Helsinki XR Center and in freelance projects. I understand systems quickly, move work forward independently, and write maintainable code that is easy for others to extend. I am looking for a full-stack developer role where I can help build reliable web products for real-world use cases.",
+      "summary": "Junior full-stack developer with strong React, Next.js, Node.js, GraphQL, and MongoDB experience. My strongest proof of work is GameRAT: a 15-month healthcare platform where I built the web app, backend, authentication, 3D exercise editor, and Quest 3 movement-data pipeline. I am looking for a junior full-stack or backend-leaning role where I can build reliable web products for real users.",
       "profilePicture": "/profile.webp"
     },
     "core": [
-      "TypeScript, React, and Next.js web applications",
-      "Node.js backends, GraphQL/REST APIs, and integrations",
-      "PostgreSQL and MongoDB applications",
-      "Python and Node.js automation and data processing",
-      "Independent ownership from requirements to production"
+      "React, Next.js, TypeScript, and complex web interfaces",
+      "Node.js backends, GraphQL/REST APIs, and authentication",
+      "MongoDB, PostgreSQL, server infrastructure, and deployment",
+      "Three.js, WebSockets, and data-processing pipelines",
+      "Independent ownership from planning to production"
     ],
     "workExperience": [
       {
@@ -174,13 +180,11 @@
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Developed a healthcare software platform in a full-stack role for designing, delivering, and analyzing physiotherapy exercises",
-          "Built and maintained a GraphQL backend that connected web applications to backend services",
-          "Implemented React-based user interfaces for exercise management, planning, and user feedback",
-          "Designed motion-data processing features for exercise analysis and user feedback",
-          "Implemented a neural-network-based motion analysis solution trained on 1000+ physiotherapy exercises",
-          "Contributed to browser-based visualizations as part of the broader application",
-          "Implemented authentication and data protection measures for handling sensitive user data"
+          "Built the React web platform and Node.js/GraphQL backend for GameRAT, a 15-month healthcare project for gamified physiotherapy",
+          "Implemented JWT authentication, role-based access control, MongoDB data models, and sensitive-data handling",
+          "Built the physiotherapist interface for patient management, exercise assignment, tracking, messaging, and pain reporting",
+          "Created a Three.js 3D exercise editor and Quest 3 movement-data pipeline for browser-playable analysis data",
+          "Implemented Unity APIs, a .NET data-collection tool for neural-network training, backend deployment, and a self-hosted MongoDB instance"
         ]
       },
       {
@@ -189,10 +193,9 @@
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Deliver customer-specific software solutions, automations, websites, and plugins tailored to client needs",
-          "Clarify the customer's problem, scope the implementation, and deliver projects independently from requirements to production",
-          "Developed a Python-based Telegram bot for automated data collection and processing",
-          "Built and maintained WordPress-based solutions, including custom plugins and platform-specific integrations"
+          "Completed six freelance projects: websites, WordPress solutions, automations, integrations, and custom software",
+          "Clarify customer needs, scope the work, and deliver projects independently",
+          "Built a Python Telegram bot for CSV data extraction and WordPress/PHP solutions for client needs"
         ]
       }
     ],
@@ -263,6 +266,12 @@
           },
           {
             "name": "JWT"
+          },
+          {
+            "name": "Sessions"
+          },
+          {
+            "name": "Role-based access control"
           }
         ]
       },
@@ -270,13 +279,10 @@
         "category": "Data and infrastructure",
         "children": [
           {
-            "name": "PostgreSQL"
-          },
-          {
             "name": "MongoDB"
           },
           {
-            "name": "Redis"
+            "name": "PostgreSQL"
           },
           {
             "name": "Docker"
@@ -285,7 +291,16 @@
             "name": "Azure"
           },
           {
+            "name": "Fly.io"
+          },
+          {
+            "name": "Vercel"
+          },
+          {
             "name": "Nginx"
+          },
+          {
+            "name": "PM2"
           },
           {
             "name": "GitHub Actions"
@@ -299,13 +314,19 @@
         "category": "Automation and data",
         "children": [
           {
-            "name": "OpenAI"
-          },
-          {
-            "name": "TensorFlow"
-          },
-          {
             "name": "Python-based data processing"
+          },
+          {
+            "name": "Telegram bots"
+          },
+          {
+            "name": "OpenAI API"
+          },
+          {
+            "name": "Custom neural-network implementation"
+          },
+          {
+            "name": "CSV/data extraction"
           }
         ]
       },
@@ -313,40 +334,47 @@
         "category": "Other",
         "children": [
           {
+            "name": "Three.js"
+          },
+          {
             "name": ".NET"
           },
           {
+            "name": "Unity API integration"
+          },
+          {
             "name": "WordPress"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "Rust (learning)"
           }
         ]
       }
     ],
     "projects": [
       {
-        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle (thesis)",
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "description": [
-          "Designed and implemented a full-stack software layer for autonomous vehicle route management as part of Metropolia's KOTKA project in cooperation with the Finnish National Defence University",
-          "Built a React and Leaflet-based map interface for defining, storing, and monitoring vehicle-specific route plans",
-          "Implemented a TypeScript Node.js WebSocket server that routes commands to the correct vehicle identifier, manages vehicle state, and publishes real-time status updates",
-          "Implemented a command-line vehicle simulator for validating route execution and status updates with multiple simulated vehicles before integration with a real vehicle interface"
+          "Built GameRAT's web and backend system for gamified physiotherapy exercise delivery and analysis",
+          "Implemented React/Three.js interfaces, a GraphQL backend, JWT authentication, MongoDB data models, and role-based access control",
+          "Built the Quest 3 movement-data pipeline, Unity APIs, and a data-collection backend for neural-network training"
         ]
       },
       {
-        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle (thesis)",
         "description": [
-          "Built a rehabilitation-focused software module that combined web interfaces, GraphQL services, motion-data processing, and user feedback",
-          "Implemented React-based tools for exercise planning, management, and feedback workflows",
-          "Designed motion-data and neural-network-based analysis features for evaluating exercise performance",
-          "The project connected exercise design, performance analysis, and understandable user feedback within one healthcare platform"
+          "Built a React/Leaflet and Node.js/WebSocket thesis system for route creation, command routing, and monitoring of an autonomous tracked vehicle",
+          "Implemented a vehicle simulator, vehicle-specific command routing, and a lost-connection stop behavior as a foundation for later integration"
         ]
       },
       {
         "name": "TKIO-Finder",
         "description": [
-          "Built a full-stack platform that improves the discoverability of Metropolia University of Applied Sciences' research and innovation projects",
-          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
-          "Added Google OAuth2 authentication for secure and user-friendly login",
-          "Deployed and maintained backend services in a self-hosted environment and managed the supporting server infrastructure"
+          "Built a full-stack platform that improves discoverability of Metropolia RDI project positions for students and staff",
+          "Implemented PostgreSQL models, search, filters, Google OAuth2, role-based access, mutual matching, and private-server deployment"
         ]
       }
     ],
@@ -368,10 +396,10 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projects",
-      "description": "Selected projects showing practical full-stack, backend, API, data, and automation experience."
+      "description": "Selected projects showing full-stack product development, backend ownership, GraphQL APIs, React/Three.js interfaces, real-time WebSocket systems, automation, and deployment experience."
     },
     "title": "Projects",
-    "description": "Selected projects that show practical implementation, technical ownership, and the ability to build working solutions for real needs.",
+    "description": "Selected projects that show practical implementation, technical ownership, and my ability to build complex features and working products from unclear requirements.",
     "labels": {
       "timeline": "Timeline",
       "technologies": "Technologies",
@@ -380,46 +408,33 @@
     },
     "projects": [
       {
-        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle",
-        "summary": "A thesis full-stack software system for defining autonomous vehicle routes, forwarding route commands, and monitoring multiple simulated vehicles in real time.",
-        "technologies": [
-          "TypeScript",
-          "React",
-          "Vite",
-          "Leaflet",
-          "Node.js",
-          "WebSocket",
-          "JSON"
-        ],
-        "description": [
-          "Designed and implemented the software layer for Metropolia's KOTKA project in cooperation with the Finnish National Defence University.",
-          "Built a React and Leaflet-based map interface where users can define vehicle-specific routes, select the controlled vehicle, store routes, and monitor vehicle status.",
-          "Implemented a TypeScript Node.js WebSocket server that receives route and driving commands from the UI, targets them by vehicle identifier, and sends status updates back to the interface.",
-          "Implemented a command-line vehicle simulator that registers with the server using its own vehicle identifier and executes routes received from the server.",
-          "Validated the system with two simultaneous simulated vehicles and vehicle-specific route plans so that routes for different vehicles do not overwrite each other.",
-          "The implementation provides a scoped and extensible foundation for later connection to real vehicle data and the actual vehicle interface."
-        ]
-      },
-      {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "startDate": "1/2024",
         "endDate": "3/2025",
-        "summary": "A healthcare software project where I built web interfaces, GraphQL services, motion-data processing, and user feedback features to support physiotherapy and rehabilitation.",
+        "summary": "A 15-month healthcare software project where I independently built the web platform, GraphQL backend, MongoDB infrastructure, 3D exercise editor, movement-data pipeline, analysis tools, messaging, and supporting systems for Quest 3 physiotherapy data.",
         "technologies": [
           "TypeScript",
           "React",
           "Vite",
+          "Three.js",
           "GraphQL",
           "Node.js",
-          "Machine Learning",
-          "Neural Networks"
+          "MongoDB",
+          "JWT",
+          "RSA encryption",
+          ".NET",
+          "Unity integration",
+          "Machine Learning"
         ],
         "description": [
-          "Built parts of a rehabilitation platform for designing, delivering, and analyzing physiotherapy exercises.",
-          "Connected React interfaces, GraphQL services, and backend systems to support exercise planning and feedback workflows.",
-          "Contributed to browser-based visualizations as part of the broader application.",
-          "Designed and implemented a neural-network-based motion analysis system trained on 1000+ physiotherapy exercises, providing understandable feedback on exercise performance.",
-          "Implemented authentication and data protection mechanisms for handling sensitive patient-related information."
+          "GameRAT was built to gamify physiotherapy exercises and give physiotherapists tools to assign, monitor, and analyze patient exercises.",
+          "I independently designed and built the full web platform and backend from scratch, including the React frontend, GraphQL API, JWT authentication, role-based access control, MongoDB data model, and server-side infrastructure.",
+          "Built the physiotherapist interface for login, patient creation and editing, assigning pre-made or saved exercises, viewing 3D exercise previews, reviewing completion status, messaging with patients, and collecting pain-scale feedback for each exercise.",
+          "Created a custom Three.js-based 3D exercise editor where physiotherapists could manipulate arm joints with sliders and save reusable keyframe-based exercise animations in an intuitive workflow.",
+          "Designed a custom JSON movement-data format and parser that converted raw Quest 3 hand-tracking data into browser-playable Three.js animation data for movement analysis.",
+          "Implemented Unity-facing API interfaces for patient authentication, exercise data exchange, and recorded movement-data submission from Quest 3 applications.",
+          "Built a separate .NET data-collection application and backend for recording good and bad physiotherapy movement samples used to train a custom neural-network system from scratch.",
+          "Implemented sensitive-data handling measures, including role-based access boundaries, backend-only database access, and RSA encryption for patient-related data."
         ],
         "links": [
           {
@@ -444,13 +459,38 @@
             "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
             "label": "AI"
           }
-        ]
+        ],
+        "role": "Independently responsible for the web platform, backend, database infrastructure, authentication, 3D exercise editor, movement-data pipeline, and neural-network support systems."
+      },
+      {
+        "name": "Route Management System for an Autonomous Tracked Articulated Vehicle",
+        "summary": "A TypeScript thesis system for visual route creation, vehicle-specific command routing, and real-time monitoring of autonomous tracked vehicle simulations.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Leaflet",
+          "Node.js",
+          "WebSocket",
+          "JSON"
+        ],
+        "description": [
+          "Built the system as a thesis project to enable visual creation and management of routes for an autonomous tracked articulated vehicle.",
+          "The system was designed as a step from direct remote-control operation toward route-based autonomous control, while full collision-avoidance autonomy remained outside the thesis scope.",
+          "Built a React and Leaflet map interface where users can add, move, and remove route markers while the route is automatically drawn between GPS points.",
+          "Represented routes with GeoJSON and route metadata such as route name and point types including start, mid, and end points.",
+          "Implemented a TypeScript Node.js WebSocket server for real-time communication, vehicle-specific identifiers, command routing, and status updates.",
+          "Built a vehicle simulator that maintains its own GPS position and heading in memory, reacts to commands like the real vehicle would, and follows route commands as a simplified GPS line follower.",
+          "Added a safety behavior where lost connection events send a stop signal to all connected vehicles.",
+          "Validated the system with multiple simultaneous simulated vehicles and documented the implementation for future development."
+        ],
+        "role": "Sole developer responsible for the frontend, backend, WebSocket protocol, simulator, documentation, and system architecture."
       },
       {
         "name": "TKIO-Finder",
         "startDate": "1/2026",
         "endDate": "5/2026",
-        "summary": "A web-based platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences through search, filtering, and matchmaking.",
+        "summary": "A full-stack matching platform for helping Metropolia students and staff discover and connect around RDI project positions.",
         "technologies": [
           "TypeScript",
           "React",
@@ -460,15 +500,20 @@
           "Node.js"
         ],
         "description": [
-          "Built a full-stack platform improving discoverability of research and innovation projects at Metropolia University of Applied Sciences",
-          "Implemented search, filtering, and matchmaking features using React, Node.js, and PostgreSQL",
-          "Added Google OAuth2 authentication for secure and user-friendly access",
-          "Deployed and maintained backend services in a self-hosted environment and managed the supporting server infrastructure"
-        ]
+          "Built a full-stack platform to solve the problem that many Metropolia RDI project positions were open to students and staff, but difficult to discover.",
+          "Implemented a lightweight matching workflow where students can like a project position, attach a short message, and match with the project owner if both sides show interest.",
+          "Designed the database model for users, jobs, applications, and matches using PostgreSQL.",
+          "Implemented full-text search and filters such as location and position type to make project opportunities easier to browse.",
+          "Added Google OAuth2 authentication and restricted usage to Metropolia-managed email accounts, with separate roles for students, staff, and admins.",
+          "Implemented profile and job-posting CRUD features for students and staff users.",
+          "Deployed the project to a private server with Nginx, PM2, reverse proxy configuration, HTTPS, domain setup, server process management, and a CI/CD pipeline.",
+          "Received the highest grade for the project."
+        ],
+        "role": "Mainly responsible for backend development, database design, authentication, deployment, and infrastructure."
       },
       {
         "name": "Personal Portfolio",
-        "summary": "A multilingual Next.js portfolio that brings together my projects, skills, CV, and contact details for job search and collaboration.",
+        "summary": "A multilingual Next.js portfolio designed to present my projects, technical ownership, CV, and contact details clearly for recruiters and technical reviewers.",
         "technologies": [
           "TypeScript",
           "Next.js",

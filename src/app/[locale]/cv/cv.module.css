@@ -160,6 +160,8 @@
     margin-bottom: 0.25rem;
     color: #111111;
     font-size: 8pt;
+    break-after: avoid-page;
+    page-break-after: avoid;
   }
 
   .cv h3 {

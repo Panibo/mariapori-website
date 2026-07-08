@@ -21,28 +21,31 @@
   "HomePage": {
     "metadata": {
       "title": "Miro Mariapori - Full-stack-ohjelmistokehittäjä",
-      "description": "Full-stack-ohjelmistokehittäjä, joka rakentaa web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita. Katso kokemus, projektit ja CV."
+      "description": "Junior full-stack-ohjelmistokehittäjä, jolla on vahvaa React-, Next.js-, Node.js-, GraphQL-, MongoDB- ja backend-kokemusta. Rakennan käytännönläheisiä web-tuotteita, rajapintoja, integraatioita, automaatioita ja datalähtöisiä työkaluja."
     },
     "structuredData": {
-      "jobTitle": "Full-stack-ohjelmistokehittäjä",
-      "description": "Full-stack-ohjelmistokehittäjä, joka rakentaa web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita.",
+      "jobTitle": "Junior full-stack-ohjelmistokehittäjä",
+      "description": "Junior full-stack-ohjelmistokehittäjä, jonka osaaminen keskittyy Reactiin, Next.js:ään, Node.js:ään, GraphQL:ään, MongoDB:hen, rajapintoihin, integraatioihin, automaatioon ja käytännön tuotekehitykseen.",
       "alumniOf": "Metropolia Ammattikorkeakoulu",
       "knowsAbout": [
-        "Full-stack-web-kehitys",
+        "Full-stack-tuotekehitys",
         "TypeScript ja React",
         "Next.js",
         "Node.js ja GraphQL",
-        "PostgreSQL",
-        "REST-rajapinnat",
-        "Integraatiot",
-        "Automaatioratkaisut"
+        "MongoDB ja PostgreSQL",
+        "Autentikointi ja roolipohjainen käyttöoikeuksien hallinta",
+        "REST-rajapinnat ja integraatiot",
+        "WebSocketit ja reaaliaikaiset järjestelmät",
+        "Automaatioratkaisut",
+        "Three.js ja selainpohjaiset 3D-työkalut"
       ]
     },
     "hero": {
       "name": "Miro Mariapori",
       "intro": [
-        "Olen full-stack-ohjelmistokehittäjä, joka etsii seuraavaa roolia modernin web-kehityksen parissa. Vahvinta osaamistani ovat TypeScript, React, Next.js, Node.js, GraphQL, PostgreSQL sekä käytännönläheiset web-, backend- ja automaatioratkaisut.",
-        "Viimeisimmissä projekteissani olen rakentanut terveydenhuollon web-sovelluksia, GraphQL-backendejä, asiakaskohtaisia automaatioita, reaaliaikaisia WebSocket-ratkaisuja sekä tutkimusprojektien löydettävyyttä parantavan full-stack-alustan."
+        "Olen junior full-stack-ohjelmistokehittäjä, joka rakentaa käytännönläheisiä web-tuotteita Reactilla, Next.js:llä, Node.js:llä, GraphQL:llä ja moderneilla backend-ratkaisuilla.",
+        "Vahvin kokemukseni tulee GameRATista, 15 kuukauden terveydenhuollon ohjelmistoprojektista, jossa suunnittelin ja rakensin itsenäisesti web-alustan, GraphQL-rajapinnan, autentikoinnin, MongoDB-infrastruktuurin, 3D-harjoite-editorin, liikedatan käsittelyputken, analyysityökalut ja Quest 3 -fysioterapiadataa tukevat järjestelmät.",
+        "Pidän monimutkaisten vaatimusten muuttamisesta toimivaksi ohjelmistoksi, erityisesti kun työ liittyy backend-logiikkaan, datavirtoihin, arkkitehtuuriin tai interaktiivisiin työkaluihin. Olen avoin junior-, harjoittelu-, freelance- ja kokoaikaisille mahdollisuuksille Suomessa sekä etärooleille Euroopassa."
       ]
     },
     "actions": {
@@ -51,23 +54,26 @@
     "whatIDo": {
       "title": "Mitä teen",
       "description": [
-        "Rakennan käyttöliittymiä, backendejä, rajapintoja ja integraatioita, jotka ratkaisevat oikeita käyttötarpeita. Vahvin alueeni on moderni full-stack-web-kehitys: React- ja Next.js-käyttöliittymät, Node.js-palvelut, GraphQL/REST-rajapinnat ja tietokantapohjaiset sovellukset.",
-        "Pystyn ottamaan vastuuta kokonaisuudesta määrittelystä julkaisuun: hahmotan käyttäjän tarpeen, pilkon ongelman toteutettavaksi ja pidän ratkaisun sellaisena, että sitä on helppo ylläpitää myös ensimmäisen version jälkeen."
+        "Rakennan käyttöliittymiä, backendejä, rajapintoja, integraatioita ja automaatioita, jotka ratkaisevat oikeita tarpeita. Pääpainoni on full-stack-tuotekehityksessä: React- ja Next.js-käyttöliittymät, Node.js-palvelut, GraphQL/REST-rajapinnat, MongoDB/PostgreSQL-pohjaiset sovellukset ja luotettavat datavirrat.",
+        "Olen vahvimmillani, kun ominaisuuden pitää toimia päästä päähän. Pystyn etenemään epäselvistä vaatimuksista toimivaan toteutukseen, yhdistämään frontendin ja backendin osat sekä pitämään kokonaisuuden ylläpidettävänä ensimmäisen version jälkeen.",
+        "Vaikka React on yksi vahvimmista osaamisalueistani, en etsi pelkästään frontend-työtä. Minua kiinnostavat eniten full-stack- tai backend-painotteiset roolit, joissa voin osallistua arkkitehtuuriin, rajapintoihin, datankäsittelyyn ja tuotteen toiminnallisuuteen."
       ]
     },
     "howIWork": {
       "title": "Miten työskentelen",
       "description": [
-        "Työskentelen järjestelmällisesti ja käytännönläheisesti. Arvostan selkeää koodia, luettavaa rakennetta, hyvää dokumentointia ja sitä, että ratkaisu toimii myös käyttäjän näkökulmasta.",
-        "Käytän tekoälytyökaluja ideoinnin, toteutuksen, koodin tarkastelun ja toistuvien tehtävien nopeuttamiseen, mutta pidän teknisen ymmärryksen omissa käsissäni. Haluan tietää, mitä rakennan, miksi se toimii ja miten ongelmat korjataan.",
-        "Olen tottunut viemään tehtäviä itsenäisesti maaliin, mutta parhaimmillani olen tiimissä, jossa tietoa jaetaan avoimesti, palautetta annetaan nopeasti ja ratkaisuja parannetaan yhdessä."
+        "Työskentelen järjestelmällisesti ja käytännönläheisesti. Arvostan selkeää koodia, luettavaa arkkitehtuuria, hyödyllistä dokumentaatiota ja ratkaisuja, jotka toimivat myös käyttäjän näkökulmasta.",
+        "Olen tottunut aloittamaan nollasta, tekemään teknisiä päätöksiä ja omistamaan laajoja kokonaisuuksia itsenäisesti. GameRATissa vastasin web-arkkitehtuurista, backend-arkkitehtuurista, datamallista, autentikoinnista ja useista teknisesti haastavista tuoteominaisuuksista.",
+        "Käytän tekoälytyökaluja, kuten ChatGPT:tä, Codexia ja Claudea, pääasiassa debuggaukseen ja dokumentointiin, mutta pidän teknisen ymmärryksen omissa käsissäni. Luen ja varmistan tekoälyn tuottaman koodin sen sijaan, että käyttäisin sitä mustana laatikkona.",
+        "Vien tehtäviä itsenäisesti eteenpäin, mutta parhaimmillani olen tiimissä, jossa kehittäjät voivat sparrata ideoita, katselmoida toistensa työtä ja parantaa ratkaisuja yhdessä."
       ]
     },
     "experience": {
       "title": "Kokemus",
       "description": [
-        "Helsinki XR Centerissä kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa. Työhön kuului React-käyttöliittymiä, GraphQL-backendiä, integraatioita, liikedatan käsittelyä ja arkaluonteisen käyttäjädatan huomioimista.",
-        "Freelance-kehittäjänä olen toimittanut automaatioita, verkkosivuja, WordPress-lisäosia ja asiakaskohtaisia ohjelmistoratkaisuja. Projektit ovat vahvistaneet kykyäni kuunnella asiakasta, löytää olennainen ongelma ja viedä ratkaisu itsenäisesti tuotantoon asti."
+        "Helsinki XR Centerissä työskentelin 15 kuukautta GameRATin parissa. GameRAT on terveydenhuollon ohjelmistoalusta fysioterapiaharjoitteiden pelillistämiseen. Rakensin itsenäisesti React-web-alustan, GraphQL-backendin, JWT-autentikoinnin, roolipohjaisen käyttöoikeuksien hallinnan, MongoDB-infrastruktuurin, 3D-harjoite-editorin, liikedatan käsittelyn, viestinnän, kipuasteikkoraportoinnin ja analyysityökalut.",
+        "Insinöörityöni oli TypeScript-pohjainen reitinhallintajärjestelmä autonomiselle telakuorma-autolle. Rakensin React- ja Leaflet-karttakäyttöliittymän, Node.js WebSocket -kommunikaatiokerroksen, ajoneuvokohtaisen komentojen välityksen ja simulaattorin usean ajoneuvon reaaliaikaiseen testaukseen.",
+        "Freelance-kehittäjänä olen toimittanut automaatioita, verkkosivuja, WordPress-ratkaisuja ja asiakaskohtaisia ohjelmistoja yksityishenkilöille ja opiskelijajärjestöille. Projektit ovat vahvistaneet kykyäni ymmärtää asiakkaan ongelma, rajata toteutus ja toimittaa toimivia ratkaisuja itsenäisesti."
       ]
     },
     "education": {
@@ -87,15 +93,15 @@
   },
   "AboutPage": {
     "title": "Tietoa minusta",
-    "description": "Olen full-stack-kehittäjä, joka rakentaa käytännönläheisiä web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita. Minulle on tärkeää ymmärtää käyttäjän tarve, kirjoittaa ylläpidettävää koodia ja viedä ratkaisut valmiiksi asti."
+    "description": "Olen junior full-stack-kehittäjä, joka rakentaa käytännönläheisiä web-sovelluksia, backendejä, rajapintoja, integraatioita ja automaatioita. Vahvuuteni ovat laajojen järjestelmien ymmärtäminen, nollasta aloittaminen ja monimutkaisten vaatimusten muuttaminen toimiviksi tuotteiksi. Suuntani on full-stack- tai backend-painotteinen kehitys, ja tärkeimpiä työkalujani ovat React, Next.js, Node.js, GraphQL, MongoDB ja TypeScript."
   },
   "ContactPage": {
     "metadata": {
       "title": "Yhteystiedot",
-      "description": "Ota yhteyttä Miro Mariaporiin: sähköposti, puhelin, LinkedIn ja GitHub. Keskustellaan ohjelmistokehityksestä, full-stack-rooleista ja yhteistyöstä."
+      "description": "Ota yhteyttä Miro Mariaporiin: junior full-stack-ohjelmistokehittäjä, jonka osaaminen keskittyy Reactiin, Next.js:ään, Node.js:ään, GraphQL:ään, MongoDB:hen, rajapintoihin, integraatioihin ja automaatioon."
     },
     "title": "Ota yhteyttä",
-    "description": "Etsitkö full-stack-kehittäjää, jolla on kokemusta web-sovelluksista, backendeistä, rajapinnoista, integraatioista ja automaatioista? Ota yhteyttä, keskustelen mielelläni työmahdollisuuksista ja yhteistyöstä.",
+    "description": "Etsitkö junior full-stack-kehittäjää, jolla on vahvaa React-osaamista, backend-kokemusta ja kyky viedä monimutkaisia ominaisuuksia ideasta toimivaksi tuotteeksi? Ota yhteyttä — olen avoin junior-, harjoittelu-, freelance- ja kokoaikaisille mahdollisuuksille Suomessa sekä etärooleille Euroopassa.",
     "vCardQrAlt": "QR-koodi, joka sisältää Miro Mariaporin vCard-yhteystiedot",
     "methods": [
       {
@@ -125,7 +131,7 @@
   "CVPage": {
     "metadata": {
       "title": "CV",
-      "description": "Miro Mariaporin CV: full-stack-web-kehitys, backendit, rajapinnat, integraatiot, automaatio, tekninen osaaminen, työkokemus ja koulutus."
+      "description": "Miro Mariaporin CV: junior full-stack-ohjelmistokehittäjä, jolla on kokemusta Reactista, Next.js:stä, Node.js:stä, GraphQL:stä, MongoDB:stä, rajapinnoista, integraatioista, automaatioista, terveydenhuollon ohjelmistoista ja reaaliaikaisista järjestelmistä."
     },
     "profilePhotoAlt": "{name}n kuva",
     "actions": {
@@ -151,21 +157,21 @@
     },
     "general": {
       "name": "Miro Mariapori",
-      "title": "Full-stack-ohjelmistokehittäjä | React, Next.js ja Node.js",
+      "title": "Junior full-stack-ohjelmistokehittäjä | React, Next.js ja Node.js",
       "email": "miro.mariapori@gmail.com",
       "phone": "+358 40 5140 403",
       "linkedin": "linkedin.com/in/miro-mariapori/",
       "github": "github.com/panibo",
       "website": "mariapori.dev",
-      "summary": "Full-stack-kehittäjä, jonka vahvuus on käytännönläheinen web-kehitys. Olen rakentanut React- ja Next.js-käyttöliittymiä, Node.js-palveluita, GraphQL- ja REST-rajapintoja, tietokantapohjaisia sovelluksia sekä automaatioita Helsinki XR Centerissä ja freelance-projekteissa. Hahmotan kokonaisuuksia nopeasti, vien työtä itsenäisesti eteenpäin ja kirjoitan ylläpidettävää koodia, jota muiden on helppo jatkokehittää. Haen full-stack-kehittäjän roolia, jossa pääsen rakentamaan luotettavia web-tuotteita todellisiin käyttäjätarpeisiin.",
+      "summary": "Junior full-stack-kehittäjä, jolla on vahvaa React-, Next.js-, Node.js-, GraphQL- ja MongoDB-kokemusta. Vahvin näyttöni on GameRAT: 15 kuukauden terveydenhuollon alusta, jossa rakensin webin, backendin, autentikoinnin, 3D-harjoite-editorin ja Quest 3 -liikedataputken. Haen junior full-stack- tai backend-painotteista roolia, jossa saan rakentaa luotettavia web-tuotteita oikeille käyttäjille.",
       "profilePicture": "/profile.webp"
     },
     "core": [
-      "TypeScript-, React- ja Next.js-pohjaiset web-sovellukset",
-      "Node.js-backendit, GraphQL/REST-rajapinnat ja integraatiot",
-      "PostgreSQL- ja MongoDB-pohjaiset sovellukset",
-      "Python- ja Node.js-automaatiot sekä datan käsittely",
-      "Itsenäinen vastuunotto määrittelystä julkaisuun"
+      "React, Next.js, TypeScript ja monimutkaiset web-käyttöliittymät",
+      "Node.js-backendit, GraphQL/REST-rajapinnat ja autentikointi",
+      "MongoDB, PostgreSQL, palvelininfra ja julkaisut",
+      "Three.js, WebSocketit ja datankäsittelyputket",
+      "Itsenäinen vastuu suunnittelusta tuotantoon"
     ],
     "workExperience": [
       {
@@ -174,13 +180,11 @@
         "startDate": "2024-01-07",
         "endDate": "2025-03-31",
         "description": [
-          "Kehitin terveydenhuollon ohjelmistokokonaisuutta full-stack-roolissa fysioterapiaharjoitteiden suunnitteluun, toteuttamiseen ja analysointiin",
-          "Rakensin ja ylläpidin GraphQL-backendiä, joka yhdisti web-sovellukset ja taustapalvelut",
-          "Toteutin React-pohjaisia käyttöliittymiä harjoitteiden hallintaan, suunnitteluun ja käyttäjäpalautteen tuottamiseen",
-          "Suunnittelin liikedataa käsitteleviä ratkaisuja harjoitteiden analysointiin ja käyttäjäpalautteen tuottamiseen",
-          "Toteutin neuroverkkoon perustuvan liikeanalyysiratkaisun, joka koulutettiin yli 1000 fysioterapiaharjoitteella",
-          "Osallistuin selainpohjaisten visualisointien toteutukseen osana laajempaa sovelluskokonaisuutta",
-          "Toteutin autentikointiin, tietosuojaan ja arkaluonteisen käyttäjädatan käsittelyyn liittyviä ratkaisuja"
+          "Rakensin 15 kuukauden GameRAT-projektissa React-web-alustan ja Node.js/GraphQL-backendin fysioterapian pelillistämiseen",
+          "Toteutin JWT-autentikoinnin, roolipohjaiset käyttöoikeudet, MongoDB-datamallin ja arkaluonteisen datan käsittelyratkaisut",
+          "Rakensin fysioterapeutin käyttöliittymän potilashallintaan, harjoitteiden määräämiseen, seurantaan, viestintään ja kipuraportointiin",
+          "Toteutin Three.js-pohjaisen 3D-harjoite-editorin sekä Quest 3 -liikedataputken selaimessa toistettavaan analyysidataan",
+          "Toteutin Unity-rajapinnat, neuroverkkodatan keruuta tukevan .NET-ratkaisun sekä backend-julkaisun ja itse ylläpidetyn MongoDB-instanssin"
         ]
       },
       {
@@ -189,10 +193,9 @@
         "startDate": "2022-08-01",
         "endDate": null,
         "description": [
-          "Toimitan asiakaskohtaisia ohjelmistoratkaisuja, automaatioita, verkkosivuja ja lisäosia asiakkaiden tarpeiden mukaan",
-          "Selvitän asiakkaan ongelman, rajaan toteutuksen ja vien projektit itsenäisesti tuotantoon asti",
-          "Kehitin Python-pohjaisen Telegram-botin automatisoituun tiedonkeruuseen ja datan käsittelyyn",
-          "Rakensin ja ylläpidin WordPress-pohjaisia ratkaisuja, kuten räätälöityjä lisäosia ja alustakohtaisia integraatioita"
+          "Toteuttanut kuusi freelance-projektia: verkkosivuja, WordPress-ratkaisuja, automaatioita, integraatioita ja räätälöityjä ohjelmistoja",
+          "Selvitän asiakkaan tarpeen, rajaan työn ja toimitan projektit itsenäisesti",
+          "Rakentanut mm. Python-pohjaisen Telegram-botin CSV-datan poimintaan sekä WordPress/PHP-ratkaisuja"
         ]
       }
     ],
@@ -256,13 +259,19 @@
             "name": "REST"
           },
           {
-            "name": "WebSockets"
+            "name": "WebSocketit"
           },
           {
             "name": "OAuth2"
           },
           {
             "name": "JWT"
+          },
+          {
+            "name": "Sessioautentikointi"
+          },
+          {
+            "name": "Roolipohjainen käyttöoikeuksien hallinta"
           }
         ]
       },
@@ -270,13 +279,10 @@
         "category": "Data ja infrastruktuuri",
         "children": [
           {
-            "name": "PostgreSQL"
-          },
-          {
             "name": "MongoDB"
           },
           {
-            "name": "Redis"
+            "name": "PostgreSQL"
           },
           {
             "name": "Docker"
@@ -285,7 +291,16 @@
             "name": "Azure"
           },
           {
+            "name": "Fly.io"
+          },
+          {
+            "name": "Vercel"
+          },
+          {
             "name": "Nginx"
+          },
+          {
+            "name": "PM2"
           },
           {
             "name": "GitHub Actions"
@@ -299,13 +314,19 @@
         "category": "Automaatio ja data",
         "children": [
           {
-            "name": "OpenAI"
-          },
-          {
-            "name": "TensorFlow"
-          },
-          {
             "name": "Python-pohjainen datankäsittely"
+          },
+          {
+            "name": "Telegram-botit"
+          },
+          {
+            "name": "OpenAI API"
+          },
+          {
+            "name": "Räätälöity neuroverkkototeutus"
+          },
+          {
+            "name": "CSV/datan poiminta"
           }
         ]
       },
@@ -313,40 +334,47 @@
         "category": "Muut",
         "children": [
           {
+            "name": "Three.js"
+          },
+          {
             "name": ".NET"
           },
           {
+            "name": "Unity-rajapintaintegraatio"
+          },
+          {
             "name": "WordPress"
+          },
+          {
+            "name": "PHP"
+          },
+          {
+            "name": "Rust (opiskelen)"
           }
         ]
       }
     ],
     "projects": [
       {
-        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä (insinöörityö)",
+        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "description": [
-          "Suunnittelin ja toteutin full-stack-ohjelmistokerroksen autonomisen telakuorma-auton reitinhallintaan osana Metropolian KOTKA-hanketta yhteistyössä Maanpuolustuskorkeakoulun kanssa",
-          "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän ajoneuvokohtaisten reittien määrittelyyn, tallentamiseen ja tilaseurantaan",
-          "Toteutin TypeScriptillä Node.js-pohjaisen WebSocket-palvelimen, joka välittää reittikomennot oikealle ajoneuvotunnukselle, ylläpitää ajoneuvotiloja ja julkaisee tilapäivityksiä reaaliaikaisesti",
-          "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, jolla usean simuloidun ajoneuvon reititys ja tilapäivitykset voitiin todentaa ilman varsinaista ajoneuvorajapintaa"
+          "Rakensin GameRATin web- ja backend-kokonaisuuden fysioterapiaharjoitteiden pelillistämiseen ja analysointiin",
+          "Toteutin React/Three.js-käyttöliittymät, GraphQL-backendin, JWT-autentikoinnin, MongoDB-datamallin ja roolipohjaiset käyttöoikeudet",
+          "Rakensin Quest 3 -liikedataputken, Unity-rajapinnat ja neuroverkon koulutusta tukevan datankeruubackendin"
         ]
       },
       {
-        "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
+        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä (insinöörityö)",
         "description": [
-          "Kokosin fysioterapian ja kuntoutuksen tueksi web-käyttöliittymiä, GraphQL-palveluita ja liikedatan käsittelyä yhdistävän kokonaisuuden",
-          "Toteutin harjoitteiden hallintaa, suunnittelua ja palautteen tuottamista tukevia React-pohjaisia työkaluja",
-          "Rakensin liikedataan ja neuroverkkomalliin perustuvia analyysiominaisuuksia harjoitusten suorituksen arviointiin",
-          "Ratkaisu mahdollisti harjoitteiden suunnittelun, analysoinnin ja käyttäjäpalautteen tuottamisen samassa terveydenhuollon sovelluskokonaisuudessa"
+          "Toteutin insinöörityönä React/Leaflet- ja Node.js/WebSocket-järjestelmän autonomisen telakuorma-auton reittien luontiin, komentojen välitykseen ja seurantaan",
+          "Rakensin ajoneuvosimulaattorin, ajoneuvokohtaisen komentoreitityksen ja yhteyskatkon pysäytystoiminnon jatkointegraation pohjaksi"
         ]
       },
       {
         "name": "TKIO-Finder",
         "description": [
-          "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä",
-          "Toteutin haku-, suodatus- ja matchmaking-ominaisuudet Reactilla, Node.js:llä ja PostgreSQL:llä",
-          "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten",
-          "Julkaisin ja ylläpidin backend-palveluita itse hallinnoidussa ympäristössä ja vastasin myös palvelininfrastruktuurin hallinnasta"
+          "Rakensin TKI-projektipaikkojen löydettävyyttä parantavan full-stack-alustan opiskelijoille ja henkilökunnalle",
+          "Toteutin PostgreSQL-mallin, haun, suodattimet, Google OAuth2 -kirjautumisen, roolipohjaiset käyttöoikeudet, match-toiminnon ja oman palvelinjulkaisun"
         ]
       }
     ],
@@ -368,10 +396,10 @@
   "ProjectsPage": {
     "metadata": {
       "title": "Projektit",
-      "description": "Valikoituja projekteja, jotka näyttävät full-stack-, backend-, rajapinta-, data- ja automaatio-osaamiseni käytännössä."
+      "description": "Valikoituja projekteja, jotka näyttävät full-stack-tuotekehityksen, backend-vastuun, GraphQL-rajapinnat, React/Three.js-käyttöliittymät, reaaliaikaiset WebSocket-järjestelmät, automaation ja julkaisuosaamisen."
     },
     "title": "Projektit",
-    "description": "Valikoituja projekteja, joissa näkyvät käytännön toteutus, tekninen vastuu ja kyky rakentaa toimivia ratkaisuja oikeisiin tarpeisiin.",
+    "description": "Valikoituja projekteja, joissa näkyvät käytännön toteutus, tekninen vastuu ja kykyni rakentaa monimutkaisia ominaisuuksia sekä toimivia tuotteita epäselvistä vaatimuksista.",
     "labels": {
       "timeline": "Aikajana",
       "technologies": "Teknologiat",
@@ -380,46 +408,33 @@
     },
     "projects": [
       {
-        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä",
-        "summary": "Insinöörityönä toteutettu full-stack-ohjelmistokokonaisuus autonomisen telakuorma-auton reittien määrittelyyn, komentojen välitykseen ja usean simuloidun ajoneuvon reaaliaikaiseen tilaseurantaan.",
-        "technologies": [
-          "TypeScript",
-          "React",
-          "Vite",
-          "Leaflet",
-          "Node.js",
-          "WebSocket",
-          "JSON"
-        ],
-        "description": [
-          "Suunnittelin ja toteutin ohjelmistokerroksen Metropolian KOTKA-hankkeeseen yhteistyössä Maanpuolustuskorkeakoulun kanssa.",
-          "Rakensin React- ja Leaflet-pohjaisen karttakäyttöliittymän, jossa käyttäjä voi määrittää ajoneuvokohtaisia reittejä, valita hallittavan ajoneuvon, tallentaa reittejä ja seurata tilatietoja.",
-          "Toteutin TypeScriptillä Node.js-pohjaisen WebSocket-palvelimen, joka vastaanottaa käyttöliittymän reitti- ja ajokomennot, kohdistaa ne ajoneuvotunnuksen perusteella ja välittää tilapäivitykset takaisin käyttöliittymään.",
-          "Toteutin komentoriviltä ajettavan ajoneuvosimulaattorin, joka rekisteröityy palvelimelle omalla ajoneuvotunnuksellaan ja suorittaa palvelimelta vastaanotettua reittiä.",
-          "Varmensin kokonaisuuden kahdella samanaikaisella simuloidulla ajoneuvolla sekä ajoneuvokohtaisilla reittisuunnitelmilla, jotta eri ajoneuvojen reitit eivät korvaa toisiaan.",
-          "Toteutus muodostaa rajatun ja jatkokehitettävän pohjan todellisen ajoneuvodatan ja varsinaisen ajoneuvorajapinnan myöhemmälle kytkemiselle."
-        ]
-      },
-      {
         "name": "Gamified Joint Rehabilitation, Analysis and Training (GameRAT)",
         "startDate": "1/2024",
         "endDate": "3/2025",
-        "summary": "Terveydenhuollon ohjelmistoprojekti, jossa rakensin web-käyttöliittymiä, GraphQL-palveluita, liikedatan käsittelyä ja käyttäjäpalautetta fysioterapian ja kuntoutuksen tueksi.",
+        "summary": "15 kuukauden terveydenhuollon ohjelmistoprojekti, jossa rakensin itsenäisesti web-alustan, GraphQL-backendin, MongoDB-infrastruktuurin, 3D-harjoite-editorin, liikedataputken, analyysityökalut, viestinnän ja Quest 3 -fysioterapiadataa tukevat järjestelmät.",
         "technologies": [
           "TypeScript",
           "React",
           "Vite",
+          "Three.js",
           "GraphQL",
           "Node.js",
-          "Machine Learning",
-          "Neural Networks"
+          "MongoDB",
+          "JWT",
+          "RSA-salaus",
+          ".NET",
+          "Unity-integraatio",
+          "Machine Learning"
         ],
         "description": [
-          "Rakensin kuntoutusalustan osia, joissa fysioterapiaharjoitteita voitiin suunnitella, toteuttaa ja analysoida digitaalisesti.",
-          "Yhdistin React-käyttöliittymiä, GraphQL-palveluita ja taustapalveluita harjoitteiden suunnittelun ja palautteen tueksi.",
-          "Osallistuin selainpohjaisten visualisointien toteutukseen osana laajempaa sovelluskokonaisuutta.",
-          "Suunnittelin ja toteutin neuroverkkoon perustuvan liikeanalyysijärjestelmän, joka koulutettiin yli 1000 fysioterapiaharjoitteella ja tuotti käyttäjälle ymmärrettävää palautetta harjoitteen suorituksesta.",
-          "Toteutin autentikointiin ja tietosuojaan liittyviä ratkaisuja arkaluonteisen potilastiedon käsittelyä varten."
+          "GameRAT rakennettiin fysioterapiaharjoitteiden pelillistämiseen ja fysioterapeuteille työkaluksi harjoitteiden määräämiseen, seurantaan ja analysointiin.",
+          "Suunnittelin ja rakensin itsenäisesti koko web-alustan ja backendin alusta asti, mukaan lukien React-frontendin, GraphQL-rajapinnan, JWT-autentikoinnin, roolipohjaisen käyttöoikeuksien hallinnan, MongoDB-datamallin ja palvelininfrastruktuurin.",
+          "Rakensin fysioterapeutin käyttöliittymän kirjautumiseen, potilaiden luontiin ja muokkaukseen, valmiiden tai tallennettujen harjoitteiden määräämiseen, 3D-esikatseluun, suoritusten tarkasteluun, potilasviestintään ja harjoitekohtaiseen kipuasteikkopalautteeseen.",
+          "Toteutin räätälöidyn Three.js-pohjaisen 3D-harjoite-editorin, jossa fysioterapeutti voi muokata käsivarren niveliä liukusäätimillä ja tallentaa uudelleenkäytettäviä keyframe-pohjaisia harjoiteanimaatioita intuitiivisella työnkululla.",
+          "Suunnittelin räätälöidyn JSON-liikedataformaatin ja parserin, joka muunsi Quest 3:n käsien seurantadatan selaimessa toistettavaksi Three.js-animaatiodataksi liikeanalyysiä varten.",
+          "Toteutin Unity-sovellusta varten rajapinnat potilaan autentikointiin, harjoitedatan vaihtoon ja Quest 3 -sovelluksista lähetetyn liikedatan vastaanottoon.",
+          "Rakensin erillisen .NET-datankeruusovelluksen ja backendin hyvien ja huonojen fysioterapialiikkeiden tallentamiseen räätälöidyn neuroverkkojärjestelmän koulutusta varten.",
+          "Toteutin arkaluonteisen datan käsittelyyn liittyviä ratkaisuja, kuten roolipohjaiset käyttörajat, backendin kautta rajatun tietokantayhteyden ja potilastietoon liittyvän RSA-salauksen."
         ],
         "links": [
           {
@@ -444,13 +459,38 @@
             "url": "https://gitlab.com/hxrc_public/hxrc_gamerat_neuralnetwork",
             "label": "AI"
           }
-        ]
+        ],
+        "role": "Vastasin itsenäisesti web-alustasta, backendistä, tietokantainfrastruktuurista, autentikoinnista, 3D-harjoite-editorista, liikedataputkesta ja neuroverkkoa tukevista järjestelmistä."
+      },
+      {
+        "name": "Autonomisen telakuorma-auton reitinhallintajärjestelmä",
+        "summary": "TypeScriptillä toteutettu insinöörityöjärjestelmä autonomisen telakuorma-auton visuaaliseen reittien luontiin, ajoneuvokohtaiseen komentojen välitykseen ja reaaliaikaiseen simulaatioseurantaan.",
+        "technologies": [
+          "TypeScript",
+          "React",
+          "Vite",
+          "Leaflet",
+          "Node.js",
+          "WebSocket",
+          "JSON"
+        ],
+        "description": [
+          "Rakensin järjestelmän insinöörityönä autonomisen telakuorma-auton reittien visuaaliseen luontiin ja hallintaan.",
+          "Järjestelmän tavoitteena oli siirtyä suorasta kauko-ohjauksesta kohti reittipohjaista autonomista hallintaa, kun taas täysi esteiden väistöön perustuva autonomia rajattiin työn ulkopuolelle.",
+          "Rakensin React- ja Leaflet-karttakäyttöliittymän, jossa käyttäjä voi lisätä, siirtää ja poistaa reittimerkkejä, ja reitti piirtyy automaattisesti GPS-pisteiden välille.",
+          "Mallinsin reitit GeoJSONilla sekä reittimetadatalla, kuten reitin nimellä ja pisteiden tyypeillä: alku-, väli- ja loppupiste.",
+          "Toteutin TypeScriptillä Node.js WebSocket -palvelimen reaaliaikaiseen kommunikaatioon, ajoneuvokohtaisiin tunnisteisiin, komentojen välitykseen ja tilapäivityksiin.",
+          "Rakensin ajoneuvosimulaattorin, joka ylläpitää omaa GPS-sijaintia ja suuntaa muistissa, reagoi komentoihin kuten oikea ajoneuvo ja seuraa reittikomentoja yksinkertaistettuna GPS-linjaseuraajana.",
+          "Lisäsin turvallisuustoiminnon, jossa yhteyden katkeaminen lähettää pysäytyssignaalin kaikille yhdistetyille ajoneuvoille.",
+          "Varmensin järjestelmän usealla samanaikaisella simuloidulla ajoneuvolla ja dokumentoin toteutuksen jatkokehitystä varten."
+        ],
+        "role": "Ainoa kehittäjä, joka vastasi frontendistä, backendistä, WebSocket-protokollasta, simulaattorista, dokumentaatiosta ja järjestelmäarkkitehtuurista."
       },
       {
         "name": "TKIO-Finder",
         "startDate": "1/2026",
         "endDate": "5/2026",
-        "summary": "Web-pohjainen alusta, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä haun, suodatuksen ja matchmakingin avulla.",
+        "summary": "Full-stack-matchmaking-alusta, joka auttaa Metropolian opiskelijoita ja henkilöstöä löytämään ja yhdistämään TKI-projektipaikkojen ympärille.",
         "technologies": [
           "TypeScript",
           "React",
@@ -460,15 +500,20 @@
           "Node.js"
         ],
         "description": [
-          "Rakensin full-stack-alustan, joka parantaa Metropolia Ammattikorkeakoulun tutkimus- ja innovaatioprojektien löydettävyyttä.",
-          "Toteutin haku-, suodatus- ja matchmaking-ominaisuudet Reactilla, Node.js:llä ja PostgreSQL:llä.",
-          "Lisäsin Google OAuth2 -autentikoinnin turvallista ja käyttäjäystävällistä kirjautumista varten.",
-          "Julkaisin ja ylläpidin backend-palveluita itse hallinnoidussa ympäristössä ja vastasin myös palvelininfrastruktuurin hallinnasta."
-        ]
+          "Rakensin full-stack-alustan ratkaisemaan ongelmaa, jossa monet Metropolian TKI-projektipaikat olivat avoinna opiskelijoille ja henkilöstölle, mutta niitä oli vaikea löytää.",
+          "Toteutin kevyen matchmaking-työnkulun, jossa opiskelija voi tykätä projektipaikasta, liittää mukaan lyhyen viestin ja muodostaa matchin projektin omistajan kanssa, jos molemmat osoittavat kiinnostusta.",
+          "Suunnittelin PostgreSQL-tietokantamallin käyttäjille, työ-/projektipaikoille, hakemuksille ja matcheille.",
+          "Toteutin full-text-haun ja suodattimet, kuten sijainnin ja paikan tyypin, jotta projektimahdollisuuksia olisi helpompi selata.",
+          "Lisäsin Google OAuth2 -autentikoinnin ja rajasin käytön Metropolian hallinnoimiin sähköpostitileihin, erillisillä opiskelija-, henkilökunta- ja ylläpitäjärooleilla.",
+          "Toteutin profiili- ja ilmoituskohtaiset CRUD-ominaisuudet opiskelijoille ja henkilökunnalle.",
+          "Julkaisin projektin omalle palvelimelle käyttäen Nginxiä, PM2:ta, reverse proxy -konfiguraatiota, HTTPS:ää, domain-asetuksia, palvelinprosessien hallintaa ja CI/CD-putkea.",
+          "Sain projektista korkeimman arvosanan."
+        ],
+        "role": "Vastasin pääosin backend-kehityksestä, tietokantasuunnittelusta, autentikoinnista, julkaisusta ja infrastruktuurista."
       },
       {
         "name": "Portfolio",
-        "summary": "Next.js:llä toteutettu monikielinen portfoliosivusto, joka kokoaa projektit, osaamisen, CV:n ja yhteystiedot työnhakua varten.",
+        "summary": "Next.js:llä toteutettu monikielinen portfolio, jonka tarkoitus on esittää projektit, tekninen vastuu, CV ja yhteystiedot selkeästi rekrytoijille ja teknisille arvioijille.",
         "technologies": [
           "TypeScript",
           "Next.js",

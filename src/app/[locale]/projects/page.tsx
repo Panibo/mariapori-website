@@ -17,6 +17,7 @@ type Project = {
   startDate?: string;
   endDate?: string;
   summary?: string;
+  role?: string;
   technologies?: string[];
   description: string[];
   links?: ProjectLink[];
@@ -129,6 +130,8 @@ const Projects = () => {
                 {project.summary && (
                   <p className={styles.summary}>{project.summary}</p>
                 )}
+
+                {project.role && <p className={styles.role}>{project.role}</p>}
 
                 {project.technologies && project.technologies.length > 0 && (
                   <div className={styles.techBlock}>
